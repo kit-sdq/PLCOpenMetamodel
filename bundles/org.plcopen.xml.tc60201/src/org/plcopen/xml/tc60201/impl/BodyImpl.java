@@ -41,150 +41,150 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
-    /**
+	/**
 	 * The cached value of the '{@link #getIL() <em>IL</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getIL()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText iL;
+	protected FormattedText iL;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getST() <em>ST</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getST()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText sT;
+	protected FormattedText sT;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getFBD() <em>FBD</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getFBD()
 	 * @generated
 	 * @ordered
 	 */
-    protected FBDType1 fBD;
+	protected FBDType1 fBD;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLD() <em>LD</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLD()
 	 * @generated
 	 * @ordered
 	 */
-    protected LDType1 lD;
+	protected LDType1 lD;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getSFC() <em>SFC</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getSFC()
 	 * @generated
 	 * @ordered
 	 */
-    protected SFCType1 sFC;
+	protected SFCType1 sFC;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String GLOBAL_ID_EDEFAULT = null;
+	protected static final String GLOBAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected String globalId = GLOBAL_ID_EDEFAULT;
+	protected String globalId = GLOBAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getWorksheetName() <em>Worksheet Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWorksheetName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String WORKSHEET_NAME_EDEFAULT = null;
+	protected static final String WORKSHEET_NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getWorksheetName() <em>Worksheet Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWorksheetName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String worksheetName = WORKSHEET_NAME_EDEFAULT;
+	protected String worksheetName = WORKSHEET_NAME_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected BodyImpl() {
+	protected BodyImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getBody();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getIL() {
+	public FormattedText getIL() {
 		return iL;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetIL(FormattedText newIL, NotificationChain msgs) {
+	public NotificationChain basicSetIL(FormattedText newIL, NotificationChain msgs) {
 		FormattedText oldIL = iL;
 		iL = newIL;
 		if (eNotificationRequired()) {
@@ -194,12 +194,12 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setIL(FormattedText newIL) {
+	public void setIL(FormattedText newIL) {
 		if (newIL != iL) {
 			NotificationChain msgs = null;
 			if (iL != null)
@@ -213,21 +213,21 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__IL, newIL, newIL));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getST() {
+	public FormattedText getST() {
 		return sT;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetST(FormattedText newST, NotificationChain msgs) {
+	public NotificationChain basicSetST(FormattedText newST, NotificationChain msgs) {
 		FormattedText oldST = sT;
 		sT = newST;
 		if (eNotificationRequired()) {
@@ -237,12 +237,12 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setST(FormattedText newST) {
+	public void setST(FormattedText newST) {
 		if (newST != sT) {
 			NotificationChain msgs = null;
 			if (sT != null)
@@ -256,21 +256,21 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__ST, newST, newST));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FBDType1 getFBD() {
+	public FBDType1 getFBD() {
 		return fBD;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetFBD(FBDType1 newFBD, NotificationChain msgs) {
+	public NotificationChain basicSetFBD(FBDType1 newFBD, NotificationChain msgs) {
 		FBDType1 oldFBD = fBD;
 		fBD = newFBD;
 		if (eNotificationRequired()) {
@@ -280,12 +280,12 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setFBD(FBDType1 newFBD) {
+	public void setFBD(FBDType1 newFBD) {
 		if (newFBD != fBD) {
 			NotificationChain msgs = null;
 			if (fBD != null)
@@ -299,21 +299,21 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__FBD, newFBD, newFBD));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public LDType1 getLD() {
+	public LDType1 getLD() {
 		return lD;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetLD(LDType1 newLD, NotificationChain msgs) {
+	public NotificationChain basicSetLD(LDType1 newLD, NotificationChain msgs) {
 		LDType1 oldLD = lD;
 		lD = newLD;
 		if (eNotificationRequired()) {
@@ -323,12 +323,12 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLD(LDType1 newLD) {
+	public void setLD(LDType1 newLD) {
 		if (newLD != lD) {
 			NotificationChain msgs = null;
 			if (lD != null)
@@ -342,21 +342,21 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__LD, newLD, newLD));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public SFCType1 getSFC() {
+	public SFCType1 getSFC() {
 		return sFC;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetSFC(SFCType1 newSFC, NotificationChain msgs) {
+	public NotificationChain basicSetSFC(SFCType1 newSFC, NotificationChain msgs) {
 		SFCType1 oldSFC = sFC;
 		sFC = newSFC;
 		if (eNotificationRequired()) {
@@ -366,12 +366,12 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setSFC(SFCType1 newSFC) {
+	public void setSFC(SFCType1 newSFC) {
 		if (newSFC != sFC) {
 			NotificationChain msgs = null;
 			if (sFC != null)
@@ -385,21 +385,21 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__SFC, newSFC, newSFC));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -409,12 +409,12 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -428,21 +428,21 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -452,12 +452,12 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -471,55 +471,55 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getGlobalId() {
+	public String getGlobalId() {
 		return globalId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setGlobalId(String newGlobalId) {
+	public void setGlobalId(String newGlobalId) {
 		String oldGlobalId = globalId;
 		globalId = newGlobalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__GLOBAL_ID, oldGlobalId, globalId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getWorksheetName() {
+	public String getWorksheetName() {
 		return worksheetName;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setWorksheetName(String newWorksheetName) {
+	public void setWorksheetName(String newWorksheetName) {
 		String oldWorksheetName = worksheetName;
 		worksheetName = newWorksheetName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.BODY__WORKSHEET_NAME, oldWorksheetName, worksheetName));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.BODY__IL:
 				return basicSetIL(null, msgs);
@@ -539,13 +539,13 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.BODY__IL:
 				return getIL();
@@ -569,13 +569,13 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.BODY__IL:
 				setIL((FormattedText)newValue);
@@ -608,13 +608,13 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.BODY__IL:
 				setIL((FormattedText)null);
@@ -647,13 +647,13 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.BODY__IL:
 				return iL != null;
@@ -677,13 +677,13 @@ public class BodyImpl extends MinimalEObjectImpl.Container implements Body {
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

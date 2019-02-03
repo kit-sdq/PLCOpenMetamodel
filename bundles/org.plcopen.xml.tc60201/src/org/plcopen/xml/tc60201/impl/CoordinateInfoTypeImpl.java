@@ -35,80 +35,80 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container implements CoordinateInfoType {
-    /**
+	/**
 	 * The cached value of the '{@link #getPageSize() <em>Page Size</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getPageSize()
 	 * @generated
 	 * @ordered
 	 */
-    protected PageSizeType pageSize;
+	protected PageSizeType pageSize;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getFbd() <em>Fbd</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getFbd()
 	 * @generated
 	 * @ordered
 	 */
-    protected FbdType fbd;
+	protected FbdType fbd;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLd() <em>Ld</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLd()
 	 * @generated
 	 * @ordered
 	 */
-    protected LdType ld;
+	protected LdType ld;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getSfc() <em>Sfc</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getSfc()
 	 * @generated
 	 * @ordered
 	 */
-    protected SfcType sfc;
+	protected SfcType sfc;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected CoordinateInfoTypeImpl() {
+	protected CoordinateInfoTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getCoordinateInfoType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public PageSizeType getPageSize() {
+	public PageSizeType getPageSize() {
 		return pageSize;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetPageSize(PageSizeType newPageSize, NotificationChain msgs) {
+	public NotificationChain basicSetPageSize(PageSizeType newPageSize, NotificationChain msgs) {
 		PageSizeType oldPageSize = pageSize;
 		pageSize = newPageSize;
 		if (eNotificationRequired()) {
@@ -118,12 +118,12 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setPageSize(PageSizeType newPageSize) {
+	public void setPageSize(PageSizeType newPageSize) {
 		if (newPageSize != pageSize) {
 			NotificationChain msgs = null;
 			if (pageSize != null)
@@ -137,21 +137,21 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.COORDINATE_INFO_TYPE__PAGE_SIZE, newPageSize, newPageSize));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FbdType getFbd() {
+	public FbdType getFbd() {
 		return fbd;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetFbd(FbdType newFbd, NotificationChain msgs) {
+	public NotificationChain basicSetFbd(FbdType newFbd, NotificationChain msgs) {
 		FbdType oldFbd = fbd;
 		fbd = newFbd;
 		if (eNotificationRequired()) {
@@ -161,12 +161,12 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setFbd(FbdType newFbd) {
+	public void setFbd(FbdType newFbd) {
 		if (newFbd != fbd) {
 			NotificationChain msgs = null;
 			if (fbd != null)
@@ -180,21 +180,21 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.COORDINATE_INFO_TYPE__FBD, newFbd, newFbd));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public LdType getLd() {
+	public LdType getLd() {
 		return ld;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetLd(LdType newLd, NotificationChain msgs) {
+	public NotificationChain basicSetLd(LdType newLd, NotificationChain msgs) {
 		LdType oldLd = ld;
 		ld = newLd;
 		if (eNotificationRequired()) {
@@ -204,12 +204,12 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLd(LdType newLd) {
+	public void setLd(LdType newLd) {
 		if (newLd != ld) {
 			NotificationChain msgs = null;
 			if (ld != null)
@@ -223,21 +223,21 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.COORDINATE_INFO_TYPE__LD, newLd, newLd));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public SfcType getSfc() {
+	public SfcType getSfc() {
 		return sfc;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetSfc(SfcType newSfc, NotificationChain msgs) {
+	public NotificationChain basicSetSfc(SfcType newSfc, NotificationChain msgs) {
 		SfcType oldSfc = sfc;
 		sfc = newSfc;
 		if (eNotificationRequired()) {
@@ -247,12 +247,12 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setSfc(SfcType newSfc) {
+	public void setSfc(SfcType newSfc) {
 		if (newSfc != sfc) {
 			NotificationChain msgs = null;
 			if (sfc != null)
@@ -266,13 +266,13 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.COORDINATE_INFO_TYPE__SFC, newSfc, newSfc));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.COORDINATE_INFO_TYPE__PAGE_SIZE:
 				return basicSetPageSize(null, msgs);
@@ -286,13 +286,13 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.COORDINATE_INFO_TYPE__PAGE_SIZE:
 				return getPageSize();
@@ -306,13 +306,13 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.COORDINATE_INFO_TYPE__PAGE_SIZE:
 				setPageSize((PageSizeType)newValue);
@@ -330,13 +330,13 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.COORDINATE_INFO_TYPE__PAGE_SIZE:
 				setPageSize((PageSizeType)null);
@@ -354,13 +354,13 @@ public class CoordinateInfoTypeImpl extends MinimalEObjectImpl.Container impleme
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.COORDINATE_INFO_TYPE__PAGE_SIZE:
 				return pageSize != null;

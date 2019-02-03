@@ -34,48 +34,48 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface ConfigurationType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Resource</b></em>' containment reference list.
 	 * The list contents are of type {@link org.plcopen.xml.tc60201.ResourceType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Resource</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Resource</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Resource</em>' containment reference list.
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigurationType_Resource()
 	 * @model containment="true"
 	 *        extendedMetaData="kind='element' name='resource' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    EList<ResourceType> getResource();
+	EList<ResourceType> getResource();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Global Vars</b></em>' containment reference list.
 	 * The list contents are of type {@link org.plcopen.xml.tc60201.VarList}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Global Vars</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Global Vars</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Global Vars</em>' containment reference list.
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigurationType_GlobalVars()
 	 * @model containment="true"
 	 *        extendedMetaData="kind='element' name='globalVars' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    EList<VarList> getGlobalVars();
+	EList<VarList> getGlobalVars();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Access Vars</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Access Vars</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Access Vars</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Access Vars</em>' containment reference.
 	 * @see #setAccessVars(VarListAccess)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigurationType_AccessVars()
@@ -83,26 +83,26 @@ public interface ConfigurationType extends EObject {
 	 *        extendedMetaData="kind='element' name='accessVars' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    VarListAccess getAccessVars();
+	VarListAccess getAccessVars();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigurationType#getAccessVars <em>Access Vars</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Access Vars</em>' containment reference.
 	 * @see #getAccessVars()
 	 * @generated
 	 */
-    void setAccessVars(VarListAccess value);
+	void setAccessVars(VarListAccess value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Config Vars</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Config Vars</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Config Vars</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Config Vars</em>' containment reference.
 	 * @see #setConfigVars(VarListConfig)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigurationType_ConfigVars()
@@ -110,26 +110,26 @@ public interface ConfigurationType extends EObject {
 	 *        extendedMetaData="kind='element' name='configVars' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    VarListConfig getConfigVars();
+	VarListConfig getConfigVars();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigurationType#getConfigVars <em>Config Vars</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Config Vars</em>' containment reference.
 	 * @see #getConfigVars()
 	 * @generated
 	 */
-    void setConfigVars(VarListConfig value);
+	void setConfigVars(VarListConfig value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Add Data</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Add Data</em>' containment reference.
 	 * @see #setAddData(AddData)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigurationType_AddData()
@@ -137,22 +137,22 @@ public interface ConfigurationType extends EObject {
 	 *        extendedMetaData="kind='element' name='addData' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    AddData getAddData();
+	AddData getAddData();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigurationType#getAddData <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Add Data</em>' containment reference.
 	 * @see #getAddData()
 	 * @generated
 	 */
-    void setAddData(AddData value);
+	void setAddData(AddData value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Documentation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Additional userspecific information to the element
 	 * <!-- end-model-doc -->
@@ -163,26 +163,26 @@ public interface ConfigurationType extends EObject {
 	 *        extendedMetaData="kind='element' name='documentation' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FormattedText getDocumentation();
+	FormattedText getDocumentation();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigurationType#getDocumentation <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Documentation</em>' containment reference.
 	 * @see #getDocumentation()
 	 * @generated
 	 */
-    void setDocumentation(FormattedText value);
+	void setDocumentation(FormattedText value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Global Id</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Global Id</em>' attribute.
 	 * @see #setGlobalId(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigurationType_GlobalId()
@@ -190,26 +190,26 @@ public interface ConfigurationType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='globalId'"
 	 * @generated
 	 */
-    String getGlobalId();
+	String getGlobalId();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigurationType#getGlobalId <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Global Id</em>' attribute.
 	 * @see #getGlobalId()
 	 * @generated
 	 */
-    void setGlobalId(String value);
+	void setGlobalId(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Name</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigurationType_Name()
@@ -217,16 +217,16 @@ public interface ConfigurationType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='name'"
 	 * @generated
 	 */
-    String getName();
+	String getName();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigurationType#getName <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Name</em>' attribute.
 	 * @see #getName()
 	 * @generated
 	 */
-    void setName(String value);
+	void setName(String value);
 
 } // ConfigurationType

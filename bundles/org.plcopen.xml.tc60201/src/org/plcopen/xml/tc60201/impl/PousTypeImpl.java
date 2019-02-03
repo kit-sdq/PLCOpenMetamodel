@@ -37,17 +37,17 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousType {
-    /**
+	/**
 	 * The cached value of the '{@link #getPou() <em>Pou</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getPou()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<PouType1> pou;
+	protected EList<PouType1> pou;
 
-    /**
+	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -56,7 +56,8 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 	 * @ordered
 	 */
 	protected static final String NAME_EDEFAULT = null;
-				/**
+
+	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -66,38 +67,38 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 	 */
 	protected String name = NAME_EDEFAULT;
 
-				/**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PousTypeImpl() {
+	protected PousTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getPousType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<PouType1> getPou() {
+	public EList<PouType1> getPou() {
 		if (pou == null) {
 			pou = new EObjectContainmentEList<PouType1>(PouType1.class, this, Tc60201Package.POUS_TYPE__POU);
 		}
 		return pou;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -106,7 +107,7 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 		return name;
 	}
 
-				/**
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -118,13 +119,13 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POUS_TYPE__NAME, oldName, name));
 	}
 
-				/**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.POUS_TYPE__POU:
 				return ((InternalEList<?>)getPou()).basicRemove(otherEnd, msgs);
@@ -132,13 +133,13 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.POUS_TYPE__POU:
 				return getPou();
@@ -148,14 +149,14 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.POUS_TYPE__POU:
 				getPou().clear();
@@ -168,13 +169,13 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.POUS_TYPE__POU:
 				getPou().clear();
@@ -186,13 +187,13 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.POUS_TYPE__POU:
 				return pou != null && !pou.isEmpty();
@@ -202,7 +203,7 @@ public class PousTypeImpl extends MinimalEObjectImpl.Container implements PousTy
 		return super.eIsSet(featureID);
 	}
 
-				/**
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated

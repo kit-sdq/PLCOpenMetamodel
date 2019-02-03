@@ -40,82 +40,82 @@ import org.plcopen.xml.tc60201.VarListAccess;
  * @generated
  */
 public class VarListAccessImpl extends MinimalEObjectImpl.Container implements VarListAccess {
-    /**
+	/**
 	 * The cached value of the '{@link #getAccessVariable() <em>Access Variable</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAccessVariable()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<AccessVariableType> accessVariable;
+	protected EList<AccessVariableType> accessVariable;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VarListAccessImpl() {
+	protected VarListAccessImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getVarListAccess();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<AccessVariableType> getAccessVariable() {
+	public EList<AccessVariableType> getAccessVariable() {
 		if (accessVariable == null) {
 			accessVariable = new EObjectContainmentEList<AccessVariableType>(AccessVariableType.class, this, Tc60201Package.VAR_LIST_ACCESS__ACCESS_VARIABLE);
 		}
 		return accessVariable;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -125,12 +125,12 @@ public class VarListAccessImpl extends MinimalEObjectImpl.Container implements V
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -144,21 +144,21 @@ public class VarListAccessImpl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST_ACCESS__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -168,12 +168,12 @@ public class VarListAccessImpl extends MinimalEObjectImpl.Container implements V
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -187,13 +187,13 @@ public class VarListAccessImpl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST_ACCESS__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST_ACCESS__ACCESS_VARIABLE:
 				return ((InternalEList<?>)getAccessVariable()).basicRemove(otherEnd, msgs);
@@ -205,13 +205,13 @@ public class VarListAccessImpl extends MinimalEObjectImpl.Container implements V
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST_ACCESS__ACCESS_VARIABLE:
 				return getAccessVariable();
@@ -223,14 +223,14 @@ public class VarListAccessImpl extends MinimalEObjectImpl.Container implements V
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST_ACCESS__ACCESS_VARIABLE:
 				getAccessVariable().clear();
@@ -246,13 +246,13 @@ public class VarListAccessImpl extends MinimalEObjectImpl.Container implements V
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST_ACCESS__ACCESS_VARIABLE:
 				getAccessVariable().clear();
@@ -267,13 +267,13 @@ public class VarListAccessImpl extends MinimalEObjectImpl.Container implements V
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST_ACCESS__ACCESS_VARIABLE:
 				return accessVariable != null && !accessVariable.isEmpty();

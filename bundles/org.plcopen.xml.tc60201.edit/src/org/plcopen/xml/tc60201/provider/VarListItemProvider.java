@@ -24,24 +24,24 @@ import org.plcopen.xml.tc60201.VarList;
  * @generated
  */
 public class VarListItemProvider extends VarListPlainItemProvider {
-    /**
+	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public VarListItemProvider(AdapterFactory adapterFactory) {
+	public VarListItemProvider(AdapterFactory adapterFactory) {
 		super(adapterFactory);
 	}
 
-    /**
+	/**
 	 * This returns the property descriptors for the adapted class.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public List<IItemPropertyDescriptor> getPropertyDescriptors(Object object) {
+	@Override
+	public List<IItemPropertyDescriptor> getPropertyDescriptors(Object object) {
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
@@ -55,13 +55,13 @@ public class VarListItemProvider extends VarListPlainItemProvider {
 		return itemPropertyDescriptors;
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Constant feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addConstantPropertyDescriptor(Object object) {
+	protected void addConstantPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -77,13 +77,13 @@ public class VarListItemProvider extends VarListPlainItemProvider {
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Name feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addNamePropertyDescriptor(Object object) {
+	protected void addNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -99,13 +99,13 @@ public class VarListItemProvider extends VarListPlainItemProvider {
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Nonpersistent feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addNonpersistentPropertyDescriptor(Object object) {
+	protected void addNonpersistentPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -121,13 +121,13 @@ public class VarListItemProvider extends VarListPlainItemProvider {
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Nonretain feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addNonretainPropertyDescriptor(Object object) {
+	protected void addNonretainPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -143,13 +143,13 @@ public class VarListItemProvider extends VarListPlainItemProvider {
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Persistent feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addPersistentPropertyDescriptor(Object object) {
+	protected void addPersistentPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -165,13 +165,13 @@ public class VarListItemProvider extends VarListPlainItemProvider {
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Retain feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addRetainPropertyDescriptor(Object object) {
+	protected void addRetainPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -187,41 +187,41 @@ public class VarListItemProvider extends VarListPlainItemProvider {
 				 null));
 	}
 
-    /**
+	/**
 	 * This returns VarList.gif.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object getImage(Object object) {
+	@Override
+	public Object getImage(Object object) {
 		return overlayImage(object, getResourceLocator().getImage("full/obj16/VarList"));
 	}
 
-    /**
+	/**
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String getText(Object object) {
+	@Override
+	public String getText(Object object) {
 		String label = ((VarList)object).getName();
 		return label == null || label.length() == 0 ?
 			getString("_UI_VarList_type") :
 			getString("_UI_VarList_type") + " " + label;
 	}
-    
+	
 
-    /**
+	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached
 	 * children and by creating a viewer notification, which it passes to {@link #fireNotifyChanged}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void notifyChanged(Notification notification) {
+	@Override
+	public void notifyChanged(Notification notification) {
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(VarList.class)) {
@@ -237,15 +237,15 @@ public class VarListItemProvider extends VarListPlainItemProvider {
 		super.notifyChanged(notification);
 	}
 
-    /**
+	/**
 	 * This adds {@link org.eclipse.emf.edit.command.CommandParameter}s describing the children
 	 * that can be created under this object.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
+	@Override
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 	}
 

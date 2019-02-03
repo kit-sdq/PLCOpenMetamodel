@@ -34,54 +34,54 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class AddDataInfoImpl extends MinimalEObjectImpl.Container implements AddDataInfo {
-    /**
+	/**
 	 * The cached value of the '{@link #getInfo() <em>Info</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInfo()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<InfoType> info;
+	protected EList<InfoType> info;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected AddDataInfoImpl() {
+	protected AddDataInfoImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getAddDataInfo();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<InfoType> getInfo() {
+	public EList<InfoType> getInfo() {
 		if (info == null) {
 			info = new EObjectContainmentEList<InfoType>(InfoType.class, this, Tc60201Package.ADD_DATA_INFO__INFO);
 		}
 		return info;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA_INFO__INFO:
 				return ((InternalEList<?>)getInfo()).basicRemove(otherEnd, msgs);
@@ -89,13 +89,13 @@ public class AddDataInfoImpl extends MinimalEObjectImpl.Container implements Add
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA_INFO__INFO:
 				return getInfo();
@@ -103,14 +103,14 @@ public class AddDataInfoImpl extends MinimalEObjectImpl.Container implements Add
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA_INFO__INFO:
 				getInfo().clear();
@@ -120,13 +120,13 @@ public class AddDataInfoImpl extends MinimalEObjectImpl.Container implements Add
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA_INFO__INFO:
 				getInfo().clear();
@@ -135,13 +135,13 @@ public class AddDataInfoImpl extends MinimalEObjectImpl.Container implements Add
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA_INFO__INFO:
 				return info != null && !info.isEmpty();

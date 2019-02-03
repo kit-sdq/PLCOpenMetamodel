@@ -23,21 +23,21 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface ConfigurationsType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Configuration</b></em>' containment reference list.
 	 * The list contents are of type {@link org.plcopen.xml.tc60201.ConfigurationType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Configuration</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Configuration</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Configuration</em>' containment reference list.
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigurationsType_Configuration()
 	 * @model containment="true"
 	 *        extendedMetaData="kind='element' name='configuration' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    EList<ConfigurationType> getConfiguration();
+	EList<ConfigurationType> getConfiguration();
 
 } // ConfigurationsType

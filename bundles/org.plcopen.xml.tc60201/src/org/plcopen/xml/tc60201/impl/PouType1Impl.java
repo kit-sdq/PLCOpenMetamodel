@@ -50,169 +50,169 @@ import org.plcopen.xml.tc60201.TransitionsType;
  * @generated
  */
 public class PouType1Impl extends MinimalEObjectImpl.Container implements PouType1 {
-    /**
+	/**
 	 * The cached value of the '{@link #getInterface() <em>Interface</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInterface()
 	 * @generated
 	 * @ordered
 	 */
-    protected InterfaceType interface_;
+	protected InterfaceType interface_;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getActions() <em>Actions</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getActions()
 	 * @generated
 	 * @ordered
 	 */
-    protected ActionsType actions;
+	protected ActionsType actions;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getTransitions() <em>Transitions</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getTransitions()
 	 * @generated
 	 * @ordered
 	 */
-    protected TransitionsType transitions;
+	protected TransitionsType transitions;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getBody() <em>Body</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getBody()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<Body> body;
+	protected EList<Body> body;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String GLOBAL_ID_EDEFAULT = null;
+	protected static final String GLOBAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected String globalId = GLOBAL_ID_EDEFAULT;
+	protected String globalId = GLOBAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String NAME_EDEFAULT = null;
+	protected static final String NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String name = NAME_EDEFAULT;
+	protected String name = NAME_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getPouType() <em>Pou Type</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getPouType()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final PouType POU_TYPE_EDEFAULT = PouType.FUNCTION;
+	protected static final PouType POU_TYPE_EDEFAULT = PouType.FUNCTION;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getPouType() <em>Pou Type</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getPouType()
 	 * @generated
 	 * @ordered
 	 */
-    protected PouType pouType = POU_TYPE_EDEFAULT;
+	protected PouType pouType = POU_TYPE_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Pou Type attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean pouTypeESet;
+	protected boolean pouTypeESet;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PouType1Impl() {
+	protected PouType1Impl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getPouType1();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public InterfaceType getInterface() {
+	public InterfaceType getInterface() {
 		return interface_;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetInterface(InterfaceType newInterface, NotificationChain msgs) {
+	public NotificationChain basicSetInterface(InterfaceType newInterface, NotificationChain msgs) {
 		InterfaceType oldInterface = interface_;
 		interface_ = newInterface;
 		if (eNotificationRequired()) {
@@ -222,12 +222,12 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setInterface(InterfaceType newInterface) {
+	public void setInterface(InterfaceType newInterface) {
 		if (newInterface != interface_) {
 			NotificationChain msgs = null;
 			if (interface_ != null)
@@ -241,21 +241,21 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__INTERFACE, newInterface, newInterface));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ActionsType getActions() {
+	public ActionsType getActions() {
 		return actions;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetActions(ActionsType newActions, NotificationChain msgs) {
+	public NotificationChain basicSetActions(ActionsType newActions, NotificationChain msgs) {
 		ActionsType oldActions = actions;
 		actions = newActions;
 		if (eNotificationRequired()) {
@@ -265,12 +265,12 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setActions(ActionsType newActions) {
+	public void setActions(ActionsType newActions) {
 		if (newActions != actions) {
 			NotificationChain msgs = null;
 			if (actions != null)
@@ -284,21 +284,21 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ACTIONS, newActions, newActions));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public TransitionsType getTransitions() {
+	public TransitionsType getTransitions() {
 		return transitions;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetTransitions(TransitionsType newTransitions, NotificationChain msgs) {
+	public NotificationChain basicSetTransitions(TransitionsType newTransitions, NotificationChain msgs) {
 		TransitionsType oldTransitions = transitions;
 		transitions = newTransitions;
 		if (eNotificationRequired()) {
@@ -308,12 +308,12 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setTransitions(TransitionsType newTransitions) {
+	public void setTransitions(TransitionsType newTransitions) {
 		if (newTransitions != transitions) {
 			NotificationChain msgs = null;
 			if (transitions != null)
@@ -327,33 +327,33 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__TRANSITIONS, newTransitions, newTransitions));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<Body> getBody() {
+	public EList<Body> getBody() {
 		if (body == null) {
 			body = new EObjectContainmentEList<Body>(Body.class, this, Tc60201Package.POU_TYPE1__BODY);
 		}
 		return body;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -363,12 +363,12 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -382,21 +382,21 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -406,12 +406,12 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -425,63 +425,63 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getGlobalId() {
+	public String getGlobalId() {
 		return globalId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setGlobalId(String newGlobalId) {
+	public void setGlobalId(String newGlobalId) {
 		String oldGlobalId = globalId;
 		globalId = newGlobalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__GLOBAL_ID, oldGlobalId, globalId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getName() {
+	public String getName() {
 		return name;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setName(String newName) {
+	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__NAME, oldName, name));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public PouType getPouType() {
+	public PouType getPouType() {
 		return pouType;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setPouType(PouType newPouType) {
+	public void setPouType(PouType newPouType) {
 		PouType oldPouType = pouType;
 		pouType = newPouType == null ? POU_TYPE_EDEFAULT : newPouType;
 		boolean oldPouTypeESet = pouTypeESet;
@@ -490,12 +490,12 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POU_TYPE1__POU_TYPE, oldPouType, pouType, !oldPouTypeESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetPouType() {
+	public void unsetPouType() {
 		PouType oldPouType = pouType;
 		boolean oldPouTypeESet = pouTypeESet;
 		pouType = POU_TYPE_EDEFAULT;
@@ -504,22 +504,22 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.POU_TYPE1__POU_TYPE, oldPouType, POU_TYPE_EDEFAULT, oldPouTypeESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetPouType() {
+	public boolean isSetPouType() {
 		return pouTypeESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.POU_TYPE1__INTERFACE:
 				return basicSetInterface(null, msgs);
@@ -537,13 +537,13 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.POU_TYPE1__INTERFACE:
 				return getInterface();
@@ -567,14 +567,14 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.POU_TYPE1__INTERFACE:
 				setInterface((InterfaceType)newValue);
@@ -608,13 +608,13 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.POU_TYPE1__INTERFACE:
 				setInterface((InterfaceType)null);
@@ -647,13 +647,13 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.POU_TYPE1__INTERFACE:
 				return interface_ != null;
@@ -677,13 +677,13 @@ public class PouType1Impl extends MinimalEObjectImpl.Container implements PouTyp
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

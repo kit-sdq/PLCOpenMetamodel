@@ -36,63 +36,63 @@ import org.plcopen.xml.tc60201.ValueType;
  * @generated
  */
 public class StructValueTypeImpl extends MinimalEObjectImpl.Container implements StructValueType {
-    /**
+	/**
 	 * The cached value of the '{@link #getGroup() <em>Group</em>}' attribute list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGroup()
 	 * @generated
 	 * @ordered
 	 */
-    protected FeatureMap group;
+	protected FeatureMap group;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected StructValueTypeImpl() {
+	protected StructValueTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getStructValueType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FeatureMap getGroup() {
+	public FeatureMap getGroup() {
 		if (group == null) {
 			group = new BasicFeatureMap(this, Tc60201Package.STRUCT_VALUE_TYPE__GROUP);
 		}
 		return group;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<ValueType> getValue() {
+	public EList<ValueType> getValue() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getStructValueType_Value());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.STRUCT_VALUE_TYPE__GROUP:
 				return ((InternalEList<?>)getGroup()).basicRemove(otherEnd, msgs);
@@ -102,13 +102,13 @@ public class StructValueTypeImpl extends MinimalEObjectImpl.Container implements
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.STRUCT_VALUE_TYPE__GROUP:
 				if (coreType) return getGroup();
@@ -119,14 +119,14 @@ public class StructValueTypeImpl extends MinimalEObjectImpl.Container implements
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.STRUCT_VALUE_TYPE__GROUP:
 				((FeatureMap.Internal)getGroup()).set(newValue);
@@ -139,13 +139,13 @@ public class StructValueTypeImpl extends MinimalEObjectImpl.Container implements
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.STRUCT_VALUE_TYPE__GROUP:
 				getGroup().clear();
@@ -157,13 +157,13 @@ public class StructValueTypeImpl extends MinimalEObjectImpl.Container implements
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.STRUCT_VALUE_TYPE__GROUP:
 				return group != null && !group.isEmpty();
@@ -173,13 +173,13 @@ public class StructValueTypeImpl extends MinimalEObjectImpl.Container implements
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

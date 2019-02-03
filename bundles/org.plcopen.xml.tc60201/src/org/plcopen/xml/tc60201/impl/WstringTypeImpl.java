@@ -26,73 +26,73 @@ import org.plcopen.xml.tc60201.WstringType;
  * @generated
  */
 public class WstringTypeImpl extends MinimalEObjectImpl.Container implements WstringType {
-    /**
+	/**
 	 * The default value of the '{@link #getLength() <em>Length</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLength()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String LENGTH_EDEFAULT = null;
+	protected static final String LENGTH_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLength() <em>Length</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLength()
 	 * @generated
 	 * @ordered
 	 */
-    protected String length = LENGTH_EDEFAULT;
+	protected String length = LENGTH_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected WstringTypeImpl() {
+	protected WstringTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getWstringType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getLength() {
+	public String getLength() {
 		return length;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLength(String newLength) {
+	public void setLength(String newLength) {
 		String oldLength = length;
 		length = newLength;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.WSTRING_TYPE__LENGTH, oldLength, length));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.WSTRING_TYPE__LENGTH:
 				return getLength();
@@ -100,13 +100,13 @@ public class WstringTypeImpl extends MinimalEObjectImpl.Container implements Wst
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.WSTRING_TYPE__LENGTH:
 				setLength((String)newValue);
@@ -115,13 +115,13 @@ public class WstringTypeImpl extends MinimalEObjectImpl.Container implements Wst
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.WSTRING_TYPE__LENGTH:
 				setLength(LENGTH_EDEFAULT);
@@ -130,13 +130,13 @@ public class WstringTypeImpl extends MinimalEObjectImpl.Container implements Wst
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.WSTRING_TYPE__LENGTH:
 				return LENGTH_EDEFAULT == null ? length != null : !LENGTH_EDEFAULT.equals(length);
@@ -144,13 +144,13 @@ public class WstringTypeImpl extends MinimalEObjectImpl.Container implements Wst
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

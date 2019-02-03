@@ -40,14 +40,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface OutVariableType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Position</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Position</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Position</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Position</em>' containment reference.
 	 * @see #setPosition(Position)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_Position()
@@ -55,26 +55,26 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='position' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    Position getPosition();
+	Position getPosition();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getPosition <em>Position</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Position</em>' containment reference.
 	 * @see #getPosition()
 	 * @generated
 	 */
-    void setPosition(Position value);
+	void setPosition(Position value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Connection Point In</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connection Point In</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Connection Point In</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Connection Point In</em>' containment reference.
 	 * @see #setConnectionPointIn(ConnectionPointIn)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_ConnectionPointIn()
@@ -82,22 +82,22 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='connectionPointIn' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    ConnectionPointIn getConnectionPointIn();
+	ConnectionPointIn getConnectionPointIn();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getConnectionPointIn <em>Connection Point In</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Connection Point In</em>' containment reference.
 	 * @see #getConnectionPointIn()
 	 * @generated
 	 */
-    void setConnectionPointIn(ConnectionPointIn value);
+	void setConnectionPointIn(ConnectionPointIn value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Expression</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * The operand is a valid iec variable e.g. avar[0].
 	 * <!-- end-model-doc -->
@@ -108,26 +108,26 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='expression' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    String getExpression();
+	String getExpression();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getExpression <em>Expression</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Expression</em>' attribute.
 	 * @see #getExpression()
 	 * @generated
 	 */
-    void setExpression(String value);
+	void setExpression(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Add Data</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Add Data</em>' containment reference.
 	 * @see #setAddData(AddData)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_AddData()
@@ -135,26 +135,26 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='addData' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    AddData getAddData();
+	AddData getAddData();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getAddData <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Add Data</em>' containment reference.
 	 * @see #getAddData()
 	 * @generated
 	 */
-    void setAddData(AddData value);
+	void setAddData(AddData value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Documentation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Documentation</em>' containment reference.
 	 * @see #setDocumentation(FormattedText)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_Documentation()
@@ -162,28 +162,28 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='documentation' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FormattedText getDocumentation();
+	FormattedText getDocumentation();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getDocumentation <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Documentation</em>' containment reference.
 	 * @see #getDocumentation()
 	 * @generated
 	 */
-    void setDocumentation(FormattedText value);
+	void setDocumentation(FormattedText value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Edge</b></em>' attribute.
 	 * The default value is <code>"none"</code>.
 	 * The literals are from the enumeration {@link org.plcopen.xml.tc60201.EdgeModifierType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Edge</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Edge</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.EdgeModifierType
 	 * @see #isSetEdge()
@@ -194,12 +194,12 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='edge'"
 	 * @generated
 	 */
-    EdgeModifierType getEdge();
+	EdgeModifierType getEdge();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getEdge <em>Edge</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Edge</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.EdgeModifierType
 	 * @see #isSetEdge()
@@ -207,39 +207,39 @@ public interface OutVariableType extends EObject {
 	 * @see #getEdge()
 	 * @generated
 	 */
-    void setEdge(EdgeModifierType value);
+	void setEdge(EdgeModifierType value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getEdge <em>Edge</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetEdge()
 	 * @see #getEdge()
 	 * @see #setEdge(EdgeModifierType)
 	 * @generated
 	 */
-    void unsetEdge();
+	void unsetEdge();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getEdge <em>Edge</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Edge</em>' attribute is set.
 	 * @see #unsetEdge()
 	 * @see #getEdge()
 	 * @see #setEdge(EdgeModifierType)
 	 * @generated
 	 */
-    boolean isSetEdge();
+	boolean isSetEdge();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Execution Order Id</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Execution Order Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Execution Order Id</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Execution Order Id</em>' attribute.
 	 * @see #setExecutionOrderId(BigInteger)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_ExecutionOrderId()
@@ -247,26 +247,26 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='executionOrderId'"
 	 * @generated
 	 */
-    BigInteger getExecutionOrderId();
+	BigInteger getExecutionOrderId();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getExecutionOrderId <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Execution Order Id</em>' attribute.
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 */
-    void setExecutionOrderId(BigInteger value);
+	void setExecutionOrderId(BigInteger value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Global Id</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Global Id</em>' attribute.
 	 * @see #setGlobalId(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_GlobalId()
@@ -274,26 +274,26 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='globalId'"
 	 * @generated
 	 */
-    String getGlobalId();
+	String getGlobalId();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getGlobalId <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Global Id</em>' attribute.
 	 * @see #getGlobalId()
 	 * @generated
 	 */
-    void setGlobalId(String value);
+	void setGlobalId(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Height</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Height</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Height</em>' attribute.
 	 * @see #setHeight(BigDecimal)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_Height()
@@ -301,26 +301,26 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='height'"
 	 * @generated
 	 */
-    BigDecimal getHeight();
+	BigDecimal getHeight();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getHeight <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Height</em>' attribute.
 	 * @see #getHeight()
 	 * @generated
 	 */
-    void setHeight(BigDecimal value);
+	void setHeight(BigDecimal value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Local Id</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Local Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Local Id</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Local Id</em>' attribute.
 	 * @see #setLocalId(BigInteger)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_LocalId()
@@ -328,27 +328,27 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='localId'"
 	 * @generated
 	 */
-    BigInteger getLocalId();
+	BigInteger getLocalId();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getLocalId <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Local Id</em>' attribute.
 	 * @see #getLocalId()
 	 * @generated
 	 */
-    void setLocalId(BigInteger value);
+	void setLocalId(BigInteger value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Negated</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Negated</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Negated</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Negated</em>' attribute.
 	 * @see #isSetNegated()
 	 * @see #unsetNegated()
@@ -358,53 +358,53 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='negated'"
 	 * @generated
 	 */
-    boolean isNegated();
+	boolean isNegated();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#isNegated <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Negated</em>' attribute.
 	 * @see #isSetNegated()
 	 * @see #unsetNegated()
 	 * @see #isNegated()
 	 * @generated
 	 */
-    void setNegated(boolean value);
+	void setNegated(boolean value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#isNegated <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetNegated()
 	 * @see #isNegated()
 	 * @see #setNegated(boolean)
 	 * @generated
 	 */
-    void unsetNegated();
+	void unsetNegated();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#isNegated <em>Negated</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Negated</em>' attribute is set.
 	 * @see #unsetNegated()
 	 * @see #isNegated()
 	 * @see #setNegated(boolean)
 	 * @generated
 	 */
-    boolean isSetNegated();
+	boolean isSetNegated();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Storage</b></em>' attribute.
 	 * The default value is <code>"none"</code>.
 	 * The literals are from the enumeration {@link org.plcopen.xml.tc60201.StorageModifierType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Storage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Storage</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Storage</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.StorageModifierType
 	 * @see #isSetStorage()
@@ -415,12 +415,12 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='storage'"
 	 * @generated
 	 */
-    StorageModifierType getStorage();
+	StorageModifierType getStorage();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getStorage <em>Storage</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Storage</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.StorageModifierType
 	 * @see #isSetStorage()
@@ -428,39 +428,39 @@ public interface OutVariableType extends EObject {
 	 * @see #getStorage()
 	 * @generated
 	 */
-    void setStorage(StorageModifierType value);
+	void setStorage(StorageModifierType value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getStorage <em>Storage</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetStorage()
 	 * @see #getStorage()
 	 * @see #setStorage(StorageModifierType)
 	 * @generated
 	 */
-    void unsetStorage();
+	void unsetStorage();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getStorage <em>Storage</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Storage</em>' attribute is set.
 	 * @see #unsetStorage()
 	 * @see #getStorage()
 	 * @see #setStorage(StorageModifierType)
 	 * @generated
 	 */
-    boolean isSetStorage();
+	boolean isSetStorage();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Width</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Width</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Width</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Width</em>' attribute.
 	 * @see #setWidth(BigDecimal)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getOutVariableType_Width()
@@ -468,16 +468,16 @@ public interface OutVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='width'"
 	 * @generated
 	 */
-    BigDecimal getWidth();
+	BigDecimal getWidth();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.OutVariableType#getWidth <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Width</em>' attribute.
 	 * @see #getWidth()
 	 * @generated
 	 */
-    void setWidth(BigDecimal value);
+	void setWidth(BigDecimal value);
 
 } // OutVariableType

@@ -29,31 +29,31 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface VarListConfig extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Config Variable</b></em>' containment reference list.
 	 * The list contents are of type {@link org.plcopen.xml.tc60201.ConfigVariableType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Config Variable</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Config Variable</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Config Variable</em>' containment reference list.
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getVarListConfig_ConfigVariable()
 	 * @model containment="true"
 	 *        extendedMetaData="kind='element' name='configVariable' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    EList<ConfigVariableType> getConfigVariable();
+	EList<ConfigVariableType> getConfigVariable();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Add Data</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Add Data</em>' containment reference.
 	 * @see #setAddData(AddData)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getVarListConfig_AddData()
@@ -61,26 +61,26 @@ public interface VarListConfig extends EObject {
 	 *        extendedMetaData="kind='element' name='addData' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    AddData getAddData();
+	AddData getAddData();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VarListConfig#getAddData <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Add Data</em>' containment reference.
 	 * @see #getAddData()
 	 * @generated
 	 */
-    void setAddData(AddData value);
+	void setAddData(AddData value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Documentation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Documentation</em>' containment reference.
 	 * @see #setDocumentation(FormattedText)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getVarListConfig_Documentation()
@@ -88,16 +88,16 @@ public interface VarListConfig extends EObject {
 	 *        extendedMetaData="kind='element' name='documentation' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FormattedText getDocumentation();
+	FormattedText getDocumentation();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VarListConfig#getDocumentation <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Documentation</em>' containment reference.
 	 * @see #getDocumentation()
 	 * @generated
 	 */
-    void setDocumentation(FormattedText value);
+	void setDocumentation(FormattedText value);
 
 } // VarListConfig

@@ -33,100 +33,100 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container implements ConnectionPointOut {
-    /**
+	/**
 	 * The cached value of the '{@link #getRelPosition() <em>Rel Position</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getRelPosition()
 	 * @generated
 	 * @ordered
 	 */
-    protected Position relPosition;
+	protected Position relPosition;
 
-    /**
+	/**
 	 * The default value of the '{@link #getExpression() <em>Expression</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExpression()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String EXPRESSION_EDEFAULT = null;
+	protected static final String EXPRESSION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getExpression() <em>Expression</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExpression()
 	 * @generated
 	 * @ordered
 	 */
-    protected String expression = EXPRESSION_EDEFAULT;
+	protected String expression = EXPRESSION_EDEFAULT;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String GLOBAL_ID_EDEFAULT = null;
+	protected static final String GLOBAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected String globalId = GLOBAL_ID_EDEFAULT;
+	protected String globalId = GLOBAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointOutImpl() {
+	protected ConnectionPointOutImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getConnectionPointOut();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Position getRelPosition() {
+	public Position getRelPosition() {
 		return relPosition;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetRelPosition(Position newRelPosition, NotificationChain msgs) {
+	public NotificationChain basicSetRelPosition(Position newRelPosition, NotificationChain msgs) {
 		Position oldRelPosition = relPosition;
 		relPosition = newRelPosition;
 		if (eNotificationRequired()) {
@@ -136,12 +136,12 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setRelPosition(Position newRelPosition) {
+	public void setRelPosition(Position newRelPosition) {
 		if (newRelPosition != relPosition) {
 			NotificationChain msgs = null;
 			if (relPosition != null)
@@ -155,42 +155,42 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONNECTION_POINT_OUT__REL_POSITION, newRelPosition, newRelPosition));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getExpression() {
+	public String getExpression() {
 		return expression;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setExpression(String newExpression) {
+	public void setExpression(String newExpression) {
 		String oldExpression = expression;
 		expression = newExpression;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONNECTION_POINT_OUT__EXPRESSION, oldExpression, expression));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -200,12 +200,12 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -219,34 +219,34 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONNECTION_POINT_OUT__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getGlobalId() {
+	public String getGlobalId() {
 		return globalId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setGlobalId(String newGlobalId) {
+	public void setGlobalId(String newGlobalId) {
 		String oldGlobalId = globalId;
 		globalId = newGlobalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONNECTION_POINT_OUT__GLOBAL_ID, oldGlobalId, globalId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT__REL_POSITION:
 				return basicSetRelPosition(null, msgs);
@@ -256,13 +256,13 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT__REL_POSITION:
 				return getRelPosition();
@@ -276,13 +276,13 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT__REL_POSITION:
 				setRelPosition((Position)newValue);
@@ -300,13 +300,13 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT__REL_POSITION:
 				setRelPosition((Position)null);
@@ -324,13 +324,13 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT__REL_POSITION:
 				return relPosition != null;
@@ -344,13 +344,13 @@ public class ConnectionPointOutImpl extends MinimalEObjectImpl.Container impleme
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

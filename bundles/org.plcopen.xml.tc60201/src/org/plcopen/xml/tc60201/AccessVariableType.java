@@ -30,14 +30,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface AccessVariableType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Type</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Type</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Type</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Type</em>' containment reference.
 	 * @see #setType(DataType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getAccessVariableType_Type()
@@ -45,26 +45,26 @@ public interface AccessVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='type' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    DataType getType();
+	DataType getType();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.AccessVariableType#getType <em>Type</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Type</em>' containment reference.
 	 * @see #getType()
 	 * @generated
 	 */
-    void setType(DataType value);
+	void setType(DataType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Add Data</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Add Data</em>' containment reference.
 	 * @see #setAddData(AddData)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getAccessVariableType_AddData()
@@ -72,26 +72,26 @@ public interface AccessVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='addData' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    AddData getAddData();
+	AddData getAddData();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.AccessVariableType#getAddData <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Add Data</em>' containment reference.
 	 * @see #getAddData()
 	 * @generated
 	 */
-    void setAddData(AddData value);
+	void setAddData(AddData value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Documentation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Documentation</em>' containment reference.
 	 * @see #setDocumentation(FormattedText)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getAccessVariableType_Documentation()
@@ -99,22 +99,22 @@ public interface AccessVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='documentation' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FormattedText getDocumentation();
+	FormattedText getDocumentation();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.AccessVariableType#getDocumentation <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Documentation</em>' containment reference.
 	 * @see #getDocumentation()
 	 * @generated
 	 */
-    void setDocumentation(FormattedText value);
+	void setDocumentation(FormattedText value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Alias</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Name that is visible to the communication partner
 	 * <!-- end-model-doc -->
@@ -125,27 +125,27 @@ public interface AccessVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='alias'"
 	 * @generated
 	 */
-    String getAlias();
+	String getAlias();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.AccessVariableType#getAlias <em>Alias</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Alias</em>' attribute.
 	 * @see #getAlias()
 	 * @generated
 	 */
-    void setAlias(String value);
+	void setAlias(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Direction</b></em>' attribute.
 	 * The literals are from the enumeration {@link org.plcopen.xml.tc60201.AccessType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Direction</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Direction</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Direction</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.AccessType
 	 * @see #isSetDirection()
@@ -156,12 +156,12 @@ public interface AccessVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='direction'"
 	 * @generated
 	 */
-    AccessType getDirection();
+	AccessType getDirection();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.AccessVariableType#getDirection <em>Direction</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Direction</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.AccessType
 	 * @see #isSetDirection()
@@ -169,35 +169,35 @@ public interface AccessVariableType extends EObject {
 	 * @see #getDirection()
 	 * @generated
 	 */
-    void setDirection(AccessType value);
+	void setDirection(AccessType value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.AccessVariableType#getDirection <em>Direction</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetDirection()
 	 * @see #getDirection()
 	 * @see #setDirection(AccessType)
 	 * @generated
 	 */
-    void unsetDirection();
+	void unsetDirection();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.AccessVariableType#getDirection <em>Direction</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Direction</em>' attribute is set.
 	 * @see #unsetDirection()
 	 * @see #getDirection()
 	 * @see #setDirection(AccessType)
 	 * @generated
 	 */
-    boolean isSetDirection();
+	boolean isSetDirection();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Instance Path And Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Variable name including instance path inside the configuration
 	 * <!-- end-model-doc -->
@@ -208,16 +208,16 @@ public interface AccessVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='instancePathAndName'"
 	 * @generated
 	 */
-    String getInstancePathAndName();
+	String getInstancePathAndName();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.AccessVariableType#getInstancePathAndName <em>Instance Path And Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Instance Path And Name</em>' attribute.
 	 * @see #getInstancePathAndName()
 	 * @generated
 	 */
-    void setInstancePathAndName(String value);
+	void setInstancePathAndName(String value);
 
 } // AccessVariableType

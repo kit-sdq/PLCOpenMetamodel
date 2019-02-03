@@ -28,10 +28,10 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface ConnectionPointOut extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Rel Position</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Relative position of the connection pin. Origin is the anchor position of the block.
 	 * <!-- end-model-doc -->
@@ -42,22 +42,22 @@ public interface ConnectionPointOut extends EObject {
 	 *        extendedMetaData="kind='element' name='relPosition' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    Position getRelPosition();
+	Position getRelPosition();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConnectionPointOut#getRelPosition <em>Rel Position</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Rel Position</em>' containment reference.
 	 * @see #getRelPosition()
 	 * @generated
 	 */
-    void setRelPosition(Position value);
+	void setRelPosition(Position value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Expression</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * The operand is a valid iec variable e.g. avar[0].
 	 * <!-- end-model-doc -->
@@ -68,26 +68,26 @@ public interface ConnectionPointOut extends EObject {
 	 *        extendedMetaData="kind='element' name='expression' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    String getExpression();
+	String getExpression();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConnectionPointOut#getExpression <em>Expression</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Expression</em>' attribute.
 	 * @see #getExpression()
 	 * @generated
 	 */
-    void setExpression(String value);
+	void setExpression(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Add Data</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Add Data</em>' containment reference.
 	 * @see #setAddData(AddData)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConnectionPointOut_AddData()
@@ -95,26 +95,26 @@ public interface ConnectionPointOut extends EObject {
 	 *        extendedMetaData="kind='element' name='addData' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    AddData getAddData();
+	AddData getAddData();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConnectionPointOut#getAddData <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Add Data</em>' containment reference.
 	 * @see #getAddData()
 	 * @generated
 	 */
-    void setAddData(AddData value);
+	void setAddData(AddData value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Global Id</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Global Id</em>' attribute.
 	 * @see #setGlobalId(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConnectionPointOut_GlobalId()
@@ -122,16 +122,16 @@ public interface ConnectionPointOut extends EObject {
 	 *        extendedMetaData="kind='attribute' name='globalId'"
 	 * @generated
 	 */
-    String getGlobalId();
+	String getGlobalId();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConnectionPointOut#getGlobalId <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Global Id</em>' attribute.
 	 * @see #getGlobalId()
 	 * @generated
 	 */
-    void setGlobalId(String value);
+	void setGlobalId(String value);
 
 } // ConnectionPointOut

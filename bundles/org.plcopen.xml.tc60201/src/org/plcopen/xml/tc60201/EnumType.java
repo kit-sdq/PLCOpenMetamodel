@@ -22,14 +22,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface EnumType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Values</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Values</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Values</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Values</em>' containment reference.
 	 * @see #setValues(ValuesType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getEnumType_Values()
@@ -37,26 +37,26 @@ public interface EnumType extends EObject {
 	 *        extendedMetaData="kind='element' name='values' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    ValuesType getValues();
+	ValuesType getValues();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.EnumType#getValues <em>Values</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Values</em>' containment reference.
 	 * @see #getValues()
 	 * @generated
 	 */
-    void setValues(ValuesType value);
+	void setValues(ValuesType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Base Type</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Base Type</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Base Type</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Base Type</em>' containment reference.
 	 * @see #setBaseType(DataType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getEnumType_BaseType()
@@ -64,16 +64,16 @@ public interface EnumType extends EObject {
 	 *        extendedMetaData="kind='element' name='baseType' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    DataType getBaseType();
+	DataType getBaseType();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.EnumType#getBaseType <em>Base Type</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Base Type</em>' containment reference.
 	 * @see #getBaseType()
 	 * @generated
 	 */
-    void setBaseType(DataType value);
+	void setBaseType(DataType value);
 
 } // EnumType

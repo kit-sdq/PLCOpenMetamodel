@@ -25,28 +25,28 @@ import org.eclipse.emf.ecore.util.FeatureMap;
  * @generated
  */
 public interface DataType1 extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Any</b></em>' attribute list.
 	 * The list contents are of type {@link org.eclipse.emf.ecore.util.FeatureMap.Entry}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Any</em>' attribute list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Any</em>' attribute list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Any</em>' attribute list.
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getDataType1_Any()
 	 * @model dataType="org.eclipse.emf.ecore.EFeatureMapEntry" required="true" many="false"
 	 *        extendedMetaData="kind='elementWildcard' wildcards='##any' name=':0' processing='lax'"
 	 * @generated
 	 */
-    FeatureMap getAny();
+	FeatureMap getAny();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Handle Unknown</b></em>' attribute.
 	 * The literals are from the enumeration {@link org.plcopen.xml.tc60201.HandleUnknownType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Recommended processor handling for unknown data elements.
 	 * Specifies if the processor should try to preserve the additional data element, dismiss the element (e.g. because the data is invalid if not updated correctly) or use the processors default behaviour for unknown data.
@@ -61,12 +61,12 @@ public interface DataType1 extends EObject {
 	 *        extendedMetaData="kind='attribute' name='handleUnknown'"
 	 * @generated
 	 */
-    HandleUnknownType getHandleUnknown();
+	HandleUnknownType getHandleUnknown();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.DataType1#getHandleUnknown <em>Handle Unknown</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Handle Unknown</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.HandleUnknownType
 	 * @see #isSetHandleUnknown()
@@ -74,35 +74,35 @@ public interface DataType1 extends EObject {
 	 * @see #getHandleUnknown()
 	 * @generated
 	 */
-    void setHandleUnknown(HandleUnknownType value);
+	void setHandleUnknown(HandleUnknownType value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.DataType1#getHandleUnknown <em>Handle Unknown</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetHandleUnknown()
 	 * @see #getHandleUnknown()
 	 * @see #setHandleUnknown(HandleUnknownType)
 	 * @generated
 	 */
-    void unsetHandleUnknown();
+	void unsetHandleUnknown();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.DataType1#getHandleUnknown <em>Handle Unknown</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Handle Unknown</em>' attribute is set.
 	 * @see #unsetHandleUnknown()
 	 * @see #getHandleUnknown()
 	 * @see #setHandleUnknown(HandleUnknownType)
 	 * @generated
 	 */
-    boolean isSetHandleUnknown();
+	boolean isSetHandleUnknown();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Uniquely identifies the additional data element.
 	 * <!-- end-model-doc -->
@@ -113,16 +113,16 @@ public interface DataType1 extends EObject {
 	 *        extendedMetaData="kind='attribute' name='name'"
 	 * @generated
 	 */
-    String getName();
+	String getName();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.DataType1#getName <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Name</em>' attribute.
 	 * @see #getName()
 	 * @generated
 	 */
-    void setName(String value);
+	void setName(String value);
 
 } // DataType1

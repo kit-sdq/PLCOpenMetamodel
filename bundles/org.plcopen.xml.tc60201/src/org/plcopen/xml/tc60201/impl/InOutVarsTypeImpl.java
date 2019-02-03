@@ -15,22 +15,22 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class InOutVarsTypeImpl extends VarListImpl implements InOutVarsType {
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InOutVarsTypeImpl() {
+	protected InOutVarsTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getInOutVarsType();
 	}
 

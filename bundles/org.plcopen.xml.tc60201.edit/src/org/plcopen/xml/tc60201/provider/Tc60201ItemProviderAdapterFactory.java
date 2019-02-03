@@ -33,37 +33,37 @@ import org.plcopen.xml.tc60201.util.Tc60201AdapterFactory;
  * @generated
  */
 public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory implements ComposeableAdapterFactory, IChangeNotifier, IDisposable {
-    /**
+	/**
 	 * This keeps track of the root adapter factory that delegates to this adapter factory.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ComposedAdapterFactory parentAdapterFactory;
+	protected ComposedAdapterFactory parentAdapterFactory;
 
-    /**
+	/**
 	 * This is used to implement {@link org.eclipse.emf.edit.provider.IChangeNotifier}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected IChangeNotifier changeNotifier = new ChangeNotifier();
+	protected IChangeNotifier changeNotifier = new ChangeNotifier();
 
-    /**
+	/**
 	 * This keeps track of all the supported types checked by {@link #isFactoryForType isFactoryForType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected Collection<Object> supportedTypes = new ArrayList<Object>();
+	protected Collection<Object> supportedTypes = new ArrayList<Object>();
 
-    /**
+	/**
 	 * This constructs an instance.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Tc60201ItemProviderAdapterFactory() {
+	public Tc60201ItemProviderAdapterFactory() {
 		supportedTypes.add(IEditingDomainItemProvider.class);
 		supportedTypes.add(IStructuredItemContentProvider.class);
 		supportedTypes.add(ITreeItemContentProvider.class);
@@ -71,22 +71,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		supportedTypes.add(IItemPropertySource.class);
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.AccessVariableType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected AccessVariableTypeItemProvider accessVariableTypeItemProvider;
+	protected AccessVariableTypeItemProvider accessVariableTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.AccessVariableType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createAccessVariableTypeAdapter() {
+	@Override
+	public Adapter createAccessVariableTypeAdapter() {
 		if (accessVariableTypeItemProvider == null) {
 			accessVariableTypeItemProvider = new AccessVariableTypeItemProvider(this);
 		}
@@ -94,22 +94,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return accessVariableTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ActionBlockType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ActionBlockTypeItemProvider actionBlockTypeItemProvider;
+	protected ActionBlockTypeItemProvider actionBlockTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ActionBlockType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createActionBlockTypeAdapter() {
+	@Override
+	public Adapter createActionBlockTypeAdapter() {
 		if (actionBlockTypeItemProvider == null) {
 			actionBlockTypeItemProvider = new ActionBlockTypeItemProvider(this);
 		}
@@ -117,22 +117,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return actionBlockTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ActionsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ActionsTypeItemProvider actionsTypeItemProvider;
+	protected ActionsTypeItemProvider actionsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ActionsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createActionsTypeAdapter() {
+	@Override
+	public Adapter createActionsTypeAdapter() {
 		if (actionsTypeItemProvider == null) {
 			actionsTypeItemProvider = new ActionsTypeItemProvider(this);
 		}
@@ -140,22 +140,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return actionsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ActionType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ActionTypeItemProvider actionTypeItemProvider;
+	protected ActionTypeItemProvider actionTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ActionType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createActionTypeAdapter() {
+	@Override
+	public Adapter createActionTypeAdapter() {
 		if (actionTypeItemProvider == null) {
 			actionTypeItemProvider = new ActionTypeItemProvider(this);
 		}
@@ -163,22 +163,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return actionTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ActionType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ActionType1ItemProvider actionType1ItemProvider;
+	protected ActionType1ItemProvider actionType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ActionType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createActionType1Adapter() {
+	@Override
+	public Adapter createActionType1Adapter() {
 		if (actionType1ItemProvider == null) {
 			actionType1ItemProvider = new ActionType1ItemProvider(this);
 		}
@@ -186,22 +186,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return actionType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.AddData} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected AddDataItemProvider addDataItemProvider;
+	protected AddDataItemProvider addDataItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.AddData}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createAddDataAdapter() {
+	@Override
+	public Adapter createAddDataAdapter() {
 		if (addDataItemProvider == null) {
 			addDataItemProvider = new AddDataItemProvider(this);
 		}
@@ -209,22 +209,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return addDataItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.AddDataInfo} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected AddDataInfoItemProvider addDataInfoItemProvider;
+	protected AddDataInfoItemProvider addDataInfoItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.AddDataInfo}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createAddDataInfoAdapter() {
+	@Override
+	public Adapter createAddDataInfoAdapter() {
 		if (addDataInfoItemProvider == null) {
 			addDataInfoItemProvider = new AddDataInfoItemProvider(this);
 		}
@@ -232,22 +232,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return addDataInfoItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ArrayType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ArrayTypeItemProvider arrayTypeItemProvider;
+	protected ArrayTypeItemProvider arrayTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ArrayType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createArrayTypeAdapter() {
+	@Override
+	public Adapter createArrayTypeAdapter() {
 		if (arrayTypeItemProvider == null) {
 			arrayTypeItemProvider = new ArrayTypeItemProvider(this);
 		}
@@ -255,22 +255,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return arrayTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ArrayValueType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ArrayValueTypeItemProvider arrayValueTypeItemProvider;
+	protected ArrayValueTypeItemProvider arrayValueTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ArrayValueType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createArrayValueTypeAdapter() {
+	@Override
+	public Adapter createArrayValueTypeAdapter() {
 		if (arrayValueTypeItemProvider == null) {
 			arrayValueTypeItemProvider = new ArrayValueTypeItemProvider(this);
 		}
@@ -278,22 +278,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return arrayValueTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.BlockType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected BlockTypeItemProvider blockTypeItemProvider;
+	protected BlockTypeItemProvider blockTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.BlockType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createBlockTypeAdapter() {
+	@Override
+	public Adapter createBlockTypeAdapter() {
 		if (blockTypeItemProvider == null) {
 			blockTypeItemProvider = new BlockTypeItemProvider(this);
 		}
@@ -301,22 +301,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return blockTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.Body} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected BodyItemProvider bodyItemProvider;
+	protected BodyItemProvider bodyItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.Body}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createBodyAdapter() {
+	@Override
+	public Adapter createBodyAdapter() {
 		if (bodyItemProvider == null) {
 			bodyItemProvider = new BodyItemProvider(this);
 		}
@@ -324,22 +324,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return bodyItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.CoilType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected CoilTypeItemProvider coilTypeItemProvider;
+	protected CoilTypeItemProvider coilTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.CoilType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createCoilTypeAdapter() {
+	@Override
+	public Adapter createCoilTypeAdapter() {
 		if (coilTypeItemProvider == null) {
 			coilTypeItemProvider = new CoilTypeItemProvider(this);
 		}
@@ -347,22 +347,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return coilTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.CommentType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected CommentTypeItemProvider commentTypeItemProvider;
+	protected CommentTypeItemProvider commentTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.CommentType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createCommentTypeAdapter() {
+	@Override
+	public Adapter createCommentTypeAdapter() {
 		if (commentTypeItemProvider == null) {
 			commentTypeItemProvider = new CommentTypeItemProvider(this);
 		}
@@ -370,22 +370,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return commentTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConditionType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConditionTypeItemProvider conditionTypeItemProvider;
+	protected ConditionTypeItemProvider conditionTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConditionType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConditionTypeAdapter() {
+	@Override
+	public Adapter createConditionTypeAdapter() {
 		if (conditionTypeItemProvider == null) {
 			conditionTypeItemProvider = new ConditionTypeItemProvider(this);
 		}
@@ -393,22 +393,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return conditionTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConfigurationsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConfigurationsTypeItemProvider configurationsTypeItemProvider;
+	protected ConfigurationsTypeItemProvider configurationsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConfigurationsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConfigurationsTypeAdapter() {
+	@Override
+	public Adapter createConfigurationsTypeAdapter() {
 		if (configurationsTypeItemProvider == null) {
 			configurationsTypeItemProvider = new ConfigurationsTypeItemProvider(this);
 		}
@@ -416,22 +416,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return configurationsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConfigurationType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConfigurationTypeItemProvider configurationTypeItemProvider;
+	protected ConfigurationTypeItemProvider configurationTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConfigurationType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConfigurationTypeAdapter() {
+	@Override
+	public Adapter createConfigurationTypeAdapter() {
 		if (configurationTypeItemProvider == null) {
 			configurationTypeItemProvider = new ConfigurationTypeItemProvider(this);
 		}
@@ -439,22 +439,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return configurationTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConfigVariableType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConfigVariableTypeItemProvider configVariableTypeItemProvider;
+	protected ConfigVariableTypeItemProvider configVariableTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConfigVariableType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConfigVariableTypeAdapter() {
+	@Override
+	public Adapter createConfigVariableTypeAdapter() {
 		if (configVariableTypeItemProvider == null) {
 			configVariableTypeItemProvider = new ConfigVariableTypeItemProvider(this);
 		}
@@ -462,22 +462,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return configVariableTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.Connection} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionItemProvider connectionItemProvider;
+	protected ConnectionItemProvider connectionItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.Connection}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionAdapter() {
+	@Override
+	public Adapter createConnectionAdapter() {
 		if (connectionItemProvider == null) {
 			connectionItemProvider = new ConnectionItemProvider(this);
 		}
@@ -485,22 +485,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectionPointIn} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointInItemProvider connectionPointInItemProvider;
+	protected ConnectionPointInItemProvider connectionPointInItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectionPointIn}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionPointInAdapter() {
+	@Override
+	public Adapter createConnectionPointInAdapter() {
 		if (connectionPointInItemProvider == null) {
 			connectionPointInItemProvider = new ConnectionPointInItemProvider(this);
 		}
@@ -508,22 +508,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionPointInItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectionPointInType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointInTypeItemProvider connectionPointInTypeItemProvider;
+	protected ConnectionPointInTypeItemProvider connectionPointInTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectionPointInType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionPointInTypeAdapter() {
+	@Override
+	public Adapter createConnectionPointInTypeAdapter() {
 		if (connectionPointInTypeItemProvider == null) {
 			connectionPointInTypeItemProvider = new ConnectionPointInTypeItemProvider(this);
 		}
@@ -531,22 +531,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionPointInTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectionPointOut} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointOutItemProvider connectionPointOutItemProvider;
+	protected ConnectionPointOutItemProvider connectionPointOutItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectionPointOut}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionPointOutAdapter() {
+	@Override
+	public Adapter createConnectionPointOutAdapter() {
 		if (connectionPointOutItemProvider == null) {
 			connectionPointOutItemProvider = new ConnectionPointOutItemProvider(this);
 		}
@@ -554,22 +554,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionPointOutItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectionPointOutActionType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointOutActionTypeItemProvider connectionPointOutActionTypeItemProvider;
+	protected ConnectionPointOutActionTypeItemProvider connectionPointOutActionTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectionPointOutActionType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionPointOutActionTypeAdapter() {
+	@Override
+	public Adapter createConnectionPointOutActionTypeAdapter() {
 		if (connectionPointOutActionTypeItemProvider == null) {
 			connectionPointOutActionTypeItemProvider = new ConnectionPointOutActionTypeItemProvider(this);
 		}
@@ -577,22 +577,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionPointOutActionTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectionPointOutType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointOutTypeItemProvider connectionPointOutTypeItemProvider;
+	protected ConnectionPointOutTypeItemProvider connectionPointOutTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectionPointOutType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionPointOutTypeAdapter() {
+	@Override
+	public Adapter createConnectionPointOutTypeAdapter() {
 		if (connectionPointOutTypeItemProvider == null) {
 			connectionPointOutTypeItemProvider = new ConnectionPointOutTypeItemProvider(this);
 		}
@@ -600,22 +600,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionPointOutTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectionPointOutType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointOutType1ItemProvider connectionPointOutType1ItemProvider;
+	protected ConnectionPointOutType1ItemProvider connectionPointOutType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectionPointOutType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionPointOutType1Adapter() {
+	@Override
+	public Adapter createConnectionPointOutType1Adapter() {
 		if (connectionPointOutType1ItemProvider == null) {
 			connectionPointOutType1ItemProvider = new ConnectionPointOutType1ItemProvider(this);
 		}
@@ -623,22 +623,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionPointOutType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectionPointOutType2} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointOutType2ItemProvider connectionPointOutType2ItemProvider;
+	protected ConnectionPointOutType2ItemProvider connectionPointOutType2ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectionPointOutType2}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionPointOutType2Adapter() {
+	@Override
+	public Adapter createConnectionPointOutType2Adapter() {
 		if (connectionPointOutType2ItemProvider == null) {
 			connectionPointOutType2ItemProvider = new ConnectionPointOutType2ItemProvider(this);
 		}
@@ -646,22 +646,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionPointOutType2ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectionPointOutType3} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointOutType3ItemProvider connectionPointOutType3ItemProvider;
+	protected ConnectionPointOutType3ItemProvider connectionPointOutType3ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectionPointOutType3}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectionPointOutType3Adapter() {
+	@Override
+	public Adapter createConnectionPointOutType3Adapter() {
 		if (connectionPointOutType3ItemProvider == null) {
 			connectionPointOutType3ItemProvider = new ConnectionPointOutType3ItemProvider(this);
 		}
@@ -669,22 +669,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectionPointOutType3ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ConnectorType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectorTypeItemProvider connectorTypeItemProvider;
+	protected ConnectorTypeItemProvider connectorTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ConnectorType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createConnectorTypeAdapter() {
+	@Override
+	public Adapter createConnectorTypeAdapter() {
 		if (connectorTypeItemProvider == null) {
 			connectorTypeItemProvider = new ConnectorTypeItemProvider(this);
 		}
@@ -692,22 +692,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return connectorTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ContactType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ContactTypeItemProvider contactTypeItemProvider;
+	protected ContactTypeItemProvider contactTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ContactType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createContactTypeAdapter() {
+	@Override
+	public Adapter createContactTypeAdapter() {
 		if (contactTypeItemProvider == null) {
 			contactTypeItemProvider = new ContactTypeItemProvider(this);
 		}
@@ -715,22 +715,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return contactTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ContentHeaderType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ContentHeaderTypeItemProvider contentHeaderTypeItemProvider;
+	protected ContentHeaderTypeItemProvider contentHeaderTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ContentHeaderType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createContentHeaderTypeAdapter() {
+	@Override
+	public Adapter createContentHeaderTypeAdapter() {
 		if (contentHeaderTypeItemProvider == null) {
 			contentHeaderTypeItemProvider = new ContentHeaderTypeItemProvider(this);
 		}
@@ -738,22 +738,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return contentHeaderTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ContinuationType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ContinuationTypeItemProvider continuationTypeItemProvider;
+	protected ContinuationTypeItemProvider continuationTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ContinuationType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createContinuationTypeAdapter() {
+	@Override
+	public Adapter createContinuationTypeAdapter() {
 		if (continuationTypeItemProvider == null) {
 			continuationTypeItemProvider = new ContinuationTypeItemProvider(this);
 		}
@@ -761,22 +761,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return continuationTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.CoordinateInfoType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected CoordinateInfoTypeItemProvider coordinateInfoTypeItemProvider;
+	protected CoordinateInfoTypeItemProvider coordinateInfoTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.CoordinateInfoType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createCoordinateInfoTypeAdapter() {
+	@Override
+	public Adapter createCoordinateInfoTypeAdapter() {
 		if (coordinateInfoTypeItemProvider == null) {
 			coordinateInfoTypeItemProvider = new CoordinateInfoTypeItemProvider(this);
 		}
@@ -784,22 +784,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return coordinateInfoTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.DataType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected DataTypeItemProvider dataTypeItemProvider;
+	protected DataTypeItemProvider dataTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.DataType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createDataTypeAdapter() {
+	@Override
+	public Adapter createDataTypeAdapter() {
 		if (dataTypeItemProvider == null) {
 			dataTypeItemProvider = new DataTypeItemProvider(this);
 		}
@@ -807,22 +807,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return dataTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.DataType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected DataType1ItemProvider dataType1ItemProvider;
+	protected DataType1ItemProvider dataType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.DataType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createDataType1Adapter() {
+	@Override
+	public Adapter createDataType1Adapter() {
 		if (dataType1ItemProvider == null) {
 			dataType1ItemProvider = new DataType1ItemProvider(this);
 		}
@@ -830,22 +830,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return dataType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.DataTypesType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected DataTypesTypeItemProvider dataTypesTypeItemProvider;
+	protected DataTypesTypeItemProvider dataTypesTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.DataTypesType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createDataTypesTypeAdapter() {
+	@Override
+	public Adapter createDataTypesTypeAdapter() {
 		if (dataTypesTypeItemProvider == null) {
 			dataTypesTypeItemProvider = new DataTypesTypeItemProvider(this);
 		}
@@ -853,22 +853,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return dataTypesTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.DataTypeType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected DataTypeTypeItemProvider dataTypeTypeItemProvider;
+	protected DataTypeTypeItemProvider dataTypeTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.DataTypeType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createDataTypeTypeAdapter() {
+	@Override
+	public Adapter createDataTypeTypeAdapter() {
 		if (dataTypeTypeItemProvider == null) {
 			dataTypeTypeItemProvider = new DataTypeTypeItemProvider(this);
 		}
@@ -876,22 +876,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return dataTypeTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.DerivedType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected DerivedTypeItemProvider derivedTypeItemProvider;
+	protected DerivedTypeItemProvider derivedTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.DerivedType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createDerivedTypeAdapter() {
+	@Override
+	public Adapter createDerivedTypeAdapter() {
 		if (derivedTypeItemProvider == null) {
 			derivedTypeItemProvider = new DerivedTypeItemProvider(this);
 		}
@@ -899,45 +899,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return derivedTypeItemProvider;
 	}
 
-    /**
-	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.DocumentRoot} instances.
-	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-	 * @generated
-	 */
-    protected DocumentRootItemProvider documentRootItemProvider;
-
-    /**
-	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.DocumentRoot}.
-	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-	 * @generated
-	 */
-    @Override
-    public Adapter createDocumentRootAdapter() {
-		if (documentRootItemProvider == null) {
-			documentRootItemProvider = new DocumentRootItemProvider(this);
-		}
-
-		return documentRootItemProvider;
-	}
-
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.EnumType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected EnumTypeItemProvider enumTypeItemProvider;
+	protected EnumTypeItemProvider enumTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.EnumType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createEnumTypeAdapter() {
+	@Override
+	public Adapter createEnumTypeAdapter() {
 		if (enumTypeItemProvider == null) {
 			enumTypeItemProvider = new EnumTypeItemProvider(this);
 		}
@@ -945,22 +922,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return enumTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ErrorType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ErrorTypeItemProvider errorTypeItemProvider;
+	protected ErrorTypeItemProvider errorTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ErrorType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createErrorTypeAdapter() {
+	@Override
+	public Adapter createErrorTypeAdapter() {
 		if (errorTypeItemProvider == null) {
 			errorTypeItemProvider = new ErrorTypeItemProvider(this);
 		}
@@ -968,22 +945,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return errorTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ExternalVarsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ExternalVarsTypeItemProvider externalVarsTypeItemProvider;
+	protected ExternalVarsTypeItemProvider externalVarsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ExternalVarsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createExternalVarsTypeAdapter() {
+	@Override
+	public Adapter createExternalVarsTypeAdapter() {
 		if (externalVarsTypeItemProvider == null) {
 			externalVarsTypeItemProvider = new ExternalVarsTypeItemProvider(this);
 		}
@@ -991,22 +968,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return externalVarsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.FbdType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected FbdTypeItemProvider fbdTypeItemProvider;
+	protected FbdTypeItemProvider fbdTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.FbdType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createFbdTypeAdapter() {
+	@Override
+	public Adapter createFbdTypeAdapter() {
 		if (fbdTypeItemProvider == null) {
 			fbdTypeItemProvider = new FbdTypeItemProvider(this);
 		}
@@ -1014,22 +991,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return fbdTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.FBDType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected FBDType1ItemProvider fbdType1ItemProvider;
+	protected FBDType1ItemProvider fbdType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.FBDType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createFBDType1Adapter() {
+	@Override
+	public Adapter createFBDType1Adapter() {
 		if (fbdType1ItemProvider == null) {
 			fbdType1ItemProvider = new FBDType1ItemProvider(this);
 		}
@@ -1037,22 +1014,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return fbdType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.FileHeaderType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected FileHeaderTypeItemProvider fileHeaderTypeItemProvider;
+	protected FileHeaderTypeItemProvider fileHeaderTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.FileHeaderType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createFileHeaderTypeAdapter() {
+	@Override
+	public Adapter createFileHeaderTypeAdapter() {
 		if (fileHeaderTypeItemProvider == null) {
 			fileHeaderTypeItemProvider = new FileHeaderTypeItemProvider(this);
 		}
@@ -1060,22 +1037,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return fileHeaderTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.FormattedText} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected FormattedTextItemProvider formattedTextItemProvider;
+	protected FormattedTextItemProvider formattedTextItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.FormattedText}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createFormattedTextAdapter() {
+	@Override
+	public Adapter createFormattedTextAdapter() {
 		if (formattedTextItemProvider == null) {
 			formattedTextItemProvider = new FormattedTextItemProvider(this);
 		}
@@ -1083,22 +1060,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return formattedTextItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.GlobalVarsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected GlobalVarsTypeItemProvider globalVarsTypeItemProvider;
+	protected GlobalVarsTypeItemProvider globalVarsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.GlobalVarsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createGlobalVarsTypeAdapter() {
+	@Override
+	public Adapter createGlobalVarsTypeAdapter() {
 		if (globalVarsTypeItemProvider == null) {
 			globalVarsTypeItemProvider = new GlobalVarsTypeItemProvider(this);
 		}
@@ -1106,22 +1083,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return globalVarsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InfoType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InfoTypeItemProvider infoTypeItemProvider;
+	protected InfoTypeItemProvider infoTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InfoType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInfoTypeAdapter() {
+	@Override
+	public Adapter createInfoTypeAdapter() {
 		if (infoTypeItemProvider == null) {
 			infoTypeItemProvider = new InfoTypeItemProvider(this);
 		}
@@ -1129,22 +1106,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return infoTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InlineType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InlineTypeItemProvider inlineTypeItemProvider;
+	protected InlineTypeItemProvider inlineTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InlineType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInlineTypeAdapter() {
+	@Override
+	public Adapter createInlineTypeAdapter() {
 		if (inlineTypeItemProvider == null) {
 			inlineTypeItemProvider = new InlineTypeItemProvider(this);
 		}
@@ -1152,22 +1129,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inlineTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InOutVariablesType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InOutVariablesTypeItemProvider inOutVariablesTypeItemProvider;
+	protected InOutVariablesTypeItemProvider inOutVariablesTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InOutVariablesType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInOutVariablesTypeAdapter() {
+	@Override
+	public Adapter createInOutVariablesTypeAdapter() {
 		if (inOutVariablesTypeItemProvider == null) {
 			inOutVariablesTypeItemProvider = new InOutVariablesTypeItemProvider(this);
 		}
@@ -1175,22 +1152,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inOutVariablesTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InOutVariablesType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InOutVariablesType1ItemProvider inOutVariablesType1ItemProvider;
+	protected InOutVariablesType1ItemProvider inOutVariablesType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InOutVariablesType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInOutVariablesType1Adapter() {
+	@Override
+	public Adapter createInOutVariablesType1Adapter() {
 		if (inOutVariablesType1ItemProvider == null) {
 			inOutVariablesType1ItemProvider = new InOutVariablesType1ItemProvider(this);
 		}
@@ -1198,22 +1175,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inOutVariablesType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InOutVariableType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InOutVariableTypeItemProvider inOutVariableTypeItemProvider;
+	protected InOutVariableTypeItemProvider inOutVariableTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InOutVariableType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInOutVariableTypeAdapter() {
+	@Override
+	public Adapter createInOutVariableTypeAdapter() {
 		if (inOutVariableTypeItemProvider == null) {
 			inOutVariableTypeItemProvider = new InOutVariableTypeItemProvider(this);
 		}
@@ -1221,22 +1198,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inOutVariableTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InOutVarsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InOutVarsTypeItemProvider inOutVarsTypeItemProvider;
+	protected InOutVarsTypeItemProvider inOutVarsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InOutVarsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInOutVarsTypeAdapter() {
+	@Override
+	public Adapter createInOutVarsTypeAdapter() {
 		if (inOutVarsTypeItemProvider == null) {
 			inOutVarsTypeItemProvider = new InOutVarsTypeItemProvider(this);
 		}
@@ -1244,22 +1221,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inOutVarsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InputVariablesType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InputVariablesTypeItemProvider inputVariablesTypeItemProvider;
+	protected InputVariablesTypeItemProvider inputVariablesTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InputVariablesType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInputVariablesTypeAdapter() {
+	@Override
+	public Adapter createInputVariablesTypeAdapter() {
 		if (inputVariablesTypeItemProvider == null) {
 			inputVariablesTypeItemProvider = new InputVariablesTypeItemProvider(this);
 		}
@@ -1267,22 +1244,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inputVariablesTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InputVariablesType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InputVariablesType1ItemProvider inputVariablesType1ItemProvider;
+	protected InputVariablesType1ItemProvider inputVariablesType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InputVariablesType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInputVariablesType1Adapter() {
+	@Override
+	public Adapter createInputVariablesType1Adapter() {
 		if (inputVariablesType1ItemProvider == null) {
 			inputVariablesType1ItemProvider = new InputVariablesType1ItemProvider(this);
 		}
@@ -1290,22 +1267,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inputVariablesType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InputVarsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InputVarsTypeItemProvider inputVarsTypeItemProvider;
+	protected InputVarsTypeItemProvider inputVarsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InputVarsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInputVarsTypeAdapter() {
+	@Override
+	public Adapter createInputVarsTypeAdapter() {
 		if (inputVarsTypeItemProvider == null) {
 			inputVarsTypeItemProvider = new InputVarsTypeItemProvider(this);
 		}
@@ -1313,22 +1290,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inputVarsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InstancesType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InstancesTypeItemProvider instancesTypeItemProvider;
+	protected InstancesTypeItemProvider instancesTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InstancesType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInstancesTypeAdapter() {
+	@Override
+	public Adapter createInstancesTypeAdapter() {
 		if (instancesTypeItemProvider == null) {
 			instancesTypeItemProvider = new InstancesTypeItemProvider(this);
 		}
@@ -1336,22 +1313,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return instancesTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InterfaceType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InterfaceTypeItemProvider interfaceTypeItemProvider;
+	protected InterfaceTypeItemProvider interfaceTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InterfaceType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInterfaceTypeAdapter() {
+	@Override
+	public Adapter createInterfaceTypeAdapter() {
 		if (interfaceTypeItemProvider == null) {
 			interfaceTypeItemProvider = new InterfaceTypeItemProvider(this);
 		}
@@ -1359,22 +1336,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return interfaceTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.InVariableType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InVariableTypeItemProvider inVariableTypeItemProvider;
+	protected InVariableTypeItemProvider inVariableTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.InVariableType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createInVariableTypeAdapter() {
+	@Override
+	public Adapter createInVariableTypeAdapter() {
 		if (inVariableTypeItemProvider == null) {
 			inVariableTypeItemProvider = new InVariableTypeItemProvider(this);
 		}
@@ -1382,22 +1359,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return inVariableTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.JumpStepType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected JumpStepTypeItemProvider jumpStepTypeItemProvider;
+	protected JumpStepTypeItemProvider jumpStepTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.JumpStepType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createJumpStepTypeAdapter() {
+	@Override
+	public Adapter createJumpStepTypeAdapter() {
 		if (jumpStepTypeItemProvider == null) {
 			jumpStepTypeItemProvider = new JumpStepTypeItemProvider(this);
 		}
@@ -1405,22 +1382,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return jumpStepTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.JumpType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected JumpTypeItemProvider jumpTypeItemProvider;
+	protected JumpTypeItemProvider jumpTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.JumpType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createJumpTypeAdapter() {
+	@Override
+	public Adapter createJumpTypeAdapter() {
 		if (jumpTypeItemProvider == null) {
 			jumpTypeItemProvider = new JumpTypeItemProvider(this);
 		}
@@ -1428,22 +1405,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return jumpTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.LabelType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected LabelTypeItemProvider labelTypeItemProvider;
+	protected LabelTypeItemProvider labelTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.LabelType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createLabelTypeAdapter() {
+	@Override
+	public Adapter createLabelTypeAdapter() {
 		if (labelTypeItemProvider == null) {
 			labelTypeItemProvider = new LabelTypeItemProvider(this);
 		}
@@ -1451,22 +1428,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return labelTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.LdType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected LdTypeItemProvider ldTypeItemProvider;
+	protected LdTypeItemProvider ldTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.LdType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createLdTypeAdapter() {
+	@Override
+	public Adapter createLdTypeAdapter() {
 		if (ldTypeItemProvider == null) {
 			ldTypeItemProvider = new LdTypeItemProvider(this);
 		}
@@ -1474,22 +1451,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return ldTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.LDType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected LDType1ItemProvider ldType1ItemProvider;
+	protected LDType1ItemProvider ldType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.LDType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createLDType1Adapter() {
+	@Override
+	public Adapter createLDType1Adapter() {
 		if (ldType1ItemProvider == null) {
 			ldType1ItemProvider = new LDType1ItemProvider(this);
 		}
@@ -1497,22 +1474,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return ldType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.LeftPowerRailType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected LeftPowerRailTypeItemProvider leftPowerRailTypeItemProvider;
+	protected LeftPowerRailTypeItemProvider leftPowerRailTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.LeftPowerRailType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createLeftPowerRailTypeAdapter() {
+	@Override
+	public Adapter createLeftPowerRailTypeAdapter() {
 		if (leftPowerRailTypeItemProvider == null) {
 			leftPowerRailTypeItemProvider = new LeftPowerRailTypeItemProvider(this);
 		}
@@ -1520,22 +1497,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return leftPowerRailTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.LocalVarsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected LocalVarsTypeItemProvider localVarsTypeItemProvider;
+	protected LocalVarsTypeItemProvider localVarsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.LocalVarsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createLocalVarsTypeAdapter() {
+	@Override
+	public Adapter createLocalVarsTypeAdapter() {
 		if (localVarsTypeItemProvider == null) {
 			localVarsTypeItemProvider = new LocalVarsTypeItemProvider(this);
 		}
@@ -1543,22 +1520,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return localVarsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.MacroStepType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected MacroStepTypeItemProvider macroStepTypeItemProvider;
+	protected MacroStepTypeItemProvider macroStepTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.MacroStepType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createMacroStepTypeAdapter() {
+	@Override
+	public Adapter createMacroStepTypeAdapter() {
 		if (macroStepTypeItemProvider == null) {
 			macroStepTypeItemProvider = new MacroStepTypeItemProvider(this);
 		}
@@ -1566,22 +1543,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return macroStepTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.OutputVariablesType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected OutputVariablesTypeItemProvider outputVariablesTypeItemProvider;
+	protected OutputVariablesTypeItemProvider outputVariablesTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.OutputVariablesType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createOutputVariablesTypeAdapter() {
+	@Override
+	public Adapter createOutputVariablesTypeAdapter() {
 		if (outputVariablesTypeItemProvider == null) {
 			outputVariablesTypeItemProvider = new OutputVariablesTypeItemProvider(this);
 		}
@@ -1589,22 +1566,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return outputVariablesTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.OutputVariablesType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected OutputVariablesType1ItemProvider outputVariablesType1ItemProvider;
+	protected OutputVariablesType1ItemProvider outputVariablesType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.OutputVariablesType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createOutputVariablesType1Adapter() {
+	@Override
+	public Adapter createOutputVariablesType1Adapter() {
 		if (outputVariablesType1ItemProvider == null) {
 			outputVariablesType1ItemProvider = new OutputVariablesType1ItemProvider(this);
 		}
@@ -1612,22 +1589,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return outputVariablesType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.OutputVarsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected OutputVarsTypeItemProvider outputVarsTypeItemProvider;
+	protected OutputVarsTypeItemProvider outputVarsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.OutputVarsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createOutputVarsTypeAdapter() {
+	@Override
+	public Adapter createOutputVarsTypeAdapter() {
 		if (outputVarsTypeItemProvider == null) {
 			outputVarsTypeItemProvider = new OutputVarsTypeItemProvider(this);
 		}
@@ -1635,22 +1612,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return outputVarsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.OutVariableType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected OutVariableTypeItemProvider outVariableTypeItemProvider;
+	protected OutVariableTypeItemProvider outVariableTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.OutVariableType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createOutVariableTypeAdapter() {
+	@Override
+	public Adapter createOutVariableTypeAdapter() {
 		if (outVariableTypeItemProvider == null) {
 			outVariableTypeItemProvider = new OutVariableTypeItemProvider(this);
 		}
@@ -1658,22 +1635,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return outVariableTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.PageSizeType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PageSizeTypeItemProvider pageSizeTypeItemProvider;
+	protected PageSizeTypeItemProvider pageSizeTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.PageSizeType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createPageSizeTypeAdapter() {
+	@Override
+	public Adapter createPageSizeTypeAdapter() {
 		if (pageSizeTypeItemProvider == null) {
 			pageSizeTypeItemProvider = new PageSizeTypeItemProvider(this);
 		}
@@ -1681,22 +1658,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return pageSizeTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.PointerType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PointerTypeItemProvider pointerTypeItemProvider;
+	protected PointerTypeItemProvider pointerTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.PointerType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createPointerTypeAdapter() {
+	@Override
+	public Adapter createPointerTypeAdapter() {
 		if (pointerTypeItemProvider == null) {
 			pointerTypeItemProvider = new PointerTypeItemProvider(this);
 		}
@@ -1704,22 +1681,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return pointerTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.Position} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PositionItemProvider positionItemProvider;
+	protected PositionItemProvider positionItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.Position}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createPositionAdapter() {
+	@Override
+	public Adapter createPositionAdapter() {
 		if (positionItemProvider == null) {
 			positionItemProvider = new PositionItemProvider(this);
 		}
@@ -1727,22 +1704,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return positionItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.PouInstance} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PouInstanceItemProvider pouInstanceItemProvider;
+	protected PouInstanceItemProvider pouInstanceItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.PouInstance}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createPouInstanceAdapter() {
+	@Override
+	public Adapter createPouInstanceAdapter() {
 		if (pouInstanceItemProvider == null) {
 			pouInstanceItemProvider = new PouInstanceItemProvider(this);
 		}
@@ -1750,22 +1727,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return pouInstanceItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.PousType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PousTypeItemProvider pousTypeItemProvider;
+	protected PousTypeItemProvider pousTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.PousType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createPousTypeAdapter() {
+	@Override
+	public Adapter createPousTypeAdapter() {
 		if (pousTypeItemProvider == null) {
 			pousTypeItemProvider = new PousTypeItemProvider(this);
 		}
@@ -1773,22 +1750,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return pousTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.PouType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PouType1ItemProvider pouType1ItemProvider;
+	protected PouType1ItemProvider pouType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.PouType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createPouType1Adapter() {
+	@Override
+	public Adapter createPouType1Adapter() {
 		if (pouType1ItemProvider == null) {
 			pouType1ItemProvider = new PouType1ItemProvider(this);
 		}
@@ -1796,22 +1773,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return pouType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ProjectType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ProjectTypeItemProvider projectTypeItemProvider;
+	protected ProjectTypeItemProvider projectTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ProjectType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createProjectTypeAdapter() {
+	@Override
+	public Adapter createProjectTypeAdapter() {
 		if (projectTypeItemProvider == null) {
 			projectTypeItemProvider = new ProjectTypeItemProvider(this);
 		}
@@ -1819,22 +1796,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return projectTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.RangeSigned} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected RangeSignedItemProvider rangeSignedItemProvider;
+	protected RangeSignedItemProvider rangeSignedItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.RangeSigned}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createRangeSignedAdapter() {
+	@Override
+	public Adapter createRangeSignedAdapter() {
 		if (rangeSignedItemProvider == null) {
 			rangeSignedItemProvider = new RangeSignedItemProvider(this);
 		}
@@ -1842,22 +1819,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return rangeSignedItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.RangeUnsigned} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected RangeUnsignedItemProvider rangeUnsignedItemProvider;
+	protected RangeUnsignedItemProvider rangeUnsignedItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.RangeUnsigned}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createRangeUnsignedAdapter() {
+	@Override
+	public Adapter createRangeUnsignedAdapter() {
 		if (rangeUnsignedItemProvider == null) {
 			rangeUnsignedItemProvider = new RangeUnsignedItemProvider(this);
 		}
@@ -1865,22 +1842,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return rangeUnsignedItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ReferenceType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ReferenceTypeItemProvider referenceTypeItemProvider;
+	protected ReferenceTypeItemProvider referenceTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ReferenceType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createReferenceTypeAdapter() {
+	@Override
+	public Adapter createReferenceTypeAdapter() {
 		if (referenceTypeItemProvider == null) {
 			referenceTypeItemProvider = new ReferenceTypeItemProvider(this);
 		}
@@ -1888,22 +1865,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return referenceTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ReferenceType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ReferenceType1ItemProvider referenceType1ItemProvider;
+	protected ReferenceType1ItemProvider referenceType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ReferenceType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createReferenceType1Adapter() {
+	@Override
+	public Adapter createReferenceType1Adapter() {
 		if (referenceType1ItemProvider == null) {
 			referenceType1ItemProvider = new ReferenceType1ItemProvider(this);
 		}
@@ -1911,22 +1888,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return referenceType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ResourceType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ResourceTypeItemProvider resourceTypeItemProvider;
+	protected ResourceTypeItemProvider resourceTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ResourceType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createResourceTypeAdapter() {
+	@Override
+	public Adapter createResourceTypeAdapter() {
 		if (resourceTypeItemProvider == null) {
 			resourceTypeItemProvider = new ResourceTypeItemProvider(this);
 		}
@@ -1934,22 +1911,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return resourceTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ReturnType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ReturnTypeItemProvider returnTypeItemProvider;
+	protected ReturnTypeItemProvider returnTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ReturnType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createReturnTypeAdapter() {
+	@Override
+	public Adapter createReturnTypeAdapter() {
 		if (returnTypeItemProvider == null) {
 			returnTypeItemProvider = new ReturnTypeItemProvider(this);
 		}
@@ -1957,22 +1934,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return returnTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.RightPowerRailType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected RightPowerRailTypeItemProvider rightPowerRailTypeItemProvider;
+	protected RightPowerRailTypeItemProvider rightPowerRailTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.RightPowerRailType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createRightPowerRailTypeAdapter() {
+	@Override
+	public Adapter createRightPowerRailTypeAdapter() {
 		if (rightPowerRailTypeItemProvider == null) {
 			rightPowerRailTypeItemProvider = new RightPowerRailTypeItemProvider(this);
 		}
@@ -1980,22 +1957,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return rightPowerRailTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ScalingType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ScalingTypeItemProvider scalingTypeItemProvider;
+	protected ScalingTypeItemProvider scalingTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ScalingType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createScalingTypeAdapter() {
+	@Override
+	public Adapter createScalingTypeAdapter() {
 		if (scalingTypeItemProvider == null) {
 			scalingTypeItemProvider = new ScalingTypeItemProvider(this);
 		}
@@ -2003,22 +1980,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return scalingTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ScalingType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ScalingType1ItemProvider scalingType1ItemProvider;
+	protected ScalingType1ItemProvider scalingType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ScalingType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createScalingType1Adapter() {
+	@Override
+	public Adapter createScalingType1Adapter() {
 		if (scalingType1ItemProvider == null) {
 			scalingType1ItemProvider = new ScalingType1ItemProvider(this);
 		}
@@ -2026,22 +2003,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return scalingType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ScalingType2} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ScalingType2ItemProvider scalingType2ItemProvider;
+	protected ScalingType2ItemProvider scalingType2ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ScalingType2}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createScalingType2Adapter() {
+	@Override
+	public Adapter createScalingType2Adapter() {
 		if (scalingType2ItemProvider == null) {
 			scalingType2ItemProvider = new ScalingType2ItemProvider(this);
 		}
@@ -2049,22 +2026,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return scalingType2ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SelectionConvergenceType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SelectionConvergenceTypeItemProvider selectionConvergenceTypeItemProvider;
+	protected SelectionConvergenceTypeItemProvider selectionConvergenceTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SelectionConvergenceType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSelectionConvergenceTypeAdapter() {
+	@Override
+	public Adapter createSelectionConvergenceTypeAdapter() {
 		if (selectionConvergenceTypeItemProvider == null) {
 			selectionConvergenceTypeItemProvider = new SelectionConvergenceTypeItemProvider(this);
 		}
@@ -2072,22 +2049,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return selectionConvergenceTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SelectionDivergenceType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SelectionDivergenceTypeItemProvider selectionDivergenceTypeItemProvider;
+	protected SelectionDivergenceTypeItemProvider selectionDivergenceTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SelectionDivergenceType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSelectionDivergenceTypeAdapter() {
+	@Override
+	public Adapter createSelectionDivergenceTypeAdapter() {
 		if (selectionDivergenceTypeItemProvider == null) {
 			selectionDivergenceTypeItemProvider = new SelectionDivergenceTypeItemProvider(this);
 		}
@@ -2095,22 +2072,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return selectionDivergenceTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SfcType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SfcTypeItemProvider sfcTypeItemProvider;
+	protected SfcTypeItemProvider sfcTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SfcType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSfcTypeAdapter() {
+	@Override
+	public Adapter createSfcTypeAdapter() {
 		if (sfcTypeItemProvider == null) {
 			sfcTypeItemProvider = new SfcTypeItemProvider(this);
 		}
@@ -2118,22 +2095,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return sfcTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SFCType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SFCType1ItemProvider sfcType1ItemProvider;
+	protected SFCType1ItemProvider sfcType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SFCType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSFCType1Adapter() {
+	@Override
+	public Adapter createSFCType1Adapter() {
 		if (sfcType1ItemProvider == null) {
 			sfcType1ItemProvider = new SFCType1ItemProvider(this);
 		}
@@ -2141,22 +2118,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return sfcType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SimpleValueType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SimpleValueTypeItemProvider simpleValueTypeItemProvider;
+	protected SimpleValueTypeItemProvider simpleValueTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SimpleValueType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSimpleValueTypeAdapter() {
+	@Override
+	public Adapter createSimpleValueTypeAdapter() {
 		if (simpleValueTypeItemProvider == null) {
 			simpleValueTypeItemProvider = new SimpleValueTypeItemProvider(this);
 		}
@@ -2164,22 +2141,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return simpleValueTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SimultaneousConvergenceType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SimultaneousConvergenceTypeItemProvider simultaneousConvergenceTypeItemProvider;
+	protected SimultaneousConvergenceTypeItemProvider simultaneousConvergenceTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SimultaneousConvergenceType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSimultaneousConvergenceTypeAdapter() {
+	@Override
+	public Adapter createSimultaneousConvergenceTypeAdapter() {
 		if (simultaneousConvergenceTypeItemProvider == null) {
 			simultaneousConvergenceTypeItemProvider = new SimultaneousConvergenceTypeItemProvider(this);
 		}
@@ -2187,22 +2164,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return simultaneousConvergenceTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SimultaneousDivergenceType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SimultaneousDivergenceTypeItemProvider simultaneousDivergenceTypeItemProvider;
+	protected SimultaneousDivergenceTypeItemProvider simultaneousDivergenceTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SimultaneousDivergenceType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSimultaneousDivergenceTypeAdapter() {
+	@Override
+	public Adapter createSimultaneousDivergenceTypeAdapter() {
 		if (simultaneousDivergenceTypeItemProvider == null) {
 			simultaneousDivergenceTypeItemProvider = new SimultaneousDivergenceTypeItemProvider(this);
 		}
@@ -2210,22 +2187,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return simultaneousDivergenceTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.StepType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected StepTypeItemProvider stepTypeItemProvider;
+	protected StepTypeItemProvider stepTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.StepType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createStepTypeAdapter() {
+	@Override
+	public Adapter createStepTypeAdapter() {
 		if (stepTypeItemProvider == null) {
 			stepTypeItemProvider = new StepTypeItemProvider(this);
 		}
@@ -2233,22 +2210,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return stepTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.StringType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected StringTypeItemProvider stringTypeItemProvider;
+	protected StringTypeItemProvider stringTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.StringType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createStringTypeAdapter() {
+	@Override
+	public Adapter createStringTypeAdapter() {
 		if (stringTypeItemProvider == null) {
 			stringTypeItemProvider = new StringTypeItemProvider(this);
 		}
@@ -2256,22 +2233,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return stringTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.StructValueType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected StructValueTypeItemProvider structValueTypeItemProvider;
+	protected StructValueTypeItemProvider structValueTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.StructValueType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createStructValueTypeAdapter() {
+	@Override
+	public Adapter createStructValueTypeAdapter() {
 		if (structValueTypeItemProvider == null) {
 			structValueTypeItemProvider = new StructValueTypeItemProvider(this);
 		}
@@ -2279,22 +2256,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return structValueTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SubrangeSignedType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SubrangeSignedTypeItemProvider subrangeSignedTypeItemProvider;
+	protected SubrangeSignedTypeItemProvider subrangeSignedTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SubrangeSignedType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSubrangeSignedTypeAdapter() {
+	@Override
+	public Adapter createSubrangeSignedTypeAdapter() {
 		if (subrangeSignedTypeItemProvider == null) {
 			subrangeSignedTypeItemProvider = new SubrangeSignedTypeItemProvider(this);
 		}
@@ -2302,22 +2279,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return subrangeSignedTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.SubrangeUnsignedType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SubrangeUnsignedTypeItemProvider subrangeUnsignedTypeItemProvider;
+	protected SubrangeUnsignedTypeItemProvider subrangeUnsignedTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.SubrangeUnsignedType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createSubrangeUnsignedTypeAdapter() {
+	@Override
+	public Adapter createSubrangeUnsignedTypeAdapter() {
 		if (subrangeUnsignedTypeItemProvider == null) {
 			subrangeUnsignedTypeItemProvider = new SubrangeUnsignedTypeItemProvider(this);
 		}
@@ -2325,22 +2302,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return subrangeUnsignedTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.TaskType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected TaskTypeItemProvider taskTypeItemProvider;
+	protected TaskTypeItemProvider taskTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.TaskType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createTaskTypeAdapter() {
+	@Override
+	public Adapter createTaskTypeAdapter() {
 		if (taskTypeItemProvider == null) {
 			taskTypeItemProvider = new TaskTypeItemProvider(this);
 		}
@@ -2348,22 +2325,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return taskTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.TempVarsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected TempVarsTypeItemProvider tempVarsTypeItemProvider;
+	protected TempVarsTypeItemProvider tempVarsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.TempVarsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createTempVarsTypeAdapter() {
+	@Override
+	public Adapter createTempVarsTypeAdapter() {
 		if (tempVarsTypeItemProvider == null) {
 			tempVarsTypeItemProvider = new TempVarsTypeItemProvider(this);
 		}
@@ -2371,22 +2348,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return tempVarsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.TransitionsType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected TransitionsTypeItemProvider transitionsTypeItemProvider;
+	protected TransitionsTypeItemProvider transitionsTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.TransitionsType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createTransitionsTypeAdapter() {
+	@Override
+	public Adapter createTransitionsTypeAdapter() {
 		if (transitionsTypeItemProvider == null) {
 			transitionsTypeItemProvider = new TransitionsTypeItemProvider(this);
 		}
@@ -2394,22 +2371,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return transitionsTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.TransitionType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected TransitionTypeItemProvider transitionTypeItemProvider;
+	protected TransitionTypeItemProvider transitionTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.TransitionType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createTransitionTypeAdapter() {
+	@Override
+	public Adapter createTransitionTypeAdapter() {
 		if (transitionTypeItemProvider == null) {
 			transitionTypeItemProvider = new TransitionTypeItemProvider(this);
 		}
@@ -2417,22 +2394,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return transitionTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.TransitionType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected TransitionType1ItemProvider transitionType1ItemProvider;
+	protected TransitionType1ItemProvider transitionType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.TransitionType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createTransitionType1Adapter() {
+	@Override
+	public Adapter createTransitionType1Adapter() {
 		if (transitionType1ItemProvider == null) {
 			transitionType1ItemProvider = new TransitionType1ItemProvider(this);
 		}
@@ -2440,22 +2417,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return transitionType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.TypesType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected TypesTypeItemProvider typesTypeItemProvider;
+	protected TypesTypeItemProvider typesTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.TypesType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createTypesTypeAdapter() {
+	@Override
+	public Adapter createTypesTypeAdapter() {
 		if (typesTypeItemProvider == null) {
 			typesTypeItemProvider = new TypesTypeItemProvider(this);
 		}
@@ -2463,22 +2440,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return typesTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.Value} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ValueItemProvider valueItemProvider;
+	protected ValueItemProvider valueItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.Value}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createValueAdapter() {
+	@Override
+	public Adapter createValueAdapter() {
 		if (valueItemProvider == null) {
 			valueItemProvider = new ValueItemProvider(this);
 		}
@@ -2486,22 +2463,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return valueItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ValuesType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ValuesTypeItemProvider valuesTypeItemProvider;
+	protected ValuesTypeItemProvider valuesTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ValuesType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createValuesTypeAdapter() {
+	@Override
+	public Adapter createValuesTypeAdapter() {
 		if (valuesTypeItemProvider == null) {
 			valuesTypeItemProvider = new ValuesTypeItemProvider(this);
 		}
@@ -2509,22 +2486,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return valuesTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ValueType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ValueTypeItemProvider valueTypeItemProvider;
+	protected ValueTypeItemProvider valueTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ValueType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createValueTypeAdapter() {
+	@Override
+	public Adapter createValueTypeAdapter() {
 		if (valueTypeItemProvider == null) {
 			valueTypeItemProvider = new ValueTypeItemProvider(this);
 		}
@@ -2532,22 +2509,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return valueTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ValueType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ValueType1ItemProvider valueType1ItemProvider;
+	protected ValueType1ItemProvider valueType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ValueType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createValueType1Adapter() {
+	@Override
+	public Adapter createValueType1Adapter() {
 		if (valueType1ItemProvider == null) {
 			valueType1ItemProvider = new ValueType1ItemProvider(this);
 		}
@@ -2555,22 +2532,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return valueType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.ValueType2} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ValueType2ItemProvider valueType2ItemProvider;
+	protected ValueType2ItemProvider valueType2ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.ValueType2}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createValueType2Adapter() {
+	@Override
+	public Adapter createValueType2Adapter() {
 		if (valueType2ItemProvider == null) {
 			valueType2ItemProvider = new ValueType2ItemProvider(this);
 		}
@@ -2578,22 +2555,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return valueType2ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VariableType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VariableTypeItemProvider variableTypeItemProvider;
+	protected VariableTypeItemProvider variableTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VariableType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVariableTypeAdapter() {
+	@Override
+	public Adapter createVariableTypeAdapter() {
 		if (variableTypeItemProvider == null) {
 			variableTypeItemProvider = new VariableTypeItemProvider(this);
 		}
@@ -2601,22 +2578,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return variableTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VariableType1} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VariableType1ItemProvider variableType1ItemProvider;
+	protected VariableType1ItemProvider variableType1ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VariableType1}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVariableType1Adapter() {
+	@Override
+	public Adapter createVariableType1Adapter() {
 		if (variableType1ItemProvider == null) {
 			variableType1ItemProvider = new VariableType1ItemProvider(this);
 		}
@@ -2624,22 +2601,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return variableType1ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VariableType2} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VariableType2ItemProvider variableType2ItemProvider;
+	protected VariableType2ItemProvider variableType2ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VariableType2}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVariableType2Adapter() {
+	@Override
+	public Adapter createVariableType2Adapter() {
 		if (variableType2ItemProvider == null) {
 			variableType2ItemProvider = new VariableType2ItemProvider(this);
 		}
@@ -2647,22 +2624,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return variableType2ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VariableType3} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VariableType3ItemProvider variableType3ItemProvider;
+	protected VariableType3ItemProvider variableType3ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VariableType3}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVariableType3Adapter() {
+	@Override
+	public Adapter createVariableType3Adapter() {
 		if (variableType3ItemProvider == null) {
 			variableType3ItemProvider = new VariableType3ItemProvider(this);
 		}
@@ -2670,22 +2647,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return variableType3ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VariableType4} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VariableType4ItemProvider variableType4ItemProvider;
+	protected VariableType4ItemProvider variableType4ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VariableType4}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVariableType4Adapter() {
+	@Override
+	public Adapter createVariableType4Adapter() {
 		if (variableType4ItemProvider == null) {
 			variableType4ItemProvider = new VariableType4ItemProvider(this);
 		}
@@ -2693,22 +2670,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return variableType4ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VariableType5} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VariableType5ItemProvider variableType5ItemProvider;
+	protected VariableType5ItemProvider variableType5ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VariableType5}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVariableType5Adapter() {
+	@Override
+	public Adapter createVariableType5Adapter() {
 		if (variableType5ItemProvider == null) {
 			variableType5ItemProvider = new VariableType5ItemProvider(this);
 		}
@@ -2716,22 +2693,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return variableType5ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VariableType6} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VariableType6ItemProvider variableType6ItemProvider;
+	protected VariableType6ItemProvider variableType6ItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VariableType6}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVariableType6Adapter() {
+	@Override
+	public Adapter createVariableType6Adapter() {
 		if (variableType6ItemProvider == null) {
 			variableType6ItemProvider = new VariableType6ItemProvider(this);
 		}
@@ -2739,22 +2716,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return variableType6ItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VarList} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VarListItemProvider varListItemProvider;
+	protected VarListItemProvider varListItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VarList}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVarListAdapter() {
+	@Override
+	public Adapter createVarListAdapter() {
 		if (varListItemProvider == null) {
 			varListItemProvider = new VarListItemProvider(this);
 		}
@@ -2762,22 +2739,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return varListItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VarListAccess} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VarListAccessItemProvider varListAccessItemProvider;
+	protected VarListAccessItemProvider varListAccessItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VarListAccess}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVarListAccessAdapter() {
+	@Override
+	public Adapter createVarListAccessAdapter() {
 		if (varListAccessItemProvider == null) {
 			varListAccessItemProvider = new VarListAccessItemProvider(this);
 		}
@@ -2785,22 +2762,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return varListAccessItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VarListConfig} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VarListConfigItemProvider varListConfigItemProvider;
+	protected VarListConfigItemProvider varListConfigItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VarListConfig}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVarListConfigAdapter() {
+	@Override
+	public Adapter createVarListConfigAdapter() {
 		if (varListConfigItemProvider == null) {
 			varListConfigItemProvider = new VarListConfigItemProvider(this);
 		}
@@ -2808,22 +2785,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return varListConfigItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VarListPlain} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VarListPlainItemProvider varListPlainItemProvider;
+	protected VarListPlainItemProvider varListPlainItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VarListPlain}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVarListPlainAdapter() {
+	@Override
+	public Adapter createVarListPlainAdapter() {
 		if (varListPlainItemProvider == null) {
 			varListPlainItemProvider = new VarListPlainItemProvider(this);
 		}
@@ -2831,22 +2808,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return varListPlainItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.VendorElementType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VendorElementTypeItemProvider vendorElementTypeItemProvider;
+	protected VendorElementTypeItemProvider vendorElementTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.VendorElementType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createVendorElementTypeAdapter() {
+	@Override
+	public Adapter createVendorElementTypeAdapter() {
 		if (vendorElementTypeItemProvider == null) {
 			vendorElementTypeItemProvider = new VendorElementTypeItemProvider(this);
 		}
@@ -2854,22 +2831,22 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return vendorElementTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This keeps track of the one adapter used for all {@link org.plcopen.xml.tc60201.WstringType} instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected WstringTypeItemProvider wstringTypeItemProvider;
+	protected WstringTypeItemProvider wstringTypeItemProvider;
 
-    /**
+	/**
 	 * This creates an adapter for a {@link org.plcopen.xml.tc60201.WstringType}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter createWstringTypeAdapter() {
+	@Override
+	public Adapter createWstringTypeAdapter() {
 		if (wstringTypeItemProvider == null) {
 			wstringTypeItemProvider = new WstringTypeItemProvider(this);
 		}
@@ -2877,54 +2854,54 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return wstringTypeItemProvider;
 	}
 
-    /**
+	/**
 	 * This returns the root adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ComposeableAdapterFactory getRootAdapterFactory() {
+	public ComposeableAdapterFactory getRootAdapterFactory() {
 		return parentAdapterFactory == null ? this : parentAdapterFactory.getRootAdapterFactory();
 	}
 
-    /**
+	/**
 	 * This sets the composed adapter factory that contains this factory.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setParentAdapterFactory(ComposedAdapterFactory parentAdapterFactory) {
+	public void setParentAdapterFactory(ComposedAdapterFactory parentAdapterFactory) {
 		this.parentAdapterFactory = parentAdapterFactory;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean isFactoryForType(Object type) {
+	@Override
+	public boolean isFactoryForType(Object type) {
 		return supportedTypes.contains(type) || super.isFactoryForType(type);
 	}
 
-    /**
+	/**
 	 * This implementation substitutes the factory itself as the key for the adapter.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Adapter adapt(Notifier notifier, Object type) {
+	@Override
+	public Adapter adapt(Notifier notifier, Object type) {
 		return super.adapt(notifier, this);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object adapt(Object object, Object type) {
+	@Override
+	public Object adapt(Object object, Object type) {
 		if (isFactoryForType(type)) {
 			Object adapter = super.adapt(object, type);
 			if (!(type instanceof Class<?>) || (((Class<?>)type).isInstance(adapter))) {
@@ -2935,33 +2912,33 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		return null;
 	}
 
-    /**
+	/**
 	 * This adds a listener.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void addListener(INotifyChangedListener notifyChangedListener) {
+	public void addListener(INotifyChangedListener notifyChangedListener) {
 		changeNotifier.addListener(notifyChangedListener);
 	}
 
-    /**
+	/**
 	 * This removes a listener.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void removeListener(INotifyChangedListener notifyChangedListener) {
+	public void removeListener(INotifyChangedListener notifyChangedListener) {
 		changeNotifier.removeListener(notifyChangedListener);
 	}
 
-    /**
+	/**
 	 * This delegates to {@link #changeNotifier} and to {@link #parentAdapterFactory}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void fireNotifyChanged(Notification notification) {
+	public void fireNotifyChanged(Notification notification) {
 		changeNotifier.fireNotifyChanged(notification);
 
 		if (parentAdapterFactory != null) {
@@ -2969,13 +2946,13 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		}
 	}
 
-    /**
+	/**
 	 * This disposes all of the item providers created by this factory. 
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void dispose() {
+	public void dispose() {
 		if (accessVariableTypeItemProvider != null) accessVariableTypeItemProvider.dispose();
 		if (actionBlockTypeItemProvider != null) actionBlockTypeItemProvider.dispose();
 		if (actionsTypeItemProvider != null) actionsTypeItemProvider.dispose();
@@ -3012,7 +2989,6 @@ public class Tc60201ItemProviderAdapterFactory extends Tc60201AdapterFactory imp
 		if (dataTypesTypeItemProvider != null) dataTypesTypeItemProvider.dispose();
 		if (dataTypeTypeItemProvider != null) dataTypeTypeItemProvider.dispose();
 		if (derivedTypeItemProvider != null) derivedTypeItemProvider.dispose();
-		if (documentRootItemProvider != null) documentRootItemProvider.dispose();
 		if (enumTypeItemProvider != null) enumTypeItemProvider.dispose();
 		if (errorTypeItemProvider != null) errorTypeItemProvider.dispose();
 		if (externalVarsTypeItemProvider != null) externalVarsTypeItemProvider.dispose();

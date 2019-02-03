@@ -42,231 +42,231 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implements ContentHeaderType {
-    /**
+	/**
 	 * The default value of the '{@link #getComment() <em>Comment</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getComment()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String COMMENT_EDEFAULT = null;
+	protected static final String COMMENT_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getComment() <em>Comment</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getComment()
 	 * @generated
 	 * @ordered
 	 */
-    protected String comment = COMMENT_EDEFAULT;
+	protected String comment = COMMENT_EDEFAULT;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getCoordinateInfo() <em>Coordinate Info</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getCoordinateInfo()
 	 * @generated
 	 * @ordered
 	 */
-    protected CoordinateInfoType coordinateInfo;
+	protected CoordinateInfoType coordinateInfo;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddDataInfo() <em>Add Data Info</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddDataInfo()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddDataInfo addDataInfo;
+	protected AddDataInfo addDataInfo;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The default value of the '{@link #getAuthor() <em>Author</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAuthor()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String AUTHOR_EDEFAULT = null;
+	protected static final String AUTHOR_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAuthor() <em>Author</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAuthor()
 	 * @generated
 	 * @ordered
 	 */
-    protected String author = AUTHOR_EDEFAULT;
+	protected String author = AUTHOR_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getLanguage() <em>Language</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLanguage()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String LANGUAGE_EDEFAULT = null;
+	protected static final String LANGUAGE_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLanguage() <em>Language</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLanguage()
 	 * @generated
 	 * @ordered
 	 */
-    protected String language = LANGUAGE_EDEFAULT;
+	protected String language = LANGUAGE_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getModificationDateTime() <em>Modification Date Time</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getModificationDateTime()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final XMLGregorianCalendar MODIFICATION_DATE_TIME_EDEFAULT = null;
+	protected static final XMLGregorianCalendar MODIFICATION_DATE_TIME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getModificationDateTime() <em>Modification Date Time</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getModificationDateTime()
 	 * @generated
 	 * @ordered
 	 */
-    protected XMLGregorianCalendar modificationDateTime = MODIFICATION_DATE_TIME_EDEFAULT;
+	protected XMLGregorianCalendar modificationDateTime = MODIFICATION_DATE_TIME_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String NAME_EDEFAULT = null;
+	protected static final String NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String name = NAME_EDEFAULT;
+	protected String name = NAME_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getOrganization() <em>Organization</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getOrganization()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String ORGANIZATION_EDEFAULT = null;
+	protected static final String ORGANIZATION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getOrganization() <em>Organization</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getOrganization()
 	 * @generated
 	 * @ordered
 	 */
-    protected String organization = ORGANIZATION_EDEFAULT;
+	protected String organization = ORGANIZATION_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getVersion() <em>Version</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getVersion()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String VERSION_EDEFAULT = null;
+	protected static final String VERSION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getVersion() <em>Version</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getVersion()
 	 * @generated
 	 * @ordered
 	 */
-    protected String version = VERSION_EDEFAULT;
+	protected String version = VERSION_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ContentHeaderTypeImpl() {
+	protected ContentHeaderTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getContentHeaderType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getComment() {
+	public String getComment() {
 		return comment;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setComment(String newComment) {
+	public void setComment(String newComment) {
 		String oldComment = comment;
 		comment = newComment;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__COMMENT, oldComment, comment));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public CoordinateInfoType getCoordinateInfo() {
+	public CoordinateInfoType getCoordinateInfo() {
 		return coordinateInfo;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetCoordinateInfo(CoordinateInfoType newCoordinateInfo, NotificationChain msgs) {
+	public NotificationChain basicSetCoordinateInfo(CoordinateInfoType newCoordinateInfo, NotificationChain msgs) {
 		CoordinateInfoType oldCoordinateInfo = coordinateInfo;
 		coordinateInfo = newCoordinateInfo;
 		if (eNotificationRequired()) {
@@ -276,12 +276,12 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setCoordinateInfo(CoordinateInfoType newCoordinateInfo) {
+	public void setCoordinateInfo(CoordinateInfoType newCoordinateInfo) {
 		if (newCoordinateInfo != coordinateInfo) {
 			NotificationChain msgs = null;
 			if (coordinateInfo != null)
@@ -295,21 +295,21 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__COORDINATE_INFO, newCoordinateInfo, newCoordinateInfo));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddDataInfo getAddDataInfo() {
+	public AddDataInfo getAddDataInfo() {
 		return addDataInfo;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddDataInfo(AddDataInfo newAddDataInfo, NotificationChain msgs) {
+	public NotificationChain basicSetAddDataInfo(AddDataInfo newAddDataInfo, NotificationChain msgs) {
 		AddDataInfo oldAddDataInfo = addDataInfo;
 		addDataInfo = newAddDataInfo;
 		if (eNotificationRequired()) {
@@ -319,12 +319,12 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddDataInfo(AddDataInfo newAddDataInfo) {
+	public void setAddDataInfo(AddDataInfo newAddDataInfo) {
 		if (newAddDataInfo != addDataInfo) {
 			NotificationChain msgs = null;
 			if (addDataInfo != null)
@@ -338,21 +338,21 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__ADD_DATA_INFO, newAddDataInfo, newAddDataInfo));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -362,12 +362,12 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -381,139 +381,139 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getAuthor() {
+	public String getAuthor() {
 		return author;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAuthor(String newAuthor) {
+	public void setAuthor(String newAuthor) {
 		String oldAuthor = author;
 		author = newAuthor;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__AUTHOR, oldAuthor, author));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getLanguage() {
+	public String getLanguage() {
 		return language;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLanguage(String newLanguage) {
+	public void setLanguage(String newLanguage) {
 		String oldLanguage = language;
 		language = newLanguage;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__LANGUAGE, oldLanguage, language));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public XMLGregorianCalendar getModificationDateTime() {
+	public XMLGregorianCalendar getModificationDateTime() {
 		return modificationDateTime;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setModificationDateTime(XMLGregorianCalendar newModificationDateTime) {
+	public void setModificationDateTime(XMLGregorianCalendar newModificationDateTime) {
 		XMLGregorianCalendar oldModificationDateTime = modificationDateTime;
 		modificationDateTime = newModificationDateTime;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__MODIFICATION_DATE_TIME, oldModificationDateTime, modificationDateTime));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getName() {
+	public String getName() {
 		return name;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setName(String newName) {
+	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__NAME, oldName, name));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getOrganization() {
+	public String getOrganization() {
 		return organization;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setOrganization(String newOrganization) {
+	public void setOrganization(String newOrganization) {
 		String oldOrganization = organization;
 		organization = newOrganization;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__ORGANIZATION, oldOrganization, organization));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getVersion() {
+	public String getVersion() {
 		return version;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setVersion(String newVersion) {
+	public void setVersion(String newVersion) {
 		String oldVersion = version;
 		version = newVersion;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONTENT_HEADER_TYPE__VERSION, oldVersion, version));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.CONTENT_HEADER_TYPE__COORDINATE_INFO:
 				return basicSetCoordinateInfo(null, msgs);
@@ -525,13 +525,13 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.CONTENT_HEADER_TYPE__COMMENT:
 				return getComment();
@@ -557,13 +557,13 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.CONTENT_HEADER_TYPE__COMMENT:
 				setComment((String)newValue);
@@ -599,13 +599,13 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONTENT_HEADER_TYPE__COMMENT:
 				setComment(COMMENT_EDEFAULT);
@@ -641,13 +641,13 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONTENT_HEADER_TYPE__COMMENT:
 				return COMMENT_EDEFAULT == null ? comment != null : !COMMENT_EDEFAULT.equals(comment);
@@ -673,13 +673,13 @@ public class ContentHeaderTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

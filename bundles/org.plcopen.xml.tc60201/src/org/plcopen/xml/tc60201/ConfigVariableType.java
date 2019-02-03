@@ -30,14 +30,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface ConfigVariableType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Type</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Type</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Type</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Type</em>' containment reference.
 	 * @see #setType(DataType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigVariableType_Type()
@@ -45,26 +45,26 @@ public interface ConfigVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='type' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    DataType getType();
+	DataType getType();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigVariableType#getType <em>Type</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Type</em>' containment reference.
 	 * @see #getType()
 	 * @generated
 	 */
-    void setType(DataType value);
+	void setType(DataType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Initial Value</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Initial Value</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Initial Value</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Initial Value</em>' containment reference.
 	 * @see #setInitialValue(Value)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigVariableType_InitialValue()
@@ -72,26 +72,26 @@ public interface ConfigVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='initialValue' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    Value getInitialValue();
+	Value getInitialValue();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigVariableType#getInitialValue <em>Initial Value</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Initial Value</em>' containment reference.
 	 * @see #getInitialValue()
 	 * @generated
 	 */
-    void setInitialValue(Value value);
+	void setInitialValue(Value value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Add Data</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Add Data</em>' containment reference.
 	 * @see #setAddData(AddData)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigVariableType_AddData()
@@ -99,26 +99,26 @@ public interface ConfigVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='addData' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    AddData getAddData();
+	AddData getAddData();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigVariableType#getAddData <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Add Data</em>' containment reference.
 	 * @see #getAddData()
 	 * @generated
 	 */
-    void setAddData(AddData value);
+	void setAddData(AddData value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Documentation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Documentation</em>' containment reference.
 	 * @see #setDocumentation(FormattedText)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigVariableType_Documentation()
@@ -126,26 +126,26 @@ public interface ConfigVariableType extends EObject {
 	 *        extendedMetaData="kind='element' name='documentation' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FormattedText getDocumentation();
+	FormattedText getDocumentation();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigVariableType#getDocumentation <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Documentation</em>' containment reference.
 	 * @see #getDocumentation()
 	 * @generated
 	 */
-    void setDocumentation(FormattedText value);
+	void setDocumentation(FormattedText value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Address</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Address</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Address</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Address</em>' attribute.
 	 * @see #setAddress(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConfigVariableType_Address()
@@ -153,22 +153,22 @@ public interface ConfigVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='address'"
 	 * @generated
 	 */
-    String getAddress();
+	String getAddress();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigVariableType#getAddress <em>Address</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Address</em>' attribute.
 	 * @see #getAddress()
 	 * @generated
 	 */
-    void setAddress(String value);
+	void setAddress(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Instance Path And Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Variable name including instance path
 	 * <!-- end-model-doc -->
@@ -179,16 +179,16 @@ public interface ConfigVariableType extends EObject {
 	 *        extendedMetaData="kind='attribute' name='instancePathAndName'"
 	 * @generated
 	 */
-    String getInstancePathAndName();
+	String getInstancePathAndName();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ConfigVariableType#getInstancePathAndName <em>Instance Path And Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Instance Path And Name</em>' attribute.
 	 * @see #getInstancePathAndName()
 	 * @generated
 	 */
-    void setInstancePathAndName(String value);
+	void setInstancePathAndName(String value);
 
 } // ConfigVariableType

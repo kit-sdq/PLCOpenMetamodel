@@ -34,54 +34,54 @@ import org.plcopen.xml.tc60201.TransitionsType;
  * @generated
  */
 public class TransitionsTypeImpl extends MinimalEObjectImpl.Container implements TransitionsType {
-    /**
+	/**
 	 * The cached value of the '{@link #getTransition() <em>Transition</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getTransition()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<TransitionType> transition;
+	protected EList<TransitionType> transition;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected TransitionsTypeImpl() {
+	protected TransitionsTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getTransitionsType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<TransitionType> getTransition() {
+	public EList<TransitionType> getTransition() {
 		if (transition == null) {
 			transition = new EObjectContainmentEList<TransitionType>(TransitionType.class, this, Tc60201Package.TRANSITIONS_TYPE__TRANSITION);
 		}
 		return transition;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.TRANSITIONS_TYPE__TRANSITION:
 				return ((InternalEList<?>)getTransition()).basicRemove(otherEnd, msgs);
@@ -89,13 +89,13 @@ public class TransitionsTypeImpl extends MinimalEObjectImpl.Container implements
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.TRANSITIONS_TYPE__TRANSITION:
 				return getTransition();
@@ -103,14 +103,14 @@ public class TransitionsTypeImpl extends MinimalEObjectImpl.Container implements
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.TRANSITIONS_TYPE__TRANSITION:
 				getTransition().clear();
@@ -120,13 +120,13 @@ public class TransitionsTypeImpl extends MinimalEObjectImpl.Container implements
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.TRANSITIONS_TYPE__TRANSITION:
 				getTransition().clear();
@@ -135,13 +135,13 @@ public class TransitionsTypeImpl extends MinimalEObjectImpl.Container implements
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.TRANSITIONS_TYPE__TRANSITION:
 				return transition != null && !transition.isEmpty();

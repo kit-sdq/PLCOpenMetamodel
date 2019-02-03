@@ -31,60 +31,60 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container implements SubrangeSignedType {
-    /**
+	/**
 	 * The cached value of the '{@link #getRange() <em>Range</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getRange()
 	 * @generated
 	 * @ordered
 	 */
-    protected RangeSigned range;
+	protected RangeSigned range;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getBaseType() <em>Base Type</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getBaseType()
 	 * @generated
 	 * @ordered
 	 */
-    protected DataType baseType;
+	protected DataType baseType;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SubrangeSignedTypeImpl() {
+	protected SubrangeSignedTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getSubrangeSignedType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public RangeSigned getRange() {
+	public RangeSigned getRange() {
 		return range;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetRange(RangeSigned newRange, NotificationChain msgs) {
+	public NotificationChain basicSetRange(RangeSigned newRange, NotificationChain msgs) {
 		RangeSigned oldRange = range;
 		range = newRange;
 		if (eNotificationRequired()) {
@@ -94,12 +94,12 @@ public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setRange(RangeSigned newRange) {
+	public void setRange(RangeSigned newRange) {
 		if (newRange != range) {
 			NotificationChain msgs = null;
 			if (range != null)
@@ -113,21 +113,21 @@ public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.SUBRANGE_SIGNED_TYPE__RANGE, newRange, newRange));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public DataType getBaseType() {
+	public DataType getBaseType() {
 		return baseType;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
+	public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
 		DataType oldBaseType = baseType;
 		baseType = newBaseType;
 		if (eNotificationRequired()) {
@@ -137,12 +137,12 @@ public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setBaseType(DataType newBaseType) {
+	public void setBaseType(DataType newBaseType) {
 		if (newBaseType != baseType) {
 			NotificationChain msgs = null;
 			if (baseType != null)
@@ -156,13 +156,13 @@ public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.SUBRANGE_SIGNED_TYPE__BASE_TYPE, newBaseType, newBaseType));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_SIGNED_TYPE__RANGE:
 				return basicSetRange(null, msgs);
@@ -172,13 +172,13 @@ public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container impleme
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_SIGNED_TYPE__RANGE:
 				return getRange();
@@ -188,13 +188,13 @@ public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container impleme
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_SIGNED_TYPE__RANGE:
 				setRange((RangeSigned)newValue);
@@ -206,13 +206,13 @@ public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container impleme
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_SIGNED_TYPE__RANGE:
 				setRange((RangeSigned)null);
@@ -224,13 +224,13 @@ public class SubrangeSignedTypeImpl extends MinimalEObjectImpl.Container impleme
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_SIGNED_TYPE__RANGE:
 				return range != null;

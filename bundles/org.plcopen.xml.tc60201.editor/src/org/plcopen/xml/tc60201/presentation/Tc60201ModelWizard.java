@@ -76,11 +76,6 @@ import org.plcopen.xml.tc60201.provider.Tc6_xml_v201EditPlugin;
 
 import org.eclipse.core.runtime.Path;
 
-import org.eclipse.emf.ecore.EStructuralFeature;
-
-import org.eclipse.emf.ecore.util.EcoreUtil;
-import org.eclipse.emf.ecore.util.ExtendedMetaData;
-
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.StructuredSelection;
 
@@ -97,143 +92,135 @@ import org.eclipse.ui.PartInitException;
  * @generated
  */
 public class Tc60201ModelWizard extends Wizard implements INewWizard {
-    /**
+	/**
 	 * The supported extensions for created files.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public static final List<String> FILE_EXTENSIONS =
-        Collections.unmodifiableList(Arrays.asList(Tc6_xml_v201EditorPlugin.INSTANCE.getString("_UI_Tc60201EditorFilenameExtensions").split("\\s*,\\s*")));
+	public static final List<String> FILE_EXTENSIONS =
+		Collections.unmodifiableList(Arrays.asList(Tc6_xml_v201EditorPlugin.INSTANCE.getString("_UI_Tc60201EditorFilenameExtensions").split("\\s*,\\s*")));
 
-    /**
+	/**
 	 * A formatted list of supported file extensions, suitable for display.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public static final String FORMATTED_FILE_EXTENSIONS =
-        Tc6_xml_v201EditorPlugin.INSTANCE.getString("_UI_Tc60201EditorFilenameExtensions").replaceAll("\\s*,\\s*", ", ");
+	public static final String FORMATTED_FILE_EXTENSIONS =
+		Tc6_xml_v201EditorPlugin.INSTANCE.getString("_UI_Tc60201EditorFilenameExtensions").replaceAll("\\s*,\\s*", ", ");
 
-    /**
+	/**
 	 * This caches an instance of the model package.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected Tc60201Package tc60201Package = Tc60201Package.eINSTANCE;
+	protected Tc60201Package tc60201Package = Tc60201Package.eINSTANCE;
 
-    /**
+	/**
 	 * This caches an instance of the model factory.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected Tc60201Factory tc60201Factory = tc60201Package.getTc60201Factory();
+	protected Tc60201Factory tc60201Factory = tc60201Package.getTc60201Factory();
 
-    /**
+	/**
 	 * This is the file creation page.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected Tc60201ModelWizardNewFileCreationPage newFileCreationPage;
+	protected Tc60201ModelWizardNewFileCreationPage newFileCreationPage;
 
-    /**
+	/**
 	 * This is the initial object creation page.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected Tc60201ModelWizardInitialObjectCreationPage initialObjectCreationPage;
+	protected Tc60201ModelWizardInitialObjectCreationPage initialObjectCreationPage;
 
-    /**
+	/**
 	 * Remember the selection during initialization for populating the default container.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected IStructuredSelection selection;
+	protected IStructuredSelection selection;
 
-    /**
+	/**
 	 * Remember the workbench during initialization.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected IWorkbench workbench;
+	protected IWorkbench workbench;
 
-    /**
-	 * Caches the names of the features representing global elements.
+	/**
+	 * Caches the names of the types that can be created as the root object.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected List<String> initialObjectNames;
+	protected List<String> initialObjectNames;
 
-    /**
+	/**
 	 * This just records the information.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void init(IWorkbench workbench, IStructuredSelection selection) {
+	public void init(IWorkbench workbench, IStructuredSelection selection) {
 		this.workbench = workbench;
 		this.selection = selection;
 		setWindowTitle(Tc6_xml_v201EditorPlugin.INSTANCE.getString("_UI_Wizard_label"));
 		setDefaultPageImageDescriptor(ExtendedImageRegistry.INSTANCE.getImageDescriptor(Tc6_xml_v201EditorPlugin.INSTANCE.getImage("full/wizban/NewTc60201")));
 	}
 
-    /**
-	 * Returns the names of the features representing global elements.
+	/**
+	 * Returns the names of the types that can be created as the root object.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected Collection<String> getInitialObjectNames() {
+	protected Collection<String> getInitialObjectNames() {
 		if (initialObjectNames == null) {
 			initialObjectNames = new ArrayList<String>();
-			initialObjectNames.add(tc60201Package.getProjectType().getName());
-			/*
-			for (EStructuralFeature eStructuralFeature : ExtendedMetaData.INSTANCE.getAllElements(ExtendedMetaData.INSTANCE.getDocumentRoot(tc60201Package))) {
-				if (eStructuralFeature.isChangeable()) {
-					EClassifier eClassifier = eStructuralFeature.getEType();
-					if (eClassifier instanceof EClass) {
-						EClass eClass = (EClass)eClassifier;
-						if (!eClass.isAbstract()) {
-							initialObjectNames.add(eStructuralFeature.getName());
-						}
+			for (EClassifier eClassifier : tc60201Package.getEClassifiers()) {
+				if (eClassifier instanceof EClass) {
+					EClass eClass = (EClass)eClassifier;
+					if (!eClass.isAbstract()) {
+						initialObjectNames.add(eClass.getName());
 					}
 				}
 			}
-			*/
 			Collections.sort(initialObjectNames, CommonPlugin.INSTANCE.getComparator());
 		}
 		return initialObjectNames;
 	}
 
-    /**
+	/**
 	 * Create a new model.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected EObject createInitialModel() {
-		EClass eClass = ExtendedMetaData.INSTANCE.getDocumentRoot(tc60201Package);
-		EStructuralFeature eStructuralFeature = eClass.getEStructuralFeature(initialObjectCreationPage.getInitialObjectName());
+	protected EObject createInitialModel() {
+		EClass eClass = (EClass)tc60201Package.getEClassifier(initialObjectCreationPage.getInitialObjectName());
 		EObject rootObject = tc60201Factory.create(eClass);
-		rootObject.eSet(eStructuralFeature, EcoreUtil.create((EClass)eStructuralFeature.getEType()));
 		return rootObject;
 	}
 
-    /**
+	/**
 	 * Do the work after everything is specified.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean performFinish() {
+	@Override
+	public boolean performFinish() {
 		try {
 			// Remember the file.
 			//
@@ -317,31 +304,31 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
 		}
 	}
 
-    /**
+	/**
 	 * This is the one page of the wizard.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public class Tc60201ModelWizardNewFileCreationPage extends WizardNewFileCreationPage {
-        /**
+	public class Tc60201ModelWizardNewFileCreationPage extends WizardNewFileCreationPage {
+		/**
 		 * Pass in the selection.
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        public Tc60201ModelWizardNewFileCreationPage(String pageId, IStructuredSelection selection) {
+		public Tc60201ModelWizardNewFileCreationPage(String pageId, IStructuredSelection selection) {
 			super(pageId, selection);
 		}
 
-        /**
+		/**
 		 * The framework calls this to see if the file is correct.
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        @Override
-        protected boolean validatePage() {
+		@Override
+		protected boolean validatePage() {
 			if (super.validatePage()) {
 				String extension = new Path(getFileName()).getFileExtension();
 				if (extension == null || !FILE_EXTENSIONS.contains(extension)) {
@@ -354,61 +341,62 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
 			return false;
 		}
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        public IFile getModelFile() {
+		public IFile getModelFile() {
 			return ResourcesPlugin.getWorkspace().getRoot().getFile(getContainerFullPath().append(getFileName()));
 		}
-    }
+	}
 
-    /**
+	/**
 	 * This is the page where the type of object to create is selected.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public class Tc60201ModelWizardInitialObjectCreationPage extends WizardPage {
-        /**
+	public class Tc60201ModelWizardInitialObjectCreationPage extends WizardPage {
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        protected Combo initialObjectField;
+		protected Combo initialObjectField;
 
-        /**
+		/**
 		 * @generated
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 */
-        protected List<String> encodings;
+		protected List<String> encodings;
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        protected Combo encodingField;
+		protected Combo encodingField;
 
-        /**
+		/**
 		 * Pass in the selection.
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        public Tc60201ModelWizardInitialObjectCreationPage(String pageId) {
+		public Tc60201ModelWizardInitialObjectCreationPage(String pageId) {
 			super(pageId);
 		}
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        public void createControl(Composite parent) {
-			Composite composite = new Composite(parent, SWT.NONE); {
+		public void createControl(Composite parent) {
+			Composite composite = new Composite(parent, SWT.NONE);
+			{
 				GridLayout layout = new GridLayout();
 				layout.numColumns = 1;
 				layout.verticalSpacing = 12;
@@ -474,34 +462,34 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
 			setControl(composite);
 		}
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        protected ModifyListener validator =
-            new ModifyListener() {
+		protected ModifyListener validator =
+			new ModifyListener() {
 				public void modifyText(ModifyEvent e) {
 					setPageComplete(validatePage());
 				}
 			};
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        protected boolean validatePage() {
+		protected boolean validatePage() {
 			return getInitialObjectName() != null && getEncodings().contains(encodingField.getText());
 		}
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        @Override
-        public void setVisible(boolean visible) {
+		@Override
+		public void setVisible(boolean visible) {
 			super.setVisible(visible);
 			if (visible) {
 				if (initialObjectField.getItemCount() == 1) {
@@ -515,12 +503,12 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
 			}
 		}
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        public String getInitialObjectName() {
+		public String getInitialObjectName() {
 			String label = initialObjectField.getText();
 
 			for (String name : getInitialObjectNames()) {
@@ -531,37 +519,37 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
 			return null;
 		}
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        public String getEncoding() {
+		public String getEncoding() {
 			return encodingField.getText();
 		}
 
-        /**
-		 * Returns the label for the specified feature name.
+		/**
+		 * Returns the label for the specified type name.
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        protected String getLabel(String featureName) {
+		protected String getLabel(String typeName) {
 			try {
-				return Tc6_xml_v201EditPlugin.INSTANCE.getString("_UI_DocumentRoot_" + featureName + "_feature");
+				return Tc6_xml_v201EditPlugin.INSTANCE.getString("_UI_" + typeName + "_type");
 			}
 			catch(MissingResourceException mre) {
 				Tc6_xml_v201EditorPlugin.INSTANCE.log(mre);
 			}
-			return featureName;
+			return typeName;
 		}
 
-        /**
+		/**
 		 * <!-- begin-user-doc -->
-         * <!-- end-user-doc -->
+		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-        protected Collection<String> getEncodings() {
+		protected Collection<String> getEncodings() {
 			if (encodings == null) {
 				encodings = new ArrayList<String>();
 				for (StringTokenizer stringTokenizer = new StringTokenizer(Tc6_xml_v201EditorPlugin.INSTANCE.getString("_UI_XMLEncodingChoices")); stringTokenizer.hasMoreTokens(); ) {
@@ -570,16 +558,16 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
 			}
 			return encodings;
 		}
-    }
+	}
 
-    /**
+	/**
 	 * The framework calls this to create the contents of the wizard.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-        @Override
-    public void addPages() {
+		@Override
+	public void addPages() {
 		// Create a page, set the title, and the initial model file name.
 		//
 		newFileCreationPage = new Tc60201ModelWizardNewFileCreationPage("Whatever", selection);
@@ -627,13 +615,13 @@ public class Tc60201ModelWizard extends Wizard implements INewWizard {
 		addPage(initialObjectCreationPage);
 	}
 
-    /**
+	/**
 	 * Get the file from the page.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public IFile getModelFile() {
+	public IFile getModelFile() {
 		return newFileCreationPage.getModelFile();
 	}
 

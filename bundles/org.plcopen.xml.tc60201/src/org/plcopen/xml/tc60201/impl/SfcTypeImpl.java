@@ -29,50 +29,50 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class SfcTypeImpl extends MinimalEObjectImpl.Container implements SfcType {
-    /**
+	/**
 	 * The cached value of the '{@link #getScaling() <em>Scaling</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getScaling()
 	 * @generated
 	 * @ordered
 	 */
-    protected ScalingType scaling;
+	protected ScalingType scaling;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SfcTypeImpl() {
+	protected SfcTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getSfcType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ScalingType getScaling() {
+	public ScalingType getScaling() {
 		return scaling;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetScaling(ScalingType newScaling, NotificationChain msgs) {
+	public NotificationChain basicSetScaling(ScalingType newScaling, NotificationChain msgs) {
 		ScalingType oldScaling = scaling;
 		scaling = newScaling;
 		if (eNotificationRequired()) {
@@ -82,12 +82,12 @@ public class SfcTypeImpl extends MinimalEObjectImpl.Container implements SfcType
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setScaling(ScalingType newScaling) {
+	public void setScaling(ScalingType newScaling) {
 		if (newScaling != scaling) {
 			NotificationChain msgs = null;
 			if (scaling != null)
@@ -101,13 +101,13 @@ public class SfcTypeImpl extends MinimalEObjectImpl.Container implements SfcType
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.SFC_TYPE__SCALING, newScaling, newScaling));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.SFC_TYPE__SCALING:
 				return basicSetScaling(null, msgs);
@@ -115,13 +115,13 @@ public class SfcTypeImpl extends MinimalEObjectImpl.Container implements SfcType
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.SFC_TYPE__SCALING:
 				return getScaling();
@@ -129,13 +129,13 @@ public class SfcTypeImpl extends MinimalEObjectImpl.Container implements SfcType
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.SFC_TYPE__SCALING:
 				setScaling((ScalingType)newValue);
@@ -144,13 +144,13 @@ public class SfcTypeImpl extends MinimalEObjectImpl.Container implements SfcType
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.SFC_TYPE__SCALING:
 				setScaling((ScalingType)null);
@@ -159,13 +159,13 @@ public class SfcTypeImpl extends MinimalEObjectImpl.Container implements SfcType
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.SFC_TYPE__SCALING:
 				return scaling != null;

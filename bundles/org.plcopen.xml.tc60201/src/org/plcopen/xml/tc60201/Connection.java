@@ -33,11 +33,11 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface Connection extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Position</b></em>' containment reference list.
 	 * The list contents are of type {@link org.plcopen.xml.tc60201.Position}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * All positions of the directed connection path. If any positions are given, the list has to contain the first (input pin of the consumer element) as well as the last (output pin of the producer element).
 	 * <!-- end-model-doc -->
@@ -47,16 +47,16 @@ public interface Connection extends EObject {
 	 *        extendedMetaData="kind='element' name='position' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    EList<Position> getPosition();
+	EList<Position> getPosition();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Add Data</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Add Data</em>' containment reference.
 	 * @see #setAddData(AddData)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConnection_AddData()
@@ -64,22 +64,22 @@ public interface Connection extends EObject {
 	 *        extendedMetaData="kind='element' name='addData' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    AddData getAddData();
+	AddData getAddData();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.Connection#getAddData <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Add Data</em>' containment reference.
 	 * @see #getAddData()
 	 * @generated
 	 */
-    void setAddData(AddData value);
+	void setAddData(AddData value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Formal Parameter</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * If present:
 	 * 	  This attribute denotes the name of the VAR_OUTPUT / VAR_IN_OUTparameter of the pou block that is the start of the connection.
@@ -94,26 +94,26 @@ public interface Connection extends EObject {
 	 *        extendedMetaData="kind='attribute' name='formalParameter'"
 	 * @generated
 	 */
-    String getFormalParameter();
+	String getFormalParameter();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.Connection#getFormalParameter <em>Formal Parameter</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Formal Parameter</em>' attribute.
 	 * @see #getFormalParameter()
 	 * @generated
 	 */
-    void setFormalParameter(String value);
+	void setFormalParameter(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Global Id</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Global Id</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Global Id</em>' attribute.
 	 * @see #setGlobalId(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getConnection_GlobalId()
@@ -121,22 +121,22 @@ public interface Connection extends EObject {
 	 *        extendedMetaData="kind='attribute' name='globalId'"
 	 * @generated
 	 */
-    String getGlobalId();
+	String getGlobalId();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.Connection#getGlobalId <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Global Id</em>' attribute.
 	 * @see #getGlobalId()
 	 * @generated
 	 */
-    void setGlobalId(String value);
+	void setGlobalId(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Ref Local Id</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Identifies the element the connection starts from.
 	 * <!-- end-model-doc -->
@@ -147,16 +147,16 @@ public interface Connection extends EObject {
 	 *        extendedMetaData="kind='attribute' name='refLocalId'"
 	 * @generated
 	 */
-    BigInteger getRefLocalId();
+	BigInteger getRefLocalId();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.Connection#getRefLocalId <em>Ref Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Ref Local Id</em>' attribute.
 	 * @see #getRefLocalId()
 	 * @generated
 	 */
-    void setRefLocalId(BigInteger value);
+	void setRefLocalId(BigInteger value);
 
 } // Connection

@@ -40,67 +40,67 @@ import org.plcopen.xml.tc60201.TypesType;
  * @generated
  */
 public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements ProjectType {
-    /**
+	/**
 	 * The cached value of the '{@link #getFileHeader() <em>File Header</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getFileHeader()
 	 * @generated
 	 * @ordered
 	 */
-    protected FileHeaderType fileHeader;
+	protected FileHeaderType fileHeader;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getContentHeader() <em>Content Header</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getContentHeader()
 	 * @generated
 	 * @ordered
 	 */
-    protected ContentHeaderType contentHeader;
+	protected ContentHeaderType contentHeader;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getTypes() <em>Types</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getTypes()
 	 * @generated
 	 * @ordered
 	 */
-    protected TypesType types;
+	protected TypesType types;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getInstances() <em>Instances</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInstances()
 	 * @generated
 	 * @ordered
 	 */
-    protected InstancesType instances;
+	protected InstancesType instances;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getProjectName() <em>Project Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -110,7 +110,7 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 	 */
 	protected static final String PROJECT_NAME_EDEFAULT = null;
 
-				/**
+	/**
 	 * The cached value of the '{@link #getProjectName() <em>Project Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -120,40 +120,40 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 	 */
 	protected String projectName = PROJECT_NAME_EDEFAULT;
 
-				/**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ProjectTypeImpl() {
+	protected ProjectTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getProjectType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FileHeaderType getFileHeader() {
+	public FileHeaderType getFileHeader() {
 		return fileHeader;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetFileHeader(FileHeaderType newFileHeader, NotificationChain msgs) {
+	public NotificationChain basicSetFileHeader(FileHeaderType newFileHeader, NotificationChain msgs) {
 		FileHeaderType oldFileHeader = fileHeader;
 		fileHeader = newFileHeader;
 		if (eNotificationRequired()) {
@@ -163,12 +163,12 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setFileHeader(FileHeaderType newFileHeader) {
+	public void setFileHeader(FileHeaderType newFileHeader) {
 		if (newFileHeader != fileHeader) {
 			NotificationChain msgs = null;
 			if (fileHeader != null)
@@ -182,21 +182,21 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.PROJECT_TYPE__FILE_HEADER, newFileHeader, newFileHeader));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ContentHeaderType getContentHeader() {
+	public ContentHeaderType getContentHeader() {
 		return contentHeader;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetContentHeader(ContentHeaderType newContentHeader, NotificationChain msgs) {
+	public NotificationChain basicSetContentHeader(ContentHeaderType newContentHeader, NotificationChain msgs) {
 		ContentHeaderType oldContentHeader = contentHeader;
 		contentHeader = newContentHeader;
 		if (eNotificationRequired()) {
@@ -206,12 +206,12 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setContentHeader(ContentHeaderType newContentHeader) {
+	public void setContentHeader(ContentHeaderType newContentHeader) {
 		if (newContentHeader != contentHeader) {
 			NotificationChain msgs = null;
 			if (contentHeader != null)
@@ -225,21 +225,21 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.PROJECT_TYPE__CONTENT_HEADER, newContentHeader, newContentHeader));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public TypesType getTypes() {
+	public TypesType getTypes() {
 		return types;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetTypes(TypesType newTypes, NotificationChain msgs) {
+	public NotificationChain basicSetTypes(TypesType newTypes, NotificationChain msgs) {
 		TypesType oldTypes = types;
 		types = newTypes;
 		if (eNotificationRequired()) {
@@ -249,12 +249,12 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setTypes(TypesType newTypes) {
+	public void setTypes(TypesType newTypes) {
 		if (newTypes != types) {
 			NotificationChain msgs = null;
 			if (types != null)
@@ -268,21 +268,21 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.PROJECT_TYPE__TYPES, newTypes, newTypes));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public InstancesType getInstances() {
+	public InstancesType getInstances() {
 		return instances;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetInstances(InstancesType newInstances, NotificationChain msgs) {
+	public NotificationChain basicSetInstances(InstancesType newInstances, NotificationChain msgs) {
 		InstancesType oldInstances = instances;
 		instances = newInstances;
 		if (eNotificationRequired()) {
@@ -292,12 +292,12 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setInstances(InstancesType newInstances) {
+	public void setInstances(InstancesType newInstances) {
 		if (newInstances != instances) {
 			NotificationChain msgs = null;
 			if (instances != null)
@@ -311,21 +311,21 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.PROJECT_TYPE__INSTANCES, newInstances, newInstances));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -335,12 +335,12 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -354,21 +354,21 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.PROJECT_TYPE__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -378,12 +378,12 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -397,7 +397,7 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.PROJECT_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -406,7 +406,7 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return projectName;
 	}
 
-				/**
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -418,13 +418,13 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.PROJECT_TYPE__PROJECT_NAME, oldProjectName, projectName));
 	}
 
-				/**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.PROJECT_TYPE__FILE_HEADER:
 				return basicSetFileHeader(null, msgs);
@@ -442,13 +442,13 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.PROJECT_TYPE__FILE_HEADER:
 				return getFileHeader();
@@ -468,13 +468,13 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.PROJECT_TYPE__FILE_HEADER:
 				setFileHeader((FileHeaderType)newValue);
@@ -501,13 +501,13 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.PROJECT_TYPE__FILE_HEADER:
 				setFileHeader((FileHeaderType)null);
@@ -534,13 +534,13 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.PROJECT_TYPE__FILE_HEADER:
 				return fileHeader != null;
@@ -560,7 +560,7 @@ public class ProjectTypeImpl extends MinimalEObjectImpl.Container implements Pro
 		return super.eIsSet(featureID);
 	}
 
-				/**
+	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated

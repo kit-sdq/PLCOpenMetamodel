@@ -34,110 +34,110 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class InfoTypeImpl extends MinimalEObjectImpl.Container implements InfoType {
-    /**
+	/**
 	 * The cached value of the '{@link #getDescription() <em>Description</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDescription()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText description;
+	protected FormattedText description;
 
-    /**
+	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String NAME_EDEFAULT = null;
+	protected static final String NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String name = NAME_EDEFAULT;
+	protected String name = NAME_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getVendor() <em>Vendor</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getVendor()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String VENDOR_EDEFAULT = null;
+	protected static final String VENDOR_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getVendor() <em>Vendor</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getVendor()
 	 * @generated
 	 * @ordered
 	 */
-    protected String vendor = VENDOR_EDEFAULT;
+	protected String vendor = VENDOR_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getVersion() <em>Version</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getVersion()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal VERSION_EDEFAULT = null;
+	protected static final BigDecimal VERSION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getVersion() <em>Version</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getVersion()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal version = VERSION_EDEFAULT;
+	protected BigDecimal version = VERSION_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InfoTypeImpl() {
+	protected InfoTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getInfoType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDescription() {
+	public FormattedText getDescription() {
 		return description;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDescription(FormattedText newDescription, NotificationChain msgs) {
+	public NotificationChain basicSetDescription(FormattedText newDescription, NotificationChain msgs) {
 		FormattedText oldDescription = description;
 		description = newDescription;
 		if (eNotificationRequired()) {
@@ -147,12 +147,12 @@ public class InfoTypeImpl extends MinimalEObjectImpl.Container implements InfoTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDescription(FormattedText newDescription) {
+	public void setDescription(FormattedText newDescription) {
 		if (newDescription != description) {
 			NotificationChain msgs = null;
 			if (description != null)
@@ -166,76 +166,76 @@ public class InfoTypeImpl extends MinimalEObjectImpl.Container implements InfoTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INFO_TYPE__DESCRIPTION, newDescription, newDescription));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getName() {
+	public String getName() {
 		return name;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setName(String newName) {
+	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INFO_TYPE__NAME, oldName, name));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getVendor() {
+	public String getVendor() {
 		return vendor;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setVendor(String newVendor) {
+	public void setVendor(String newVendor) {
 		String oldVendor = vendor;
 		vendor = newVendor;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INFO_TYPE__VENDOR, oldVendor, vendor));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getVersion() {
+	public BigDecimal getVersion() {
 		return version;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setVersion(BigDecimal newVersion) {
+	public void setVersion(BigDecimal newVersion) {
 		BigDecimal oldVersion = version;
 		version = newVersion;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.INFO_TYPE__VERSION, oldVersion, version));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.INFO_TYPE__DESCRIPTION:
 				return basicSetDescription(null, msgs);
@@ -243,13 +243,13 @@ public class InfoTypeImpl extends MinimalEObjectImpl.Container implements InfoTy
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.INFO_TYPE__DESCRIPTION:
 				return getDescription();
@@ -263,13 +263,13 @@ public class InfoTypeImpl extends MinimalEObjectImpl.Container implements InfoTy
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.INFO_TYPE__DESCRIPTION:
 				setDescription((FormattedText)newValue);
@@ -287,13 +287,13 @@ public class InfoTypeImpl extends MinimalEObjectImpl.Container implements InfoTy
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.INFO_TYPE__DESCRIPTION:
 				setDescription((FormattedText)null);
@@ -311,13 +311,13 @@ public class InfoTypeImpl extends MinimalEObjectImpl.Container implements InfoTy
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.INFO_TYPE__DESCRIPTION:
 				return description != null;
@@ -331,13 +331,13 @@ public class InfoTypeImpl extends MinimalEObjectImpl.Container implements InfoTy
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

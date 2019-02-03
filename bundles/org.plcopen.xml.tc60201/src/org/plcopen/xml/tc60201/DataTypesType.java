@@ -23,21 +23,21 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface DataTypesType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Data Type</b></em>' containment reference list.
 	 * The list contents are of type {@link org.plcopen.xml.tc60201.DataTypeType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Data Type</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Data Type</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Data Type</em>' containment reference list.
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getDataTypesType_DataType()
 	 * @model containment="true"
 	 *        extendedMetaData="kind='element' name='dataType' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    EList<DataTypeType> getDataType();
+	EList<DataTypeType> getDataType();
 
 } // DataTypesType

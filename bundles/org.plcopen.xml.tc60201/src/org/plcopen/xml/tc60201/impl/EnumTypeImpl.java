@@ -31,60 +31,60 @@ import org.plcopen.xml.tc60201.ValuesType;
  * @generated
  */
 public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumType {
-    /**
+	/**
 	 * The cached value of the '{@link #getValues() <em>Values</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getValues()
 	 * @generated
 	 * @ordered
 	 */
-    protected ValuesType values;
+	protected ValuesType values;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getBaseType() <em>Base Type</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getBaseType()
 	 * @generated
 	 * @ordered
 	 */
-    protected DataType baseType;
+	protected DataType baseType;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected EnumTypeImpl() {
+	protected EnumTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getEnumType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ValuesType getValues() {
+	public ValuesType getValues() {
 		return values;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetValues(ValuesType newValues, NotificationChain msgs) {
+	public NotificationChain basicSetValues(ValuesType newValues, NotificationChain msgs) {
 		ValuesType oldValues = values;
 		values = newValues;
 		if (eNotificationRequired()) {
@@ -94,12 +94,12 @@ public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setValues(ValuesType newValues) {
+	public void setValues(ValuesType newValues) {
 		if (newValues != values) {
 			NotificationChain msgs = null;
 			if (values != null)
@@ -113,21 +113,21 @@ public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ENUM_TYPE__VALUES, newValues, newValues));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public DataType getBaseType() {
+	public DataType getBaseType() {
 		return baseType;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
+	public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
 		DataType oldBaseType = baseType;
 		baseType = newBaseType;
 		if (eNotificationRequired()) {
@@ -137,12 +137,12 @@ public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setBaseType(DataType newBaseType) {
+	public void setBaseType(DataType newBaseType) {
 		if (newBaseType != baseType) {
 			NotificationChain msgs = null;
 			if (baseType != null)
@@ -156,13 +156,13 @@ public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ENUM_TYPE__BASE_TYPE, newBaseType, newBaseType));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.ENUM_TYPE__VALUES:
 				return basicSetValues(null, msgs);
@@ -172,13 +172,13 @@ public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumTy
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.ENUM_TYPE__VALUES:
 				return getValues();
@@ -188,13 +188,13 @@ public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumTy
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.ENUM_TYPE__VALUES:
 				setValues((ValuesType)newValue);
@@ -206,13 +206,13 @@ public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumTy
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ENUM_TYPE__VALUES:
 				setValues((ValuesType)null);
@@ -224,13 +224,13 @@ public class EnumTypeImpl extends MinimalEObjectImpl.Container implements EnumTy
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ENUM_TYPE__VALUES:
 				return values != null;

@@ -48,164 +48,164 @@ import org.plcopen.xml.tc60201.VarListConfig;
  * @generated
  */
 public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implements ConfigurationType {
-    /**
+	/**
 	 * The cached value of the '{@link #getResource() <em>Resource</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getResource()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<ResourceType> resource;
+	protected EList<ResourceType> resource;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalVars() <em>Global Vars</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalVars()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<VarList> globalVars;
+	protected EList<VarList> globalVars;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAccessVars() <em>Access Vars</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAccessVars()
 	 * @generated
 	 * @ordered
 	 */
-    protected VarListAccess accessVars;
+	protected VarListAccess accessVars;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getConfigVars() <em>Config Vars</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getConfigVars()
 	 * @generated
 	 * @ordered
 	 */
-    protected VarListConfig configVars;
+	protected VarListConfig configVars;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String GLOBAL_ID_EDEFAULT = null;
+	protected static final String GLOBAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected String globalId = GLOBAL_ID_EDEFAULT;
+	protected String globalId = GLOBAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String NAME_EDEFAULT = null;
+	protected static final String NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String name = NAME_EDEFAULT;
+	protected String name = NAME_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConfigurationTypeImpl() {
+	protected ConfigurationTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getConfigurationType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<ResourceType> getResource() {
+	public EList<ResourceType> getResource() {
 		if (resource == null) {
 			resource = new EObjectContainmentEList<ResourceType>(ResourceType.class, this, Tc60201Package.CONFIGURATION_TYPE__RESOURCE);
 		}
 		return resource;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<VarList> getGlobalVars() {
+	public EList<VarList> getGlobalVars() {
 		if (globalVars == null) {
 			globalVars = new EObjectContainmentEList<VarList>(VarList.class, this, Tc60201Package.CONFIGURATION_TYPE__GLOBAL_VARS);
 		}
 		return globalVars;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public VarListAccess getAccessVars() {
+	public VarListAccess getAccessVars() {
 		return accessVars;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAccessVars(VarListAccess newAccessVars, NotificationChain msgs) {
+	public NotificationChain basicSetAccessVars(VarListAccess newAccessVars, NotificationChain msgs) {
 		VarListAccess oldAccessVars = accessVars;
 		accessVars = newAccessVars;
 		if (eNotificationRequired()) {
@@ -215,12 +215,12 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAccessVars(VarListAccess newAccessVars) {
+	public void setAccessVars(VarListAccess newAccessVars) {
 		if (newAccessVars != accessVars) {
 			NotificationChain msgs = null;
 			if (accessVars != null)
@@ -234,21 +234,21 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ACCESS_VARS, newAccessVars, newAccessVars));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public VarListConfig getConfigVars() {
+	public VarListConfig getConfigVars() {
 		return configVars;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetConfigVars(VarListConfig newConfigVars, NotificationChain msgs) {
+	public NotificationChain basicSetConfigVars(VarListConfig newConfigVars, NotificationChain msgs) {
 		VarListConfig oldConfigVars = configVars;
 		configVars = newConfigVars;
 		if (eNotificationRequired()) {
@@ -258,12 +258,12 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setConfigVars(VarListConfig newConfigVars) {
+	public void setConfigVars(VarListConfig newConfigVars) {
 		if (newConfigVars != configVars) {
 			NotificationChain msgs = null;
 			if (configVars != null)
@@ -277,21 +277,21 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__CONFIG_VARS, newConfigVars, newConfigVars));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -301,12 +301,12 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -320,21 +320,21 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -344,12 +344,12 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -363,55 +363,55 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getGlobalId() {
+	public String getGlobalId() {
 		return globalId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setGlobalId(String newGlobalId) {
+	public void setGlobalId(String newGlobalId) {
 		String oldGlobalId = globalId;
 		globalId = newGlobalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__GLOBAL_ID, oldGlobalId, globalId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getName() {
+	public String getName() {
 		return name;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setName(String newName) {
+	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONFIGURATION_TYPE__NAME, oldName, name));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
 				return ((InternalEList<?>)getResource()).basicRemove(otherEnd, msgs);
@@ -429,13 +429,13 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
 				return getResource();
@@ -457,14 +457,14 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
 				getResource().clear();
@@ -496,13 +496,13 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
 				getResource().clear();
@@ -532,13 +532,13 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONFIGURATION_TYPE__RESOURCE:
 				return resource != null && !resource.isEmpty();
@@ -560,13 +560,13 @@ public class ConfigurationTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

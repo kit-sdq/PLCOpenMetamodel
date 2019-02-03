@@ -29,50 +29,50 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class PointerTypeImpl extends MinimalEObjectImpl.Container implements PointerType {
-    /**
+	/**
 	 * The cached value of the '{@link #getBaseType() <em>Base Type</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getBaseType()
 	 * @generated
 	 * @ordered
 	 */
-    protected DataType baseType;
+	protected DataType baseType;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected PointerTypeImpl() {
+	protected PointerTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getPointerType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public DataType getBaseType() {
+	public DataType getBaseType() {
 		return baseType;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
+	public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
 		DataType oldBaseType = baseType;
 		baseType = newBaseType;
 		if (eNotificationRequired()) {
@@ -82,12 +82,12 @@ public class PointerTypeImpl extends MinimalEObjectImpl.Container implements Poi
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setBaseType(DataType newBaseType) {
+	public void setBaseType(DataType newBaseType) {
 		if (newBaseType != baseType) {
 			NotificationChain msgs = null;
 			if (baseType != null)
@@ -101,13 +101,13 @@ public class PointerTypeImpl extends MinimalEObjectImpl.Container implements Poi
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.POINTER_TYPE__BASE_TYPE, newBaseType, newBaseType));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.POINTER_TYPE__BASE_TYPE:
 				return basicSetBaseType(null, msgs);
@@ -115,13 +115,13 @@ public class PointerTypeImpl extends MinimalEObjectImpl.Container implements Poi
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.POINTER_TYPE__BASE_TYPE:
 				return getBaseType();
@@ -129,13 +129,13 @@ public class PointerTypeImpl extends MinimalEObjectImpl.Container implements Poi
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.POINTER_TYPE__BASE_TYPE:
 				setBaseType((DataType)newValue);
@@ -144,13 +144,13 @@ public class PointerTypeImpl extends MinimalEObjectImpl.Container implements Poi
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.POINTER_TYPE__BASE_TYPE:
 				setBaseType((DataType)null);
@@ -159,13 +159,13 @@ public class PointerTypeImpl extends MinimalEObjectImpl.Container implements Poi
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.POINTER_TYPE__BASE_TYPE:
 				return baseType != null;

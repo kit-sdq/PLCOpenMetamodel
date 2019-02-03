@@ -20,36 +20,36 @@ import org.plcopen.xml.tc60201.*;
  * @generated
  */
 public class Tc60201AdapterFactory extends AdapterFactoryImpl {
-    /**
+	/**
 	 * The cached model package.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected static Tc60201Package modelPackage;
+	protected static Tc60201Package modelPackage;
 
-    /**
+	/**
 	 * Creates an instance of the adapter factory.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Tc60201AdapterFactory() {
+	public Tc60201AdapterFactory() {
 		if (modelPackage == null) {
 			modelPackage = Tc60201Package.eINSTANCE;
 		}
 	}
 
-    /**
+	/**
 	 * Returns whether this factory is applicable for the type of the object.
 	 * <!-- begin-user-doc -->
-     * This implementation returns <code>true</code> if the object is either the model's package or is an instance object of the model.
-     * <!-- end-user-doc -->
+	 * This implementation returns <code>true</code> if the object is either the model's package or is an instance object of the model.
+	 * <!-- end-user-doc -->
 	 * @return whether this factory is applicable for the type of the object.
 	 * @generated
 	 */
-    @Override
-    public boolean isFactoryForType(Object object) {
+	@Override
+	public boolean isFactoryForType(Object object) {
 		if (object == modelPackage) {
 			return true;
 		}
@@ -59,14 +59,14 @@ public class Tc60201AdapterFactory extends AdapterFactoryImpl {
 		return false;
 	}
 
-    /**
+	/**
 	 * The switch that delegates to the <code>createXXX</code> methods.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected Tc60201Switch<Adapter> modelSwitch =
-        new Tc60201Switch<Adapter>() {
+	protected Tc60201Switch<Adapter> modelSwitch =
+		new Tc60201Switch<Adapter>() {
 			@Override
 			public Adapter caseAccessVariableType(AccessVariableType object) {
 				return createAccessVariableTypeAdapter();
@@ -210,10 +210,6 @@ public class Tc60201AdapterFactory extends AdapterFactoryImpl {
 			@Override
 			public Adapter caseDerivedType(DerivedType object) {
 				return createDerivedTypeAdapter();
-			}
-			@Override
-			public Adapter caseDocumentRoot(DocumentRoot object) {
-				return createDocumentRootAdapter();
 			}
 			@Override
 			public Adapter caseEnumType(EnumType object) {
@@ -561,1737 +557,1723 @@ public class Tc60201AdapterFactory extends AdapterFactoryImpl {
 			}
 		};
 
-    /**
+	/**
 	 * Creates an adapter for the <code>target</code>.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param target the object to adapt.
 	 * @return the adapter for the <code>target</code>.
 	 * @generated
 	 */
-    @Override
-    public Adapter createAdapter(Notifier target) {
+	@Override
+	public Adapter createAdapter(Notifier target) {
 		return modelSwitch.doSwitch((EObject)target);
 	}
 
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.AccessVariableType <em>Access Variable Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.AccessVariableType
 	 * @generated
 	 */
-    public Adapter createAccessVariableTypeAdapter() {
+	public Adapter createAccessVariableTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ActionBlockType <em>Action Block Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ActionBlockType
 	 * @generated
 	 */
-    public Adapter createActionBlockTypeAdapter() {
+	public Adapter createActionBlockTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ActionsType <em>Actions Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ActionsType
 	 * @generated
 	 */
-    public Adapter createActionsTypeAdapter() {
+	public Adapter createActionsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ActionType <em>Action Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ActionType
 	 * @generated
 	 */
-    public Adapter createActionTypeAdapter() {
+	public Adapter createActionTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ActionType1 <em>Action Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ActionType1
 	 * @generated
 	 */
-    public Adapter createActionType1Adapter() {
+	public Adapter createActionType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.AddData <em>Add Data</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.AddData
 	 * @generated
 	 */
-    public Adapter createAddDataAdapter() {
+	public Adapter createAddDataAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.AddDataInfo <em>Add Data Info</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.AddDataInfo
 	 * @generated
 	 */
-    public Adapter createAddDataInfoAdapter() {
+	public Adapter createAddDataInfoAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ArrayType <em>Array Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ArrayType
 	 * @generated
 	 */
-    public Adapter createArrayTypeAdapter() {
+	public Adapter createArrayTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ArrayValueType <em>Array Value Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ArrayValueType
 	 * @generated
 	 */
-    public Adapter createArrayValueTypeAdapter() {
+	public Adapter createArrayValueTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.BlockType <em>Block Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.BlockType
 	 * @generated
 	 */
-    public Adapter createBlockTypeAdapter() {
+	public Adapter createBlockTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.Body <em>Body</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.Body
 	 * @generated
 	 */
-    public Adapter createBodyAdapter() {
+	public Adapter createBodyAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.CoilType <em>Coil Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.CoilType
 	 * @generated
 	 */
-    public Adapter createCoilTypeAdapter() {
+	public Adapter createCoilTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.CommentType <em>Comment Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.CommentType
 	 * @generated
 	 */
-    public Adapter createCommentTypeAdapter() {
+	public Adapter createCommentTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConditionType <em>Condition Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConditionType
 	 * @generated
 	 */
-    public Adapter createConditionTypeAdapter() {
+	public Adapter createConditionTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConfigurationsType <em>Configurations Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConfigurationsType
 	 * @generated
 	 */
-    public Adapter createConfigurationsTypeAdapter() {
+	public Adapter createConfigurationsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConfigurationType <em>Configuration Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConfigurationType
 	 * @generated
 	 */
-    public Adapter createConfigurationTypeAdapter() {
+	public Adapter createConfigurationTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConfigVariableType <em>Config Variable Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConfigVariableType
 	 * @generated
 	 */
-    public Adapter createConfigVariableTypeAdapter() {
+	public Adapter createConfigVariableTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.Connection <em>Connection</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.Connection
 	 * @generated
 	 */
-    public Adapter createConnectionAdapter() {
+	public Adapter createConnectionAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectionPointIn <em>Connection Point In</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectionPointIn
 	 * @generated
 	 */
-    public Adapter createConnectionPointInAdapter() {
+	public Adapter createConnectionPointInAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectionPointInType <em>Connection Point In Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectionPointInType
 	 * @generated
 	 */
-    public Adapter createConnectionPointInTypeAdapter() {
+	public Adapter createConnectionPointInTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectionPointOut <em>Connection Point Out</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectionPointOut
 	 * @generated
 	 */
-    public Adapter createConnectionPointOutAdapter() {
+	public Adapter createConnectionPointOutAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectionPointOutActionType <em>Connection Point Out Action Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectionPointOutActionType
 	 * @generated
 	 */
-    public Adapter createConnectionPointOutActionTypeAdapter() {
+	public Adapter createConnectionPointOutActionTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectionPointOutType <em>Connection Point Out Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectionPointOutType
 	 * @generated
 	 */
-    public Adapter createConnectionPointOutTypeAdapter() {
+	public Adapter createConnectionPointOutTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectionPointOutType1 <em>Connection Point Out Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectionPointOutType1
 	 * @generated
 	 */
-    public Adapter createConnectionPointOutType1Adapter() {
+	public Adapter createConnectionPointOutType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectionPointOutType2 <em>Connection Point Out Type2</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectionPointOutType2
 	 * @generated
 	 */
-    public Adapter createConnectionPointOutType2Adapter() {
+	public Adapter createConnectionPointOutType2Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectionPointOutType3 <em>Connection Point Out Type3</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectionPointOutType3
 	 * @generated
 	 */
-    public Adapter createConnectionPointOutType3Adapter() {
+	public Adapter createConnectionPointOutType3Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ConnectorType <em>Connector Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ConnectorType
 	 * @generated
 	 */
-    public Adapter createConnectorTypeAdapter() {
+	public Adapter createConnectorTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ContactType <em>Contact Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ContactType
 	 * @generated
 	 */
-    public Adapter createContactTypeAdapter() {
+	public Adapter createContactTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ContentHeaderType <em>Content Header Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ContentHeaderType
 	 * @generated
 	 */
-    public Adapter createContentHeaderTypeAdapter() {
+	public Adapter createContentHeaderTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ContinuationType <em>Continuation Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ContinuationType
 	 * @generated
 	 */
-    public Adapter createContinuationTypeAdapter() {
+	public Adapter createContinuationTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.CoordinateInfoType <em>Coordinate Info Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.CoordinateInfoType
 	 * @generated
 	 */
-    public Adapter createCoordinateInfoTypeAdapter() {
+	public Adapter createCoordinateInfoTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.DataType <em>Data Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.DataType
 	 * @generated
 	 */
-    public Adapter createDataTypeAdapter() {
+	public Adapter createDataTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.DataType1 <em>Data Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.DataType1
 	 * @generated
 	 */
-    public Adapter createDataType1Adapter() {
+	public Adapter createDataType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.DataTypesType <em>Data Types Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.DataTypesType
 	 * @generated
 	 */
-    public Adapter createDataTypesTypeAdapter() {
+	public Adapter createDataTypesTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.DataTypeType <em>Data Type Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.DataTypeType
 	 * @generated
 	 */
-    public Adapter createDataTypeTypeAdapter() {
+	public Adapter createDataTypeTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.DerivedType <em>Derived Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.DerivedType
 	 * @generated
 	 */
-    public Adapter createDerivedTypeAdapter() {
+	public Adapter createDerivedTypeAdapter() {
 		return null;
 	}
 
-    /**
-	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.DocumentRoot <em>Document Root</em>}'.
-	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see org.plcopen.xml.tc60201.DocumentRoot
-	 * @generated
-	 */
-    public Adapter createDocumentRootAdapter() {
-		return null;
-	}
-
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.EnumType <em>Enum Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.EnumType
 	 * @generated
 	 */
-    public Adapter createEnumTypeAdapter() {
+	public Adapter createEnumTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ErrorType <em>Error Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ErrorType
 	 * @generated
 	 */
-    public Adapter createErrorTypeAdapter() {
+	public Adapter createErrorTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ExternalVarsType <em>External Vars Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ExternalVarsType
 	 * @generated
 	 */
-    public Adapter createExternalVarsTypeAdapter() {
+	public Adapter createExternalVarsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.FbdType <em>Fbd Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.FbdType
 	 * @generated
 	 */
-    public Adapter createFbdTypeAdapter() {
+	public Adapter createFbdTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.FBDType1 <em>FBD Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.FBDType1
 	 * @generated
 	 */
-    public Adapter createFBDType1Adapter() {
+	public Adapter createFBDType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.FileHeaderType <em>File Header Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.FileHeaderType
 	 * @generated
 	 */
-    public Adapter createFileHeaderTypeAdapter() {
+	public Adapter createFileHeaderTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.FormattedText <em>Formatted Text</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.FormattedText
 	 * @generated
 	 */
-    public Adapter createFormattedTextAdapter() {
+	public Adapter createFormattedTextAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.GlobalVarsType <em>Global Vars Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.GlobalVarsType
 	 * @generated
 	 */
-    public Adapter createGlobalVarsTypeAdapter() {
+	public Adapter createGlobalVarsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InfoType <em>Info Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InfoType
 	 * @generated
 	 */
-    public Adapter createInfoTypeAdapter() {
+	public Adapter createInfoTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InlineType <em>Inline Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InlineType
 	 * @generated
 	 */
-    public Adapter createInlineTypeAdapter() {
+	public Adapter createInlineTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InOutVariablesType <em>In Out Variables Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InOutVariablesType
 	 * @generated
 	 */
-    public Adapter createInOutVariablesTypeAdapter() {
+	public Adapter createInOutVariablesTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InOutVariablesType1 <em>In Out Variables Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InOutVariablesType1
 	 * @generated
 	 */
-    public Adapter createInOutVariablesType1Adapter() {
+	public Adapter createInOutVariablesType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InOutVariableType <em>In Out Variable Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InOutVariableType
 	 * @generated
 	 */
-    public Adapter createInOutVariableTypeAdapter() {
+	public Adapter createInOutVariableTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InOutVarsType <em>In Out Vars Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InOutVarsType
 	 * @generated
 	 */
-    public Adapter createInOutVarsTypeAdapter() {
+	public Adapter createInOutVarsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InputVariablesType <em>Input Variables Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InputVariablesType
 	 * @generated
 	 */
-    public Adapter createInputVariablesTypeAdapter() {
+	public Adapter createInputVariablesTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InputVariablesType1 <em>Input Variables Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InputVariablesType1
 	 * @generated
 	 */
-    public Adapter createInputVariablesType1Adapter() {
+	public Adapter createInputVariablesType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InputVarsType <em>Input Vars Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InputVarsType
 	 * @generated
 	 */
-    public Adapter createInputVarsTypeAdapter() {
+	public Adapter createInputVarsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InstancesType <em>Instances Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InstancesType
 	 * @generated
 	 */
-    public Adapter createInstancesTypeAdapter() {
+	public Adapter createInstancesTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InterfaceType <em>Interface Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InterfaceType
 	 * @generated
 	 */
-    public Adapter createInterfaceTypeAdapter() {
+	public Adapter createInterfaceTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.InVariableType <em>In Variable Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.InVariableType
 	 * @generated
 	 */
-    public Adapter createInVariableTypeAdapter() {
+	public Adapter createInVariableTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.JumpStepType <em>Jump Step Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.JumpStepType
 	 * @generated
 	 */
-    public Adapter createJumpStepTypeAdapter() {
+	public Adapter createJumpStepTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.JumpType <em>Jump Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.JumpType
 	 * @generated
 	 */
-    public Adapter createJumpTypeAdapter() {
+	public Adapter createJumpTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.LabelType <em>Label Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.LabelType
 	 * @generated
 	 */
-    public Adapter createLabelTypeAdapter() {
+	public Adapter createLabelTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.LdType <em>Ld Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.LdType
 	 * @generated
 	 */
-    public Adapter createLdTypeAdapter() {
+	public Adapter createLdTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.LDType1 <em>LD Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.LDType1
 	 * @generated
 	 */
-    public Adapter createLDType1Adapter() {
+	public Adapter createLDType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.LeftPowerRailType <em>Left Power Rail Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.LeftPowerRailType
 	 * @generated
 	 */
-    public Adapter createLeftPowerRailTypeAdapter() {
+	public Adapter createLeftPowerRailTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.LocalVarsType <em>Local Vars Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.LocalVarsType
 	 * @generated
 	 */
-    public Adapter createLocalVarsTypeAdapter() {
+	public Adapter createLocalVarsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.MacroStepType <em>Macro Step Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.MacroStepType
 	 * @generated
 	 */
-    public Adapter createMacroStepTypeAdapter() {
+	public Adapter createMacroStepTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.OutputVariablesType <em>Output Variables Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.OutputVariablesType
 	 * @generated
 	 */
-    public Adapter createOutputVariablesTypeAdapter() {
+	public Adapter createOutputVariablesTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.OutputVariablesType1 <em>Output Variables Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.OutputVariablesType1
 	 * @generated
 	 */
-    public Adapter createOutputVariablesType1Adapter() {
+	public Adapter createOutputVariablesType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.OutputVarsType <em>Output Vars Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.OutputVarsType
 	 * @generated
 	 */
-    public Adapter createOutputVarsTypeAdapter() {
+	public Adapter createOutputVarsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.OutVariableType <em>Out Variable Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.OutVariableType
 	 * @generated
 	 */
-    public Adapter createOutVariableTypeAdapter() {
+	public Adapter createOutVariableTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.PageSizeType <em>Page Size Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.PageSizeType
 	 * @generated
 	 */
-    public Adapter createPageSizeTypeAdapter() {
+	public Adapter createPageSizeTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.PointerType <em>Pointer Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.PointerType
 	 * @generated
 	 */
-    public Adapter createPointerTypeAdapter() {
+	public Adapter createPointerTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.Position <em>Position</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.Position
 	 * @generated
 	 */
-    public Adapter createPositionAdapter() {
+	public Adapter createPositionAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.PouInstance <em>Pou Instance</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.PouInstance
 	 * @generated
 	 */
-    public Adapter createPouInstanceAdapter() {
+	public Adapter createPouInstanceAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.PousType <em>Pous Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.PousType
 	 * @generated
 	 */
-    public Adapter createPousTypeAdapter() {
+	public Adapter createPousTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.PouType1 <em>Pou Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.PouType1
 	 * @generated
 	 */
-    public Adapter createPouType1Adapter() {
+	public Adapter createPouType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ProjectType <em>Project Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ProjectType
 	 * @generated
 	 */
-    public Adapter createProjectTypeAdapter() {
+	public Adapter createProjectTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.RangeSigned <em>Range Signed</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.RangeSigned
 	 * @generated
 	 */
-    public Adapter createRangeSignedAdapter() {
+	public Adapter createRangeSignedAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.RangeUnsigned <em>Range Unsigned</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.RangeUnsigned
 	 * @generated
 	 */
-    public Adapter createRangeUnsignedAdapter() {
+	public Adapter createRangeUnsignedAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ReferenceType <em>Reference Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ReferenceType
 	 * @generated
 	 */
-    public Adapter createReferenceTypeAdapter() {
+	public Adapter createReferenceTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ReferenceType1 <em>Reference Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ReferenceType1
 	 * @generated
 	 */
-    public Adapter createReferenceType1Adapter() {
+	public Adapter createReferenceType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ResourceType <em>Resource Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ResourceType
 	 * @generated
 	 */
-    public Adapter createResourceTypeAdapter() {
+	public Adapter createResourceTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ReturnType <em>Return Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ReturnType
 	 * @generated
 	 */
-    public Adapter createReturnTypeAdapter() {
+	public Adapter createReturnTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.RightPowerRailType <em>Right Power Rail Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.RightPowerRailType
 	 * @generated
 	 */
-    public Adapter createRightPowerRailTypeAdapter() {
+	public Adapter createRightPowerRailTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ScalingType <em>Scaling Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ScalingType
 	 * @generated
 	 */
-    public Adapter createScalingTypeAdapter() {
+	public Adapter createScalingTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ScalingType1 <em>Scaling Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ScalingType1
 	 * @generated
 	 */
-    public Adapter createScalingType1Adapter() {
+	public Adapter createScalingType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ScalingType2 <em>Scaling Type2</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ScalingType2
 	 * @generated
 	 */
-    public Adapter createScalingType2Adapter() {
+	public Adapter createScalingType2Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SelectionConvergenceType <em>Selection Convergence Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SelectionConvergenceType
 	 * @generated
 	 */
-    public Adapter createSelectionConvergenceTypeAdapter() {
+	public Adapter createSelectionConvergenceTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SelectionDivergenceType <em>Selection Divergence Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SelectionDivergenceType
 	 * @generated
 	 */
-    public Adapter createSelectionDivergenceTypeAdapter() {
+	public Adapter createSelectionDivergenceTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SfcType <em>Sfc Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SfcType
 	 * @generated
 	 */
-    public Adapter createSfcTypeAdapter() {
+	public Adapter createSfcTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SFCType1 <em>SFC Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SFCType1
 	 * @generated
 	 */
-    public Adapter createSFCType1Adapter() {
+	public Adapter createSFCType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SimpleValueType <em>Simple Value Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SimpleValueType
 	 * @generated
 	 */
-    public Adapter createSimpleValueTypeAdapter() {
+	public Adapter createSimpleValueTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SimultaneousConvergenceType <em>Simultaneous Convergence Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SimultaneousConvergenceType
 	 * @generated
 	 */
-    public Adapter createSimultaneousConvergenceTypeAdapter() {
+	public Adapter createSimultaneousConvergenceTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SimultaneousDivergenceType <em>Simultaneous Divergence Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SimultaneousDivergenceType
 	 * @generated
 	 */
-    public Adapter createSimultaneousDivergenceTypeAdapter() {
+	public Adapter createSimultaneousDivergenceTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.StepType <em>Step Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.StepType
 	 * @generated
 	 */
-    public Adapter createStepTypeAdapter() {
+	public Adapter createStepTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.StringType <em>String Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.StringType
 	 * @generated
 	 */
-    public Adapter createStringTypeAdapter() {
+	public Adapter createStringTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.StructValueType <em>Struct Value Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.StructValueType
 	 * @generated
 	 */
-    public Adapter createStructValueTypeAdapter() {
+	public Adapter createStructValueTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SubrangeSignedType <em>Subrange Signed Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SubrangeSignedType
 	 * @generated
 	 */
-    public Adapter createSubrangeSignedTypeAdapter() {
+	public Adapter createSubrangeSignedTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.SubrangeUnsignedType <em>Subrange Unsigned Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.SubrangeUnsignedType
 	 * @generated
 	 */
-    public Adapter createSubrangeUnsignedTypeAdapter() {
+	public Adapter createSubrangeUnsignedTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.TaskType <em>Task Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.TaskType
 	 * @generated
 	 */
-    public Adapter createTaskTypeAdapter() {
+	public Adapter createTaskTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.TempVarsType <em>Temp Vars Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.TempVarsType
 	 * @generated
 	 */
-    public Adapter createTempVarsTypeAdapter() {
+	public Adapter createTempVarsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.TransitionsType <em>Transitions Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.TransitionsType
 	 * @generated
 	 */
-    public Adapter createTransitionsTypeAdapter() {
+	public Adapter createTransitionsTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.TransitionType <em>Transition Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.TransitionType
 	 * @generated
 	 */
-    public Adapter createTransitionTypeAdapter() {
+	public Adapter createTransitionTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.TransitionType1 <em>Transition Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.TransitionType1
 	 * @generated
 	 */
-    public Adapter createTransitionType1Adapter() {
+	public Adapter createTransitionType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.TypesType <em>Types Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.TypesType
 	 * @generated
 	 */
-    public Adapter createTypesTypeAdapter() {
+	public Adapter createTypesTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.Value <em>Value</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.Value
 	 * @generated
 	 */
-    public Adapter createValueAdapter() {
+	public Adapter createValueAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ValuesType <em>Values Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ValuesType
 	 * @generated
 	 */
-    public Adapter createValuesTypeAdapter() {
+	public Adapter createValuesTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ValueType <em>Value Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ValueType
 	 * @generated
 	 */
-    public Adapter createValueTypeAdapter() {
+	public Adapter createValueTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ValueType1 <em>Value Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ValueType1
 	 * @generated
 	 */
-    public Adapter createValueType1Adapter() {
+	public Adapter createValueType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.ValueType2 <em>Value Type2</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.ValueType2
 	 * @generated
 	 */
-    public Adapter createValueType2Adapter() {
+	public Adapter createValueType2Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VariableType <em>Variable Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VariableType
 	 * @generated
 	 */
-    public Adapter createVariableTypeAdapter() {
+	public Adapter createVariableTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VariableType1 <em>Variable Type1</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VariableType1
 	 * @generated
 	 */
-    public Adapter createVariableType1Adapter() {
+	public Adapter createVariableType1Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VariableType2 <em>Variable Type2</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VariableType2
 	 * @generated
 	 */
-    public Adapter createVariableType2Adapter() {
+	public Adapter createVariableType2Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VariableType3 <em>Variable Type3</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VariableType3
 	 * @generated
 	 */
-    public Adapter createVariableType3Adapter() {
+	public Adapter createVariableType3Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VariableType4 <em>Variable Type4</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VariableType4
 	 * @generated
 	 */
-    public Adapter createVariableType4Adapter() {
+	public Adapter createVariableType4Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VariableType5 <em>Variable Type5</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VariableType5
 	 * @generated
 	 */
-    public Adapter createVariableType5Adapter() {
+	public Adapter createVariableType5Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VariableType6 <em>Variable Type6</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VariableType6
 	 * @generated
 	 */
-    public Adapter createVariableType6Adapter() {
+	public Adapter createVariableType6Adapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VarList <em>Var List</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VarList
 	 * @generated
 	 */
-    public Adapter createVarListAdapter() {
+	public Adapter createVarListAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VarListAccess <em>Var List Access</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VarListAccess
 	 * @generated
 	 */
-    public Adapter createVarListAccessAdapter() {
+	public Adapter createVarListAccessAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VarListConfig <em>Var List Config</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VarListConfig
 	 * @generated
 	 */
-    public Adapter createVarListConfigAdapter() {
+	public Adapter createVarListConfigAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VarListPlain <em>Var List Plain</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VarListPlain
 	 * @generated
 	 */
-    public Adapter createVarListPlainAdapter() {
+	public Adapter createVarListPlainAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.VendorElementType <em>Vendor Element Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.VendorElementType
 	 * @generated
 	 */
-    public Adapter createVendorElementTypeAdapter() {
+	public Adapter createVendorElementTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for an object of class '{@link org.plcopen.xml.tc60201.WstringType <em>Wstring Type</em>}'.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null so that we can easily ignore cases;
-     * it's useful to ignore a case when inheritance will catch all the cases anyway.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null so that we can easily ignore cases;
+	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @see org.plcopen.xml.tc60201.WstringType
 	 * @generated
 	 */
-    public Adapter createWstringTypeAdapter() {
+	public Adapter createWstringTypeAdapter() {
 		return null;
 	}
 
-    /**
+	/**
 	 * Creates a new adapter for the default case.
 	 * <!-- begin-user-doc -->
-     * This default implementation returns null.
-     * <!-- end-user-doc -->
+	 * This default implementation returns null.
+	 * <!-- end-user-doc -->
 	 * @return the new adapter.
 	 * @generated
 	 */
-    public Adapter createEObjectAdapter() {
+	public Adapter createEObjectAdapter() {
 		return null;
 	}
 

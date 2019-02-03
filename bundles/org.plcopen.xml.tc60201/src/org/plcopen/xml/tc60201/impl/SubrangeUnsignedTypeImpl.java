@@ -31,60 +31,60 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container implements SubrangeUnsignedType {
-    /**
+	/**
 	 * The cached value of the '{@link #getRange() <em>Range</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getRange()
 	 * @generated
 	 * @ordered
 	 */
-    protected RangeUnsigned range;
+	protected RangeUnsigned range;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getBaseType() <em>Base Type</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getBaseType()
 	 * @generated
 	 * @ordered
 	 */
-    protected DataType baseType;
+	protected DataType baseType;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected SubrangeUnsignedTypeImpl() {
+	protected SubrangeUnsignedTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getSubrangeUnsignedType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public RangeUnsigned getRange() {
+	public RangeUnsigned getRange() {
 		return range;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetRange(RangeUnsigned newRange, NotificationChain msgs) {
+	public NotificationChain basicSetRange(RangeUnsigned newRange, NotificationChain msgs) {
 		RangeUnsigned oldRange = range;
 		range = newRange;
 		if (eNotificationRequired()) {
@@ -94,12 +94,12 @@ public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container imple
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setRange(RangeUnsigned newRange) {
+	public void setRange(RangeUnsigned newRange) {
 		if (newRange != range) {
 			NotificationChain msgs = null;
 			if (range != null)
@@ -113,21 +113,21 @@ public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container imple
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.SUBRANGE_UNSIGNED_TYPE__RANGE, newRange, newRange));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public DataType getBaseType() {
+	public DataType getBaseType() {
 		return baseType;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
+	public NotificationChain basicSetBaseType(DataType newBaseType, NotificationChain msgs) {
 		DataType oldBaseType = baseType;
 		baseType = newBaseType;
 		if (eNotificationRequired()) {
@@ -137,12 +137,12 @@ public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container imple
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setBaseType(DataType newBaseType) {
+	public void setBaseType(DataType newBaseType) {
 		if (newBaseType != baseType) {
 			NotificationChain msgs = null;
 			if (baseType != null)
@@ -156,13 +156,13 @@ public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container imple
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.SUBRANGE_UNSIGNED_TYPE__BASE_TYPE, newBaseType, newBaseType));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_UNSIGNED_TYPE__RANGE:
 				return basicSetRange(null, msgs);
@@ -172,13 +172,13 @@ public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container imple
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_UNSIGNED_TYPE__RANGE:
 				return getRange();
@@ -188,13 +188,13 @@ public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container imple
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_UNSIGNED_TYPE__RANGE:
 				setRange((RangeUnsigned)newValue);
@@ -206,13 +206,13 @@ public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container imple
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_UNSIGNED_TYPE__RANGE:
 				setRange((RangeUnsigned)null);
@@ -224,13 +224,13 @@ public class SubrangeUnsignedTypeImpl extends MinimalEObjectImpl.Container imple
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.SUBRANGE_UNSIGNED_TYPE__RANGE:
 				return range != null;

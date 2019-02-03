@@ -27,114 +27,114 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class RangeUnsignedImpl extends MinimalEObjectImpl.Container implements RangeUnsigned {
-    /**
+	/**
 	 * The default value of the '{@link #getLower() <em>Lower</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLower()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String LOWER_EDEFAULT = null;
+	protected static final String LOWER_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLower() <em>Lower</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLower()
 	 * @generated
 	 * @ordered
 	 */
-    protected String lower = LOWER_EDEFAULT;
+	protected String lower = LOWER_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getUpper() <em>Upper</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getUpper()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String UPPER_EDEFAULT = null;
+	protected static final String UPPER_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getUpper() <em>Upper</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getUpper()
 	 * @generated
 	 * @ordered
 	 */
-    protected String upper = UPPER_EDEFAULT;
+	protected String upper = UPPER_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected RangeUnsignedImpl() {
+	protected RangeUnsignedImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getRangeUnsigned();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getLower() {
+	public String getLower() {
 		return lower;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLower(String newLower) {
+	public void setLower(String newLower) {
 		String oldLower = lower;
 		lower = newLower;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RANGE_UNSIGNED__LOWER, oldLower, lower));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getUpper() {
+	public String getUpper() {
 		return upper;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setUpper(String newUpper) {
+	public void setUpper(String newUpper) {
 		String oldUpper = upper;
 		upper = newUpper;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.RANGE_UNSIGNED__UPPER, oldUpper, upper));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.RANGE_UNSIGNED__LOWER:
 				return getLower();
@@ -144,13 +144,13 @@ public class RangeUnsignedImpl extends MinimalEObjectImpl.Container implements R
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.RANGE_UNSIGNED__LOWER:
 				setLower((String)newValue);
@@ -162,13 +162,13 @@ public class RangeUnsignedImpl extends MinimalEObjectImpl.Container implements R
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.RANGE_UNSIGNED__LOWER:
 				setLower(LOWER_EDEFAULT);
@@ -180,13 +180,13 @@ public class RangeUnsignedImpl extends MinimalEObjectImpl.Container implements R
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.RANGE_UNSIGNED__LOWER:
 				return LOWER_EDEFAULT == null ? lower != null : !LOWER_EDEFAULT.equals(lower);
@@ -196,13 +196,13 @@ public class RangeUnsignedImpl extends MinimalEObjectImpl.Container implements R
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

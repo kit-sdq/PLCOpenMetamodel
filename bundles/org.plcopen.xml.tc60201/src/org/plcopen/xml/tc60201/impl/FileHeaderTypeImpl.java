@@ -34,319 +34,319 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class FileHeaderTypeImpl extends MinimalEObjectImpl.Container implements FileHeaderType {
-    /**
+	/**
 	 * The default value of the '{@link #getCompanyName() <em>Company Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getCompanyName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String COMPANY_NAME_EDEFAULT = null;
+	protected static final String COMPANY_NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getCompanyName() <em>Company Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getCompanyName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String companyName = COMPANY_NAME_EDEFAULT;
+	protected String companyName = COMPANY_NAME_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getCompanyURL() <em>Company URL</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getCompanyURL()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String COMPANY_URL_EDEFAULT = null;
+	protected static final String COMPANY_URL_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getCompanyURL() <em>Company URL</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getCompanyURL()
 	 * @generated
 	 * @ordered
 	 */
-    protected String companyURL = COMPANY_URL_EDEFAULT;
+	protected String companyURL = COMPANY_URL_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getContentDescription() <em>Content Description</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getContentDescription()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String CONTENT_DESCRIPTION_EDEFAULT = null;
+	protected static final String CONTENT_DESCRIPTION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getContentDescription() <em>Content Description</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getContentDescription()
 	 * @generated
 	 * @ordered
 	 */
-    protected String contentDescription = CONTENT_DESCRIPTION_EDEFAULT;
+	protected String contentDescription = CONTENT_DESCRIPTION_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getCreationDateTime() <em>Creation Date Time</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getCreationDateTime()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final XMLGregorianCalendar CREATION_DATE_TIME_EDEFAULT = null;
+	protected static final XMLGregorianCalendar CREATION_DATE_TIME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getCreationDateTime() <em>Creation Date Time</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getCreationDateTime()
 	 * @generated
 	 * @ordered
 	 */
-    protected XMLGregorianCalendar creationDateTime = CREATION_DATE_TIME_EDEFAULT;
+	protected XMLGregorianCalendar creationDateTime = CREATION_DATE_TIME_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getProductName() <em>Product Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getProductName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String PRODUCT_NAME_EDEFAULT = null;
+	protected static final String PRODUCT_NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getProductName() <em>Product Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getProductName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String productName = PRODUCT_NAME_EDEFAULT;
+	protected String productName = PRODUCT_NAME_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getProductRelease() <em>Product Release</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getProductRelease()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String PRODUCT_RELEASE_EDEFAULT = null;
+	protected static final String PRODUCT_RELEASE_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getProductRelease() <em>Product Release</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getProductRelease()
 	 * @generated
 	 * @ordered
 	 */
-    protected String productRelease = PRODUCT_RELEASE_EDEFAULT;
+	protected String productRelease = PRODUCT_RELEASE_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getProductVersion() <em>Product Version</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getProductVersion()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String PRODUCT_VERSION_EDEFAULT = null;
+	protected static final String PRODUCT_VERSION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getProductVersion() <em>Product Version</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getProductVersion()
 	 * @generated
 	 * @ordered
 	 */
-    protected String productVersion = PRODUCT_VERSION_EDEFAULT;
+	protected String productVersion = PRODUCT_VERSION_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected FileHeaderTypeImpl() {
+	protected FileHeaderTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getFileHeaderType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getCompanyName() {
+	public String getCompanyName() {
 		return companyName;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setCompanyName(String newCompanyName) {
+	public void setCompanyName(String newCompanyName) {
 		String oldCompanyName = companyName;
 		companyName = newCompanyName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.FILE_HEADER_TYPE__COMPANY_NAME, oldCompanyName, companyName));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getCompanyURL() {
+	public String getCompanyURL() {
 		return companyURL;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setCompanyURL(String newCompanyURL) {
+	public void setCompanyURL(String newCompanyURL) {
 		String oldCompanyURL = companyURL;
 		companyURL = newCompanyURL;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.FILE_HEADER_TYPE__COMPANY_URL, oldCompanyURL, companyURL));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getContentDescription() {
+	public String getContentDescription() {
 		return contentDescription;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setContentDescription(String newContentDescription) {
+	public void setContentDescription(String newContentDescription) {
 		String oldContentDescription = contentDescription;
 		contentDescription = newContentDescription;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.FILE_HEADER_TYPE__CONTENT_DESCRIPTION, oldContentDescription, contentDescription));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public XMLGregorianCalendar getCreationDateTime() {
+	public XMLGregorianCalendar getCreationDateTime() {
 		return creationDateTime;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setCreationDateTime(XMLGregorianCalendar newCreationDateTime) {
+	public void setCreationDateTime(XMLGregorianCalendar newCreationDateTime) {
 		XMLGregorianCalendar oldCreationDateTime = creationDateTime;
 		creationDateTime = newCreationDateTime;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.FILE_HEADER_TYPE__CREATION_DATE_TIME, oldCreationDateTime, creationDateTime));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getProductName() {
+	public String getProductName() {
 		return productName;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setProductName(String newProductName) {
+	public void setProductName(String newProductName) {
 		String oldProductName = productName;
 		productName = newProductName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.FILE_HEADER_TYPE__PRODUCT_NAME, oldProductName, productName));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getProductRelease() {
+	public String getProductRelease() {
 		return productRelease;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setProductRelease(String newProductRelease) {
+	public void setProductRelease(String newProductRelease) {
 		String oldProductRelease = productRelease;
 		productRelease = newProductRelease;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.FILE_HEADER_TYPE__PRODUCT_RELEASE, oldProductRelease, productRelease));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getProductVersion() {
+	public String getProductVersion() {
 		return productVersion;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setProductVersion(String newProductVersion) {
+	public void setProductVersion(String newProductVersion) {
 		String oldProductVersion = productVersion;
 		productVersion = newProductVersion;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.FILE_HEADER_TYPE__PRODUCT_VERSION, oldProductVersion, productVersion));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.FILE_HEADER_TYPE__COMPANY_NAME:
 				return getCompanyName();
@@ -366,13 +366,13 @@ public class FileHeaderTypeImpl extends MinimalEObjectImpl.Container implements 
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.FILE_HEADER_TYPE__COMPANY_NAME:
 				setCompanyName((String)newValue);
@@ -399,13 +399,13 @@ public class FileHeaderTypeImpl extends MinimalEObjectImpl.Container implements 
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.FILE_HEADER_TYPE__COMPANY_NAME:
 				setCompanyName(COMPANY_NAME_EDEFAULT);
@@ -432,13 +432,13 @@ public class FileHeaderTypeImpl extends MinimalEObjectImpl.Container implements 
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.FILE_HEADER_TYPE__COMPANY_NAME:
 				return COMPANY_NAME_EDEFAULT == null ? companyName != null : !COMPANY_NAME_EDEFAULT.equals(companyName);
@@ -458,13 +458,13 @@ public class FileHeaderTypeImpl extends MinimalEObjectImpl.Container implements 
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

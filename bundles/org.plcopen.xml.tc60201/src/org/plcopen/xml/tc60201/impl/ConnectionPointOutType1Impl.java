@@ -25,73 +25,73 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class ConnectionPointOutType1Impl extends ConnectionPointOutImpl implements ConnectionPointOutType1 {
-    /**
+	/**
 	 * The default value of the '{@link #getFormalParameter() <em>Formal Parameter</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getFormalParameter()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String FORMAL_PARAMETER_EDEFAULT = null;
+	protected static final String FORMAL_PARAMETER_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getFormalParameter() <em>Formal Parameter</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getFormalParameter()
 	 * @generated
 	 * @ordered
 	 */
-    protected String formalParameter = FORMAL_PARAMETER_EDEFAULT;
+	protected String formalParameter = FORMAL_PARAMETER_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConnectionPointOutType1Impl() {
+	protected ConnectionPointOutType1Impl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getConnectionPointOutType1();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getFormalParameter() {
+	public String getFormalParameter() {
 		return formalParameter;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setFormalParameter(String newFormalParameter) {
+	public void setFormalParameter(String newFormalParameter) {
 		String oldFormalParameter = formalParameter;
 		formalParameter = newFormalParameter;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONNECTION_POINT_OUT_TYPE1__FORMAL_PARAMETER, oldFormalParameter, formalParameter));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT_TYPE1__FORMAL_PARAMETER:
 				return getFormalParameter();
@@ -99,13 +99,13 @@ public class ConnectionPointOutType1Impl extends ConnectionPointOutImpl implemen
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT_TYPE1__FORMAL_PARAMETER:
 				setFormalParameter((String)newValue);
@@ -114,13 +114,13 @@ public class ConnectionPointOutType1Impl extends ConnectionPointOutImpl implemen
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT_TYPE1__FORMAL_PARAMETER:
 				setFormalParameter(FORMAL_PARAMETER_EDEFAULT);
@@ -129,13 +129,13 @@ public class ConnectionPointOutType1Impl extends ConnectionPointOutImpl implemen
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONNECTION_POINT_OUT_TYPE1__FORMAL_PARAMETER:
 				return FORMAL_PARAMETER_EDEFAULT == null ? formalParameter != null : !FORMAL_PARAMETER_EDEFAULT.equals(formalParameter);
@@ -143,13 +143,13 @@ public class ConnectionPointOutType1Impl extends ConnectionPointOutImpl implemen
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

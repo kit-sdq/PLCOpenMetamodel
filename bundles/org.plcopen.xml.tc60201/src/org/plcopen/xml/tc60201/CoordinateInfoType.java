@@ -24,14 +24,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface CoordinateInfoType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Page Size</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Page Size</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Page Size</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Page Size</em>' containment reference.
 	 * @see #setPageSize(PageSizeType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getCoordinateInfoType_PageSize()
@@ -39,26 +39,26 @@ public interface CoordinateInfoType extends EObject {
 	 *        extendedMetaData="kind='element' name='pageSize' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    PageSizeType getPageSize();
+	PageSizeType getPageSize();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.CoordinateInfoType#getPageSize <em>Page Size</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Page Size</em>' containment reference.
 	 * @see #getPageSize()
 	 * @generated
 	 */
-    void setPageSize(PageSizeType value);
+	void setPageSize(PageSizeType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Fbd</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Fbd</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Fbd</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Fbd</em>' containment reference.
 	 * @see #setFbd(FbdType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getCoordinateInfoType_Fbd()
@@ -66,26 +66,26 @@ public interface CoordinateInfoType extends EObject {
 	 *        extendedMetaData="kind='element' name='fbd' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FbdType getFbd();
+	FbdType getFbd();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.CoordinateInfoType#getFbd <em>Fbd</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Fbd</em>' containment reference.
 	 * @see #getFbd()
 	 * @generated
 	 */
-    void setFbd(FbdType value);
+	void setFbd(FbdType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Ld</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Ld</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Ld</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Ld</em>' containment reference.
 	 * @see #setLd(LdType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getCoordinateInfoType_Ld()
@@ -93,26 +93,26 @@ public interface CoordinateInfoType extends EObject {
 	 *        extendedMetaData="kind='element' name='ld' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    LdType getLd();
+	LdType getLd();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.CoordinateInfoType#getLd <em>Ld</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Ld</em>' containment reference.
 	 * @see #getLd()
 	 * @generated
 	 */
-    void setLd(LdType value);
+	void setLd(LdType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Sfc</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Sfc</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Sfc</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Sfc</em>' containment reference.
 	 * @see #setSfc(SfcType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getCoordinateInfoType_Sfc()
@@ -120,16 +120,16 @@ public interface CoordinateInfoType extends EObject {
 	 *        extendedMetaData="kind='element' name='sfc' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    SfcType getSfc();
+	SfcType getSfc();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.CoordinateInfoType#getSfc <em>Sfc</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Sfc</em>' containment reference.
 	 * @see #getSfc()
 	 * @generated
 	 */
-    void setSfc(SfcType value);
+	void setSfc(SfcType value);
 
 } // CoordinateInfoType

@@ -24,24 +24,24 @@ import org.plcopen.xml.tc60201.ValueType;
  * @generated
  */
 public class ValueTypeItemProvider extends ValueItemProvider {
-    /**
+	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ValueTypeItemProvider(AdapterFactory adapterFactory) {
+	public ValueTypeItemProvider(AdapterFactory adapterFactory) {
 		super(adapterFactory);
 	}
 
-    /**
+	/**
 	 * This returns the property descriptors for the adapted class.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public List<IItemPropertyDescriptor> getPropertyDescriptors(Object object) {
+	@Override
+	public List<IItemPropertyDescriptor> getPropertyDescriptors(Object object) {
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
@@ -50,13 +50,13 @@ public class ValueTypeItemProvider extends ValueItemProvider {
 		return itemPropertyDescriptors;
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Member feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addMemberPropertyDescriptor(Object object) {
+	protected void addMemberPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -72,41 +72,41 @@ public class ValueTypeItemProvider extends ValueItemProvider {
 				 null));
 	}
 
-    /**
+	/**
 	 * This returns ValueType.gif.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object getImage(Object object) {
+	@Override
+	public Object getImage(Object object) {
 		return overlayImage(object, getResourceLocator().getImage("full/obj16/ValueType"));
 	}
 
-    /**
+	/**
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String getText(Object object) {
+	@Override
+	public String getText(Object object) {
 		String label = ((ValueType)object).getMember();
 		return label == null || label.length() == 0 ?
 			getString("_UI_ValueType_type") :
 			getString("_UI_ValueType_type") + " " + label;
 	}
-    
+	
 
-    /**
+	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached
 	 * children and by creating a viewer notification, which it passes to {@link #fireNotifyChanged}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void notifyChanged(Notification notification) {
+	@Override
+	public void notifyChanged(Notification notification) {
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(ValueType.class)) {
@@ -117,15 +117,15 @@ public class ValueTypeItemProvider extends ValueItemProvider {
 		super.notifyChanged(notification);
 	}
 
-    /**
+	/**
 	 * This adds {@link org.eclipse.emf.edit.command.CommandParameter}s describing the children
 	 * that can be created under this object.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
+	@Override
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 	}
 

@@ -37,139 +37,139 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container implements AccessVariableType {
-    /**
+	/**
 	 * The cached value of the '{@link #getType() <em>Type</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getType()
 	 * @generated
 	 * @ordered
 	 */
-    protected DataType type;
+	protected DataType type;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getAlias() <em>Alias</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAlias()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String ALIAS_EDEFAULT = null;
+	protected static final String ALIAS_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAlias() <em>Alias</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAlias()
 	 * @generated
 	 * @ordered
 	 */
-    protected String alias = ALIAS_EDEFAULT;
+	protected String alias = ALIAS_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getDirection() <em>Direction</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDirection()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final AccessType DIRECTION_EDEFAULT = AccessType.READ_ONLY;
+	protected static final AccessType DIRECTION_EDEFAULT = AccessType.READ_ONLY;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDirection() <em>Direction</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDirection()
 	 * @generated
 	 * @ordered
 	 */
-    protected AccessType direction = DIRECTION_EDEFAULT;
+	protected AccessType direction = DIRECTION_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Direction attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean directionESet;
+	protected boolean directionESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getInstancePathAndName() <em>Instance Path And Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInstancePathAndName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String INSTANCE_PATH_AND_NAME_EDEFAULT = null;
+	protected static final String INSTANCE_PATH_AND_NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getInstancePathAndName() <em>Instance Path And Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInstancePathAndName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String instancePathAndName = INSTANCE_PATH_AND_NAME_EDEFAULT;
+	protected String instancePathAndName = INSTANCE_PATH_AND_NAME_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected AccessVariableTypeImpl() {
+	protected AccessVariableTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getAccessVariableType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public DataType getType() {
+	public DataType getType() {
 		return type;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetType(DataType newType, NotificationChain msgs) {
+	public NotificationChain basicSetType(DataType newType, NotificationChain msgs) {
 		DataType oldType = type;
 		type = newType;
 		if (eNotificationRequired()) {
@@ -179,12 +179,12 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setType(DataType newType) {
+	public void setType(DataType newType) {
 		if (newType != type) {
 			NotificationChain msgs = null;
 			if (type != null)
@@ -198,21 +198,21 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACCESS_VARIABLE_TYPE__TYPE, newType, newType));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -222,12 +222,12 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -241,21 +241,21 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACCESS_VARIABLE_TYPE__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -265,12 +265,12 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -284,42 +284,42 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACCESS_VARIABLE_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getAlias() {
+	public String getAlias() {
 		return alias;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAlias(String newAlias) {
+	public void setAlias(String newAlias) {
 		String oldAlias = alias;
 		alias = newAlias;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACCESS_VARIABLE_TYPE__ALIAS, oldAlias, alias));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AccessType getDirection() {
+	public AccessType getDirection() {
 		return direction;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDirection(AccessType newDirection) {
+	public void setDirection(AccessType newDirection) {
 		AccessType oldDirection = direction;
 		direction = newDirection == null ? DIRECTION_EDEFAULT : newDirection;
 		boolean oldDirectionESet = directionESet;
@@ -328,12 +328,12 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACCESS_VARIABLE_TYPE__DIRECTION, oldDirection, direction, !oldDirectionESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetDirection() {
+	public void unsetDirection() {
 		AccessType oldDirection = direction;
 		boolean oldDirectionESet = directionESet;
 		direction = DIRECTION_EDEFAULT;
@@ -342,43 +342,43 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.ACCESS_VARIABLE_TYPE__DIRECTION, oldDirection, DIRECTION_EDEFAULT, oldDirectionESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetDirection() {
+	public boolean isSetDirection() {
 		return directionESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getInstancePathAndName() {
+	public String getInstancePathAndName() {
 		return instancePathAndName;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setInstancePathAndName(String newInstancePathAndName) {
+	public void setInstancePathAndName(String newInstancePathAndName) {
 		String oldInstancePathAndName = instancePathAndName;
 		instancePathAndName = newInstancePathAndName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACCESS_VARIABLE_TYPE__INSTANCE_PATH_AND_NAME, oldInstancePathAndName, instancePathAndName));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.ACCESS_VARIABLE_TYPE__TYPE:
 				return basicSetType(null, msgs);
@@ -390,13 +390,13 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.ACCESS_VARIABLE_TYPE__TYPE:
 				return getType();
@@ -414,13 +414,13 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.ACCESS_VARIABLE_TYPE__TYPE:
 				setType((DataType)newValue);
@@ -444,13 +444,13 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ACCESS_VARIABLE_TYPE__TYPE:
 				setType((DataType)null);
@@ -474,13 +474,13 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ACCESS_VARIABLE_TYPE__TYPE:
 				return type != null;
@@ -498,13 +498,13 @@ public class AccessVariableTypeImpl extends MinimalEObjectImpl.Container impleme
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

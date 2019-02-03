@@ -33,70 +33,70 @@ import org.plcopen.xml.tc60201.Value;
  * @generated
  */
 public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
-    /**
+	/**
 	 * The cached value of the '{@link #getSimpleValue() <em>Simple Value</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getSimpleValue()
 	 * @generated
 	 * @ordered
 	 */
-    protected SimpleValueType simpleValue;
+	protected SimpleValueType simpleValue;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getArrayValue() <em>Array Value</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getArrayValue()
 	 * @generated
 	 * @ordered
 	 */
-    protected ArrayValueType arrayValue;
+	protected ArrayValueType arrayValue;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getStructValue() <em>Struct Value</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStructValue()
 	 * @generated
 	 * @ordered
 	 */
-    protected StructValueType structValue;
+	protected StructValueType structValue;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ValueImpl() {
+	protected ValueImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getValue();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public SimpleValueType getSimpleValue() {
+	public SimpleValueType getSimpleValue() {
 		return simpleValue;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetSimpleValue(SimpleValueType newSimpleValue, NotificationChain msgs) {
+	public NotificationChain basicSetSimpleValue(SimpleValueType newSimpleValue, NotificationChain msgs) {
 		SimpleValueType oldSimpleValue = simpleValue;
 		simpleValue = newSimpleValue;
 		if (eNotificationRequired()) {
@@ -106,12 +106,12 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setSimpleValue(SimpleValueType newSimpleValue) {
+	public void setSimpleValue(SimpleValueType newSimpleValue) {
 		if (newSimpleValue != simpleValue) {
 			NotificationChain msgs = null;
 			if (simpleValue != null)
@@ -125,21 +125,21 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VALUE__SIMPLE_VALUE, newSimpleValue, newSimpleValue));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ArrayValueType getArrayValue() {
+	public ArrayValueType getArrayValue() {
 		return arrayValue;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetArrayValue(ArrayValueType newArrayValue, NotificationChain msgs) {
+	public NotificationChain basicSetArrayValue(ArrayValueType newArrayValue, NotificationChain msgs) {
 		ArrayValueType oldArrayValue = arrayValue;
 		arrayValue = newArrayValue;
 		if (eNotificationRequired()) {
@@ -149,12 +149,12 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setArrayValue(ArrayValueType newArrayValue) {
+	public void setArrayValue(ArrayValueType newArrayValue) {
 		if (newArrayValue != arrayValue) {
 			NotificationChain msgs = null;
 			if (arrayValue != null)
@@ -168,21 +168,21 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VALUE__ARRAY_VALUE, newArrayValue, newArrayValue));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public StructValueType getStructValue() {
+	public StructValueType getStructValue() {
 		return structValue;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetStructValue(StructValueType newStructValue, NotificationChain msgs) {
+	public NotificationChain basicSetStructValue(StructValueType newStructValue, NotificationChain msgs) {
 		StructValueType oldStructValue = structValue;
 		structValue = newStructValue;
 		if (eNotificationRequired()) {
@@ -192,12 +192,12 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setStructValue(StructValueType newStructValue) {
+	public void setStructValue(StructValueType newStructValue) {
 		if (newStructValue != structValue) {
 			NotificationChain msgs = null;
 			if (structValue != null)
@@ -211,13 +211,13 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VALUE__STRUCT_VALUE, newStructValue, newStructValue));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.VALUE__SIMPLE_VALUE:
 				return basicSetSimpleValue(null, msgs);
@@ -229,13 +229,13 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.VALUE__SIMPLE_VALUE:
 				return getSimpleValue();
@@ -247,13 +247,13 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.VALUE__SIMPLE_VALUE:
 				setSimpleValue((SimpleValueType)newValue);
@@ -268,13 +268,13 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VALUE__SIMPLE_VALUE:
 				setSimpleValue((SimpleValueType)null);
@@ -289,13 +289,13 @@ public class ValueImpl extends MinimalEObjectImpl.Container implements Value {
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VALUE__SIMPLE_VALUE:
 				return simpleValue != null;

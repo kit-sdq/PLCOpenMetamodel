@@ -68,207 +68,207 @@ import org.plcopen.xml.tc60201.VendorElementType;
  * @generated
  */
 public class LDType1Impl extends MinimalEObjectImpl.Container implements LDType1 {
-    /**
+	/**
 	 * The cached value of the '{@link #getGroup() <em>Group</em>}' attribute list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGroup()
 	 * @generated
 	 * @ordered
 	 */
-    protected FeatureMap group;
+	protected FeatureMap group;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected LDType1Impl() {
+	protected LDType1Impl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getLDType1();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FeatureMap getGroup() {
+	public FeatureMap getGroup() {
 		if (group == null) {
 			group = new BasicFeatureMap(this, Tc60201Package.LD_TYPE1__GROUP);
 		}
 		return group;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<CommentType> getComment() {
+	public EList<CommentType> getComment() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Comment());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<ErrorType> getError() {
+	public EList<ErrorType> getError() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Error());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<ConnectorType> getConnector() {
+	public EList<ConnectorType> getConnector() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Connector());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<ContinuationType> getContinuation() {
+	public EList<ContinuationType> getContinuation() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Continuation());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<ActionBlockType> getActionBlock() {
+	public EList<ActionBlockType> getActionBlock() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_ActionBlock());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<VendorElementType> getVendorElement() {
+	public EList<VendorElementType> getVendorElement() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_VendorElement());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<BlockType> getBlock() {
+	public EList<BlockType> getBlock() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Block());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<InVariableType> getInVariable() {
+	public EList<InVariableType> getInVariable() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_InVariable());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<OutVariableType> getOutVariable() {
+	public EList<OutVariableType> getOutVariable() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_OutVariable());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<InOutVariableType> getInOutVariable() {
+	public EList<InOutVariableType> getInOutVariable() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_InOutVariable());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<LabelType> getLabel() {
+	public EList<LabelType> getLabel() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Label());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<JumpType> getJump() {
+	public EList<JumpType> getJump() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Jump());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<ReturnType> getReturn() {
+	public EList<ReturnType> getReturn() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Return());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<LeftPowerRailType> getLeftPowerRail() {
+	public EList<LeftPowerRailType> getLeftPowerRail() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_LeftPowerRail());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<RightPowerRailType> getRightPowerRail() {
+	public EList<RightPowerRailType> getRightPowerRail() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_RightPowerRail());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<CoilType> getCoil() {
+	public EList<CoilType> getCoil() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Coil());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<ContactType> getContact() {
+	public EList<ContactType> getContact() {
 		return getGroup().list(Tc60201Package.eINSTANCE.getLDType1_Contact());
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE1__GROUP:
 				return ((InternalEList<?>)getGroup()).basicRemove(otherEnd, msgs);
@@ -310,13 +310,13 @@ public class LDType1Impl extends MinimalEObjectImpl.Container implements LDType1
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE1__GROUP:
 				if (coreType) return getGroup();
@@ -359,14 +359,14 @@ public class LDType1Impl extends MinimalEObjectImpl.Container implements LDType1
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE1__GROUP:
 				((FeatureMap.Internal)getGroup()).set(newValue);
@@ -443,13 +443,13 @@ public class LDType1Impl extends MinimalEObjectImpl.Container implements LDType1
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE1__GROUP:
 				getGroup().clear();
@@ -509,13 +509,13 @@ public class LDType1Impl extends MinimalEObjectImpl.Container implements LDType1
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE1__GROUP:
 				return group != null && !group.isEmpty();
@@ -557,13 +557,13 @@ public class LDType1Impl extends MinimalEObjectImpl.Container implements LDType1
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

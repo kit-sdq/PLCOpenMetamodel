@@ -299,12 +299,6 @@ Package tc60201 <http://www.plcopen.org/xml/tc6_0201>
     Reference addData : AddData
     Attribute name : String<<1..1>>
 
-  Class DocumentRoot
-    Attribute mixed : EFeatureMapEntry<<0..*>>
-    Reference xMLNSPrefixMap : EStringToStringMapEntry<<0..*>>
-    Reference xSISchemaLocation : EStringToStringMapEntry<<0..*>>
-    Reference /project : ProjectType<<0..?>>
-
   Class EnumType
     Reference values : ValuesType<<1..1>>
     Reference baseType : DataType

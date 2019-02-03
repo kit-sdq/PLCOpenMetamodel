@@ -18,24 +18,24 @@ import org.eclipse.emf.ecore.xmi.XMLResource;
  * @generated
  */
 public class Tc60201ResourceFactoryImpl extends ResourceFactoryImpl {
-    /**
+	/**
 	 * Creates an instance of the resource factory.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Tc60201ResourceFactoryImpl() {
+	public Tc60201ResourceFactoryImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * Creates an instance of the resource.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Resource createResource(URI uri) {
+	@Override
+	public Resource createResource(URI uri) {
 		XMLResource result = new Tc60201ResourceImpl(uri);
 		result.getDefaultSaveOptions().put(XMLResource.OPTION_EXTENDED_META_DATA, Boolean.TRUE);
 		result.getDefaultLoadOptions().put(XMLResource.OPTION_EXTENDED_META_DATA, Boolean.TRUE);

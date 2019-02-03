@@ -35,111 +35,111 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class DataType1Impl extends MinimalEObjectImpl.Container implements DataType1 {
-    /**
+	/**
 	 * The cached value of the '{@link #getAny() <em>Any</em>}' attribute list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAny()
 	 * @generated
 	 * @ordered
 	 */
-    protected FeatureMap any;
+	protected FeatureMap any;
 
-    /**
+	/**
 	 * The default value of the '{@link #getHandleUnknown() <em>Handle Unknown</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHandleUnknown()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final HandleUnknownType HANDLE_UNKNOWN_EDEFAULT = HandleUnknownType.PRESERVE;
+	protected static final HandleUnknownType HANDLE_UNKNOWN_EDEFAULT = HandleUnknownType.PRESERVE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getHandleUnknown() <em>Handle Unknown</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHandleUnknown()
 	 * @generated
 	 * @ordered
 	 */
-    protected HandleUnknownType handleUnknown = HANDLE_UNKNOWN_EDEFAULT;
+	protected HandleUnknownType handleUnknown = HANDLE_UNKNOWN_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Handle Unknown attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean handleUnknownESet;
+	protected boolean handleUnknownESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String NAME_EDEFAULT = null;
+	protected static final String NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String name = NAME_EDEFAULT;
+	protected String name = NAME_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected DataType1Impl() {
+	protected DataType1Impl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getDataType1();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FeatureMap getAny() {
+	public FeatureMap getAny() {
 		if (any == null) {
 			any = new BasicFeatureMap(this, Tc60201Package.DATA_TYPE1__ANY);
 		}
 		return any;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public HandleUnknownType getHandleUnknown() {
+	public HandleUnknownType getHandleUnknown() {
 		return handleUnknown;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setHandleUnknown(HandleUnknownType newHandleUnknown) {
+	public void setHandleUnknown(HandleUnknownType newHandleUnknown) {
 		HandleUnknownType oldHandleUnknown = handleUnknown;
 		handleUnknown = newHandleUnknown == null ? HANDLE_UNKNOWN_EDEFAULT : newHandleUnknown;
 		boolean oldHandleUnknownESet = handleUnknownESet;
@@ -148,12 +148,12 @@ public class DataType1Impl extends MinimalEObjectImpl.Container implements DataT
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE1__HANDLE_UNKNOWN, oldHandleUnknown, handleUnknown, !oldHandleUnknownESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetHandleUnknown() {
+	public void unsetHandleUnknown() {
 		HandleUnknownType oldHandleUnknown = handleUnknown;
 		boolean oldHandleUnknownESet = handleUnknownESet;
 		handleUnknown = HANDLE_UNKNOWN_EDEFAULT;
@@ -162,43 +162,43 @@ public class DataType1Impl extends MinimalEObjectImpl.Container implements DataT
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.DATA_TYPE1__HANDLE_UNKNOWN, oldHandleUnknown, HANDLE_UNKNOWN_EDEFAULT, oldHandleUnknownESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetHandleUnknown() {
+	public boolean isSetHandleUnknown() {
 		return handleUnknownESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getName() {
+	public String getName() {
 		return name;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setName(String newName) {
+	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE1__NAME, oldName, name));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE1__ANY:
 				return ((InternalEList<?>)getAny()).basicRemove(otherEnd, msgs);
@@ -206,13 +206,13 @@ public class DataType1Impl extends MinimalEObjectImpl.Container implements DataT
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE1__ANY:
 				if (coreType) return getAny();
@@ -225,13 +225,13 @@ public class DataType1Impl extends MinimalEObjectImpl.Container implements DataT
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE1__ANY:
 				((FeatureMap.Internal)getAny()).set(newValue);
@@ -246,13 +246,13 @@ public class DataType1Impl extends MinimalEObjectImpl.Container implements DataT
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE1__ANY:
 				getAny().clear();
@@ -267,13 +267,13 @@ public class DataType1Impl extends MinimalEObjectImpl.Container implements DataT
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE1__ANY:
 				return any != null && !any.isEmpty();
@@ -285,13 +285,13 @@ public class DataType1Impl extends MinimalEObjectImpl.Container implements DataT
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

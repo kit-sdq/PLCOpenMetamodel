@@ -21,111 +21,111 @@ import org.eclipse.emf.common.util.Enumerator;
  * @generated
  */
 public enum StorageModifierType implements Enumerator {
-    /**
+	/**
 	 * The '<em><b>None</b></em>' literal object.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #NONE_VALUE
 	 * @generated
 	 * @ordered
 	 */
-    NONE(0, "none", "none"),
+	NONE(0, "none", "none"),
 
-    /**
+	/**
 	 * The '<em><b>Set</b></em>' literal object.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #SET_VALUE
 	 * @generated
 	 * @ordered
 	 */
-    SET(1, "set", "set"),
+	SET(1, "set", "set"),
 
-    /**
+	/**
 	 * The '<em><b>Reset</b></em>' literal object.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #RESET_VALUE
 	 * @generated
 	 * @ordered
 	 */
-    RESET(2, "reset", "reset");
+	RESET(2, "reset", "reset");
 
-    /**
+	/**
 	 * The '<em><b>None</b></em>' literal value.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>None</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>None</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @see #NONE
 	 * @model name="none"
 	 * @generated
 	 * @ordered
 	 */
-    public static final int NONE_VALUE = 0;
+	public static final int NONE_VALUE = 0;
 
-    /**
+	/**
 	 * The '<em><b>Set</b></em>' literal value.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Set</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>Set</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @see #SET
 	 * @model name="set"
 	 * @generated
 	 * @ordered
 	 */
-    public static final int SET_VALUE = 1;
+	public static final int SET_VALUE = 1;
 
-    /**
+	/**
 	 * The '<em><b>Reset</b></em>' literal value.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of '<em><b>Reset</b></em>' literal object isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>Reset</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @see #RESET
 	 * @model name="reset"
 	 * @generated
 	 * @ordered
 	 */
-    public static final int RESET_VALUE = 2;
+	public static final int RESET_VALUE = 2;
 
-    /**
+	/**
 	 * An array of all the '<em><b>Storage Modifier Type</b></em>' enumerators.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    private static final StorageModifierType[] VALUES_ARRAY =
-        new StorageModifierType[] {
+	private static final StorageModifierType[] VALUES_ARRAY =
+		new StorageModifierType[] {
 			NONE,
 			SET,
 			RESET,
 		};
 
-    /**
+	/**
 	 * A public read-only list of all the '<em><b>Storage Modifier Type</b></em>' enumerators.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public static final List<StorageModifierType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+	public static final List<StorageModifierType> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
 
-    /**
+	/**
 	 * Returns the '<em><b>Storage Modifier Type</b></em>' literal with the specified literal value.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param literal the literal.
 	 * @return the matching enumerator or <code>null</code>.
 	 * @generated
 	 */
-    public static StorageModifierType get(String literal) {
+	public static StorageModifierType get(String literal) {
 		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
 			StorageModifierType result = VALUES_ARRAY[i];
 			if (result.toString().equals(literal)) {
@@ -135,15 +135,15 @@ public enum StorageModifierType implements Enumerator {
 		return null;
 	}
 
-    /**
+	/**
 	 * Returns the '<em><b>Storage Modifier Type</b></em>' literal with the specified name.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param name the name.
 	 * @return the matching enumerator or <code>null</code>.
 	 * @generated
 	 */
-    public static StorageModifierType getByName(String name) {
+	public static StorageModifierType getByName(String name) {
 		for (int i = 0; i < VALUES_ARRAY.length; ++i) {
 			StorageModifierType result = VALUES_ARRAY[i];
 			if (result.getName().equals(name)) {
@@ -153,15 +153,15 @@ public enum StorageModifierType implements Enumerator {
 		return null;
 	}
 
-    /**
+	/**
 	 * Returns the '<em><b>Storage Modifier Type</b></em>' literal with the specified integer value.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the integer value.
 	 * @return the matching enumerator or <code>null</code>.
 	 * @generated
 	 */
-    public static StorageModifierType get(int value) {
+	public static StorageModifierType get(int value) {
 		switch (value) {
 			case NONE_VALUE: return NONE;
 			case SET_VALUE: return SET;
@@ -170,75 +170,75 @@ public enum StorageModifierType implements Enumerator {
 		return null;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    private final int value;
+	private final int value;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    private final String name;
+	private final String name;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    private final String literal;
+	private final String literal;
 
-    /**
+	/**
 	 * Only this class can construct instances.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    private StorageModifierType(int value, String name, String literal) {
+	private StorageModifierType(int value, String name, String literal) {
 		this.value = value;
 		this.name = name;
 		this.literal = literal;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public int getValue() {
+	public int getValue() {
 	  return value;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getName() {
+	public String getName() {
 	  return name;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getLiteral() {
+	public String getLiteral() {
 	  return literal;
 	}
 
-    /**
+	/**
 	 * Returns the literal value of the enumerator, which is its string representation.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		return literal;
 	}
-    
+	
 } //StorageModifierType

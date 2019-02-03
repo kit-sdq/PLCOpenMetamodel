@@ -34,54 +34,54 @@ import org.plcopen.xml.tc60201.VariableType1;
  * @generated
  */
 public class OutputVariablesType1Impl extends MinimalEObjectImpl.Container implements OutputVariablesType1 {
-    /**
+	/**
 	 * The cached value of the '{@link #getVariable() <em>Variable</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getVariable()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<VariableType1> variable;
+	protected EList<VariableType1> variable;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected OutputVariablesType1Impl() {
+	protected OutputVariablesType1Impl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getOutputVariablesType1();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<VariableType1> getVariable() {
+	public EList<VariableType1> getVariable() {
 		if (variable == null) {
 			variable = new EObjectContainmentEList<VariableType1>(VariableType1.class, this, Tc60201Package.OUTPUT_VARIABLES_TYPE1__VARIABLE);
 		}
 		return variable;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.OUTPUT_VARIABLES_TYPE1__VARIABLE:
 				return ((InternalEList<?>)getVariable()).basicRemove(otherEnd, msgs);
@@ -89,13 +89,13 @@ public class OutputVariablesType1Impl extends MinimalEObjectImpl.Container imple
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.OUTPUT_VARIABLES_TYPE1__VARIABLE:
 				return getVariable();
@@ -103,14 +103,14 @@ public class OutputVariablesType1Impl extends MinimalEObjectImpl.Container imple
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.OUTPUT_VARIABLES_TYPE1__VARIABLE:
 				getVariable().clear();
@@ -120,13 +120,13 @@ public class OutputVariablesType1Impl extends MinimalEObjectImpl.Container imple
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.OUTPUT_VARIABLES_TYPE1__VARIABLE:
 				getVariable().clear();
@@ -135,13 +135,13 @@ public class OutputVariablesType1Impl extends MinimalEObjectImpl.Container imple
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.OUTPUT_VARIABLES_TYPE1__VARIABLE:
 				return variable != null && !variable.isEmpty();

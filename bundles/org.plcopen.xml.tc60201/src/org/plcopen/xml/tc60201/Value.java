@@ -27,14 +27,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface Value extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Simple Value</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Simple Value</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Simple Value</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Simple Value</em>' containment reference.
 	 * @see #setSimpleValue(SimpleValueType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getValue_SimpleValue()
@@ -42,26 +42,26 @@ public interface Value extends EObject {
 	 *        extendedMetaData="kind='element' name='simpleValue' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    SimpleValueType getSimpleValue();
+	SimpleValueType getSimpleValue();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.Value#getSimpleValue <em>Simple Value</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Simple Value</em>' containment reference.
 	 * @see #getSimpleValue()
 	 * @generated
 	 */
-    void setSimpleValue(SimpleValueType value);
+	void setSimpleValue(SimpleValueType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Array Value</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Array Value</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Array Value</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Array Value</em>' containment reference.
 	 * @see #setArrayValue(ArrayValueType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getValue_ArrayValue()
@@ -69,26 +69,26 @@ public interface Value extends EObject {
 	 *        extendedMetaData="kind='element' name='arrayValue' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    ArrayValueType getArrayValue();
+	ArrayValueType getArrayValue();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.Value#getArrayValue <em>Array Value</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Array Value</em>' containment reference.
 	 * @see #getArrayValue()
 	 * @generated
 	 */
-    void setArrayValue(ArrayValueType value);
+	void setArrayValue(ArrayValueType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Struct Value</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Struct Value</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Struct Value</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Struct Value</em>' containment reference.
 	 * @see #setStructValue(StructValueType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getValue_StructValue()
@@ -96,16 +96,16 @@ public interface Value extends EObject {
 	 *        extendedMetaData="kind='element' name='structValue' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    StructValueType getStructValue();
+	StructValueType getStructValue();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.Value#getStructValue <em>Struct Value</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Struct Value</em>' containment reference.
 	 * @see #getStructValue()
 	 * @generated
 	 */
-    void setStructValue(StructValueType value);
+	void setStructValue(StructValueType value);
 
 } // Value

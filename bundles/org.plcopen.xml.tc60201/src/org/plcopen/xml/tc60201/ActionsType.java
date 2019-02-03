@@ -23,21 +23,21 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface ActionsType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Action</b></em>' containment reference list.
 	 * The list contents are of type {@link org.plcopen.xml.tc60201.ActionType1}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Action</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Action</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Action</em>' containment reference list.
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getActionsType_Action()
 	 * @model containment="true"
 	 *        extendedMetaData="kind='element' name='action' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    EList<ActionType1> getAction();
+	EList<ActionType1> getAction();
 
 } // ActionsType

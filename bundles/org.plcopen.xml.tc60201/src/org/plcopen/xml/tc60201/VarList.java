@@ -29,15 +29,15 @@ package org.plcopen.xml.tc60201;
  * @generated
  */
 public interface VarList extends VarListPlain {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Constant</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Constant</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Constant</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Constant</em>' attribute.
 	 * @see #isSetConstant()
 	 * @see #unsetConstant()
@@ -47,51 +47,51 @@ public interface VarList extends VarListPlain {
 	 *        extendedMetaData="kind='attribute' name='constant'"
 	 * @generated
 	 */
-    boolean isConstant();
+	boolean isConstant();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VarList#isConstant <em>Constant</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Constant</em>' attribute.
 	 * @see #isSetConstant()
 	 * @see #unsetConstant()
 	 * @see #isConstant()
 	 * @generated
 	 */
-    void setConstant(boolean value);
+	void setConstant(boolean value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VarList#isConstant <em>Constant</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetConstant()
 	 * @see #isConstant()
 	 * @see #setConstant(boolean)
 	 * @generated
 	 */
-    void unsetConstant();
+	void unsetConstant();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VarList#isConstant <em>Constant</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Constant</em>' attribute is set.
 	 * @see #unsetConstant()
 	 * @see #isConstant()
 	 * @see #setConstant(boolean)
 	 * @generated
 	 */
-    boolean isSetConstant();
+	boolean isSetConstant();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Name</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Name</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getVarList_Name()
@@ -99,27 +99,27 @@ public interface VarList extends VarListPlain {
 	 *        extendedMetaData="kind='attribute' name='name'"
 	 * @generated
 	 */
-    String getName();
+	String getName();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VarList#getName <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Name</em>' attribute.
 	 * @see #getName()
 	 * @generated
 	 */
-    void setName(String value);
+	void setName(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Nonpersistent</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nonpersistent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Nonpersistent</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Nonpersistent</em>' attribute.
 	 * @see #isSetNonpersistent()
 	 * @see #unsetNonpersistent()
@@ -129,52 +129,52 @@ public interface VarList extends VarListPlain {
 	 *        extendedMetaData="kind='attribute' name='nonpersistent'"
 	 * @generated
 	 */
-    boolean isNonpersistent();
+	boolean isNonpersistent();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VarList#isNonpersistent <em>Nonpersistent</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Nonpersistent</em>' attribute.
 	 * @see #isSetNonpersistent()
 	 * @see #unsetNonpersistent()
 	 * @see #isNonpersistent()
 	 * @generated
 	 */
-    void setNonpersistent(boolean value);
+	void setNonpersistent(boolean value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VarList#isNonpersistent <em>Nonpersistent</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetNonpersistent()
 	 * @see #isNonpersistent()
 	 * @see #setNonpersistent(boolean)
 	 * @generated
 	 */
-    void unsetNonpersistent();
+	void unsetNonpersistent();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VarList#isNonpersistent <em>Nonpersistent</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Nonpersistent</em>' attribute is set.
 	 * @see #unsetNonpersistent()
 	 * @see #isNonpersistent()
 	 * @see #setNonpersistent(boolean)
 	 * @generated
 	 */
-    boolean isSetNonpersistent();
+	boolean isSetNonpersistent();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Nonretain</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Nonretain</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Nonretain</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Nonretain</em>' attribute.
 	 * @see #isSetNonretain()
 	 * @see #unsetNonretain()
@@ -184,52 +184,52 @@ public interface VarList extends VarListPlain {
 	 *        extendedMetaData="kind='attribute' name='nonretain'"
 	 * @generated
 	 */
-    boolean isNonretain();
+	boolean isNonretain();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VarList#isNonretain <em>Nonretain</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Nonretain</em>' attribute.
 	 * @see #isSetNonretain()
 	 * @see #unsetNonretain()
 	 * @see #isNonretain()
 	 * @generated
 	 */
-    void setNonretain(boolean value);
+	void setNonretain(boolean value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VarList#isNonretain <em>Nonretain</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetNonretain()
 	 * @see #isNonretain()
 	 * @see #setNonretain(boolean)
 	 * @generated
 	 */
-    void unsetNonretain();
+	void unsetNonretain();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VarList#isNonretain <em>Nonretain</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Nonretain</em>' attribute is set.
 	 * @see #unsetNonretain()
 	 * @see #isNonretain()
 	 * @see #setNonretain(boolean)
 	 * @generated
 	 */
-    boolean isSetNonretain();
+	boolean isSetNonretain();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Persistent</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Persistent</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Persistent</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Persistent</em>' attribute.
 	 * @see #isSetPersistent()
 	 * @see #unsetPersistent()
@@ -239,52 +239,52 @@ public interface VarList extends VarListPlain {
 	 *        extendedMetaData="kind='attribute' name='persistent'"
 	 * @generated
 	 */
-    boolean isPersistent();
+	boolean isPersistent();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VarList#isPersistent <em>Persistent</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Persistent</em>' attribute.
 	 * @see #isSetPersistent()
 	 * @see #unsetPersistent()
 	 * @see #isPersistent()
 	 * @generated
 	 */
-    void setPersistent(boolean value);
+	void setPersistent(boolean value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VarList#isPersistent <em>Persistent</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetPersistent()
 	 * @see #isPersistent()
 	 * @see #setPersistent(boolean)
 	 * @generated
 	 */
-    void unsetPersistent();
+	void unsetPersistent();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VarList#isPersistent <em>Persistent</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Persistent</em>' attribute is set.
 	 * @see #unsetPersistent()
 	 * @see #isPersistent()
 	 * @see #setPersistent(boolean)
 	 * @generated
 	 */
-    boolean isSetPersistent();
+	boolean isSetPersistent();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Retain</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Retain</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Retain</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Retain</em>' attribute.
 	 * @see #isSetRetain()
 	 * @see #unsetRetain()
@@ -294,41 +294,41 @@ public interface VarList extends VarListPlain {
 	 *        extendedMetaData="kind='attribute' name='retain'"
 	 * @generated
 	 */
-    boolean isRetain();
+	boolean isRetain();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VarList#isRetain <em>Retain</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Retain</em>' attribute.
 	 * @see #isSetRetain()
 	 * @see #unsetRetain()
 	 * @see #isRetain()
 	 * @generated
 	 */
-    void setRetain(boolean value);
+	void setRetain(boolean value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VarList#isRetain <em>Retain</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetRetain()
 	 * @see #isRetain()
 	 * @see #setRetain(boolean)
 	 * @generated
 	 */
-    void unsetRetain();
+	void unsetRetain();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VarList#isRetain <em>Retain</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Retain</em>' attribute is set.
 	 * @see #unsetRetain()
 	 * @see #isRetain()
 	 * @see #setRetain(boolean)
 	 * @generated
 	 */
-    boolean isSetRetain();
+	boolean isSetRetain();
 
 } // VarList

@@ -25,69 +25,69 @@ import org.plcopen.xml.tc60201.ValueType1;
  * @generated
  */
 public class ValueType1Impl extends ValueImpl implements ValueType1 {
-    /**
+	/**
 	 * The default value of the '{@link #getRepetitionValue() <em>Repetition Value</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getRepetitionValue()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String REPETITION_VALUE_EDEFAULT = "1";
+	protected static final String REPETITION_VALUE_EDEFAULT = "1";
 
-    /**
+	/**
 	 * The cached value of the '{@link #getRepetitionValue() <em>Repetition Value</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getRepetitionValue()
 	 * @generated
 	 * @ordered
 	 */
-    protected String repetitionValue = REPETITION_VALUE_EDEFAULT;
+	protected String repetitionValue = REPETITION_VALUE_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Repetition Value attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean repetitionValueESet;
+	protected boolean repetitionValueESet;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ValueType1Impl() {
+	protected ValueType1Impl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getValueType1();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getRepetitionValue() {
+	public String getRepetitionValue() {
 		return repetitionValue;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setRepetitionValue(String newRepetitionValue) {
+	public void setRepetitionValue(String newRepetitionValue) {
 		String oldRepetitionValue = repetitionValue;
 		repetitionValue = newRepetitionValue;
 		boolean oldRepetitionValueESet = repetitionValueESet;
@@ -96,12 +96,12 @@ public class ValueType1Impl extends ValueImpl implements ValueType1 {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VALUE_TYPE1__REPETITION_VALUE, oldRepetitionValue, repetitionValue, !oldRepetitionValueESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetRepetitionValue() {
+	public void unsetRepetitionValue() {
 		String oldRepetitionValue = repetitionValue;
 		boolean oldRepetitionValueESet = repetitionValueESet;
 		repetitionValue = REPETITION_VALUE_EDEFAULT;
@@ -110,22 +110,22 @@ public class ValueType1Impl extends ValueImpl implements ValueType1 {
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VALUE_TYPE1__REPETITION_VALUE, oldRepetitionValue, REPETITION_VALUE_EDEFAULT, oldRepetitionValueESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetRepetitionValue() {
+	public boolean isSetRepetitionValue() {
 		return repetitionValueESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.VALUE_TYPE1__REPETITION_VALUE:
 				return getRepetitionValue();
@@ -133,13 +133,13 @@ public class ValueType1Impl extends ValueImpl implements ValueType1 {
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.VALUE_TYPE1__REPETITION_VALUE:
 				setRepetitionValue((String)newValue);
@@ -148,13 +148,13 @@ public class ValueType1Impl extends ValueImpl implements ValueType1 {
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VALUE_TYPE1__REPETITION_VALUE:
 				unsetRepetitionValue();
@@ -163,13 +163,13 @@ public class ValueType1Impl extends ValueImpl implements ValueType1 {
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VALUE_TYPE1__REPETITION_VALUE:
 				return isSetRepetitionValue();
@@ -177,13 +177,13 @@ public class ValueType1Impl extends ValueImpl implements ValueType1 {
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

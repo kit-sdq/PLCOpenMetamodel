@@ -75,420 +75,420 @@ import org.plcopen.xml.tc60201.WstringType;
  * @generated
  */
 public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataType {
-    /**
+	/**
 	 * The cached value of the '{@link #getBOOL() <em>BOOL</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getBOOL()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject bool;
+	protected EObject bool;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getBYTE() <em>BYTE</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getBYTE()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject byte_;
+	protected EObject byte_;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getWORD() <em>WORD</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWORD()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject word;
+	protected EObject word;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDWORD() <em>DWORD</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDWORD()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject dword;
+	protected EObject dword;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLWORD() <em>LWORD</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLWORD()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject lword;
+	protected EObject lword;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getSINT() <em>SINT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getSINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject sint;
+	protected EObject sint;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getINT() <em>INT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject int_;
+	protected EObject int_;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDINT() <em>DINT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject dint;
+	protected EObject dint;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLINT() <em>LINT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject lint;
+	protected EObject lint;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getUSINT() <em>USINT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getUSINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject usint;
+	protected EObject usint;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getUINT() <em>UINT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getUINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject uint;
+	protected EObject uint;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getUDINT() <em>UDINT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getUDINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject udint;
+	protected EObject udint;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getULINT() <em>ULINT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getULINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject ulint;
+	protected EObject ulint;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getREAL() <em>REAL</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getREAL()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject real;
+	protected EObject real;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLREAL() <em>LREAL</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLREAL()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject lreal;
+	protected EObject lreal;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getTIME() <em>TIME</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getTIME()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject time;
+	protected EObject time;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDATE() <em>DATE</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDATE()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject date;
+	protected EObject date;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDT() <em>DT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject dt;
+	protected EObject dt;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getTOD() <em>TOD</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getTOD()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject tod;
+	protected EObject tod;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getString() <em>String</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getString()
 	 * @generated
 	 * @ordered
 	 */
-    protected StringType string;
+	protected StringType string;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getWstring() <em>Wstring</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWstring()
 	 * @generated
 	 * @ordered
 	 */
-    protected WstringType wstring;
+	protected WstringType wstring;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANY() <em>ANY</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANY()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject any;
+	protected EObject any;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYDERIVED() <em>ANYDERIVED</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYDERIVED()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anyderived;
+	protected EObject anyderived;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYELEMENTARY() <em>ANYELEMENTARY</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYELEMENTARY()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anyelementary;
+	protected EObject anyelementary;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYMAGNITUDE() <em>ANYMAGNITUDE</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYMAGNITUDE()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anymagnitude;
+	protected EObject anymagnitude;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYNUM() <em>ANYNUM</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYNUM()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anynum;
+	protected EObject anynum;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYREAL() <em>ANYREAL</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYREAL()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anyreal;
+	protected EObject anyreal;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYINT() <em>ANYINT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYINT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anyint;
+	protected EObject anyint;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYBIT() <em>ANYBIT</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYBIT()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anybit;
+	protected EObject anybit;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYSTRING() <em>ANYSTRING</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYSTRING()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anystring;
+	protected EObject anystring;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getANYDATE() <em>ANYDATE</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getANYDATE()
 	 * @generated
 	 * @ordered
 	 */
-    protected EObject anydate;
+	protected EObject anydate;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getArray() <em>Array</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getArray()
 	 * @generated
 	 * @ordered
 	 */
-    protected ArrayType array;
+	protected ArrayType array;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDerived() <em>Derived</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDerived()
 	 * @generated
 	 * @ordered
 	 */
-    protected DerivedType derived;
+	protected DerivedType derived;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getEnum() <em>Enum</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEnum()
 	 * @generated
 	 * @ordered
 	 */
-    protected EnumType enum_;
+	protected EnumType enum_;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getStruct() <em>Struct</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStruct()
 	 * @generated
 	 * @ordered
 	 */
-    protected VarListPlain struct;
+	protected VarListPlain struct;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getSubrangeSigned() <em>Subrange Signed</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getSubrangeSigned()
 	 * @generated
 	 * @ordered
 	 */
-    protected SubrangeSignedType subrangeSigned;
+	protected SubrangeSignedType subrangeSigned;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getSubrangeUnsigned() <em>Subrange Unsigned</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getSubrangeUnsigned()
 	 * @generated
 	 * @ordered
 	 */
-    protected SubrangeUnsignedType subrangeUnsigned;
+	protected SubrangeUnsignedType subrangeUnsigned;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getPointer() <em>Pointer</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getPointer()
 	 * @generated
 	 * @ordered
 	 */
-    protected PointerType pointer;
+	protected PointerType pointer;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected DataTypeImpl() {
+	protected DataTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getDataType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getBOOL() {
+	public EObject getBOOL() {
 		return bool;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetBOOL(EObject newBOOL, NotificationChain msgs) {
+	public NotificationChain basicSetBOOL(EObject newBOOL, NotificationChain msgs) {
 		EObject oldBOOL = bool;
 		bool = newBOOL;
 		if (eNotificationRequired()) {
@@ -498,12 +498,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setBOOL(EObject newBOOL) {
+	public void setBOOL(EObject newBOOL) {
 		if (newBOOL != bool) {
 			NotificationChain msgs = null;
 			if (bool != null)
@@ -517,21 +517,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__BOOL, newBOOL, newBOOL));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getBYTE() {
+	public EObject getBYTE() {
 		return byte_;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetBYTE(EObject newBYTE, NotificationChain msgs) {
+	public NotificationChain basicSetBYTE(EObject newBYTE, NotificationChain msgs) {
 		EObject oldBYTE = byte_;
 		byte_ = newBYTE;
 		if (eNotificationRequired()) {
@@ -541,12 +541,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setBYTE(EObject newBYTE) {
+	public void setBYTE(EObject newBYTE) {
 		if (newBYTE != byte_) {
 			NotificationChain msgs = null;
 			if (byte_ != null)
@@ -560,21 +560,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__BYTE, newBYTE, newBYTE));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getWORD() {
+	public EObject getWORD() {
 		return word;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetWORD(EObject newWORD, NotificationChain msgs) {
+	public NotificationChain basicSetWORD(EObject newWORD, NotificationChain msgs) {
 		EObject oldWORD = word;
 		word = newWORD;
 		if (eNotificationRequired()) {
@@ -584,12 +584,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setWORD(EObject newWORD) {
+	public void setWORD(EObject newWORD) {
 		if (newWORD != word) {
 			NotificationChain msgs = null;
 			if (word != null)
@@ -603,21 +603,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__WORD, newWORD, newWORD));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getDWORD() {
+	public EObject getDWORD() {
 		return dword;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDWORD(EObject newDWORD, NotificationChain msgs) {
+	public NotificationChain basicSetDWORD(EObject newDWORD, NotificationChain msgs) {
 		EObject oldDWORD = dword;
 		dword = newDWORD;
 		if (eNotificationRequired()) {
@@ -627,12 +627,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDWORD(EObject newDWORD) {
+	public void setDWORD(EObject newDWORD) {
 		if (newDWORD != dword) {
 			NotificationChain msgs = null;
 			if (dword != null)
@@ -646,21 +646,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__DWORD, newDWORD, newDWORD));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getLWORD() {
+	public EObject getLWORD() {
 		return lword;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetLWORD(EObject newLWORD, NotificationChain msgs) {
+	public NotificationChain basicSetLWORD(EObject newLWORD, NotificationChain msgs) {
 		EObject oldLWORD = lword;
 		lword = newLWORD;
 		if (eNotificationRequired()) {
@@ -670,12 +670,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLWORD(EObject newLWORD) {
+	public void setLWORD(EObject newLWORD) {
 		if (newLWORD != lword) {
 			NotificationChain msgs = null;
 			if (lword != null)
@@ -689,21 +689,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__LWORD, newLWORD, newLWORD));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getSINT() {
+	public EObject getSINT() {
 		return sint;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetSINT(EObject newSINT, NotificationChain msgs) {
+	public NotificationChain basicSetSINT(EObject newSINT, NotificationChain msgs) {
 		EObject oldSINT = sint;
 		sint = newSINT;
 		if (eNotificationRequired()) {
@@ -713,12 +713,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setSINT(EObject newSINT) {
+	public void setSINT(EObject newSINT) {
 		if (newSINT != sint) {
 			NotificationChain msgs = null;
 			if (sint != null)
@@ -732,21 +732,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__SINT, newSINT, newSINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getINT() {
+	public EObject getINT() {
 		return int_;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetINT(EObject newINT, NotificationChain msgs) {
+	public NotificationChain basicSetINT(EObject newINT, NotificationChain msgs) {
 		EObject oldINT = int_;
 		int_ = newINT;
 		if (eNotificationRequired()) {
@@ -756,12 +756,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setINT(EObject newINT) {
+	public void setINT(EObject newINT) {
 		if (newINT != int_) {
 			NotificationChain msgs = null;
 			if (int_ != null)
@@ -775,21 +775,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__INT, newINT, newINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getDINT() {
+	public EObject getDINT() {
 		return dint;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDINT(EObject newDINT, NotificationChain msgs) {
+	public NotificationChain basicSetDINT(EObject newDINT, NotificationChain msgs) {
 		EObject oldDINT = dint;
 		dint = newDINT;
 		if (eNotificationRequired()) {
@@ -799,12 +799,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDINT(EObject newDINT) {
+	public void setDINT(EObject newDINT) {
 		if (newDINT != dint) {
 			NotificationChain msgs = null;
 			if (dint != null)
@@ -818,21 +818,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__DINT, newDINT, newDINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getLINT() {
+	public EObject getLINT() {
 		return lint;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetLINT(EObject newLINT, NotificationChain msgs) {
+	public NotificationChain basicSetLINT(EObject newLINT, NotificationChain msgs) {
 		EObject oldLINT = lint;
 		lint = newLINT;
 		if (eNotificationRequired()) {
@@ -842,12 +842,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLINT(EObject newLINT) {
+	public void setLINT(EObject newLINT) {
 		if (newLINT != lint) {
 			NotificationChain msgs = null;
 			if (lint != null)
@@ -861,21 +861,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__LINT, newLINT, newLINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getUSINT() {
+	public EObject getUSINT() {
 		return usint;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetUSINT(EObject newUSINT, NotificationChain msgs) {
+	public NotificationChain basicSetUSINT(EObject newUSINT, NotificationChain msgs) {
 		EObject oldUSINT = usint;
 		usint = newUSINT;
 		if (eNotificationRequired()) {
@@ -885,12 +885,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setUSINT(EObject newUSINT) {
+	public void setUSINT(EObject newUSINT) {
 		if (newUSINT != usint) {
 			NotificationChain msgs = null;
 			if (usint != null)
@@ -904,21 +904,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__USINT, newUSINT, newUSINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getUINT() {
+	public EObject getUINT() {
 		return uint;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetUINT(EObject newUINT, NotificationChain msgs) {
+	public NotificationChain basicSetUINT(EObject newUINT, NotificationChain msgs) {
 		EObject oldUINT = uint;
 		uint = newUINT;
 		if (eNotificationRequired()) {
@@ -928,12 +928,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setUINT(EObject newUINT) {
+	public void setUINT(EObject newUINT) {
 		if (newUINT != uint) {
 			NotificationChain msgs = null;
 			if (uint != null)
@@ -947,21 +947,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__UINT, newUINT, newUINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getUDINT() {
+	public EObject getUDINT() {
 		return udint;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetUDINT(EObject newUDINT, NotificationChain msgs) {
+	public NotificationChain basicSetUDINT(EObject newUDINT, NotificationChain msgs) {
 		EObject oldUDINT = udint;
 		udint = newUDINT;
 		if (eNotificationRequired()) {
@@ -971,12 +971,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setUDINT(EObject newUDINT) {
+	public void setUDINT(EObject newUDINT) {
 		if (newUDINT != udint) {
 			NotificationChain msgs = null;
 			if (udint != null)
@@ -990,21 +990,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__UDINT, newUDINT, newUDINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getULINT() {
+	public EObject getULINT() {
 		return ulint;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetULINT(EObject newULINT, NotificationChain msgs) {
+	public NotificationChain basicSetULINT(EObject newULINT, NotificationChain msgs) {
 		EObject oldULINT = ulint;
 		ulint = newULINT;
 		if (eNotificationRequired()) {
@@ -1014,12 +1014,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setULINT(EObject newULINT) {
+	public void setULINT(EObject newULINT) {
 		if (newULINT != ulint) {
 			NotificationChain msgs = null;
 			if (ulint != null)
@@ -1033,21 +1033,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ULINT, newULINT, newULINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getREAL() {
+	public EObject getREAL() {
 		return real;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetREAL(EObject newREAL, NotificationChain msgs) {
+	public NotificationChain basicSetREAL(EObject newREAL, NotificationChain msgs) {
 		EObject oldREAL = real;
 		real = newREAL;
 		if (eNotificationRequired()) {
@@ -1057,12 +1057,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setREAL(EObject newREAL) {
+	public void setREAL(EObject newREAL) {
 		if (newREAL != real) {
 			NotificationChain msgs = null;
 			if (real != null)
@@ -1076,21 +1076,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__REAL, newREAL, newREAL));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getLREAL() {
+	public EObject getLREAL() {
 		return lreal;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetLREAL(EObject newLREAL, NotificationChain msgs) {
+	public NotificationChain basicSetLREAL(EObject newLREAL, NotificationChain msgs) {
 		EObject oldLREAL = lreal;
 		lreal = newLREAL;
 		if (eNotificationRequired()) {
@@ -1100,12 +1100,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLREAL(EObject newLREAL) {
+	public void setLREAL(EObject newLREAL) {
 		if (newLREAL != lreal) {
 			NotificationChain msgs = null;
 			if (lreal != null)
@@ -1119,21 +1119,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__LREAL, newLREAL, newLREAL));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getTIME() {
+	public EObject getTIME() {
 		return time;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetTIME(EObject newTIME, NotificationChain msgs) {
+	public NotificationChain basicSetTIME(EObject newTIME, NotificationChain msgs) {
 		EObject oldTIME = time;
 		time = newTIME;
 		if (eNotificationRequired()) {
@@ -1143,12 +1143,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setTIME(EObject newTIME) {
+	public void setTIME(EObject newTIME) {
 		if (newTIME != time) {
 			NotificationChain msgs = null;
 			if (time != null)
@@ -1162,21 +1162,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__TIME, newTIME, newTIME));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getDATE() {
+	public EObject getDATE() {
 		return date;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDATE(EObject newDATE, NotificationChain msgs) {
+	public NotificationChain basicSetDATE(EObject newDATE, NotificationChain msgs) {
 		EObject oldDATE = date;
 		date = newDATE;
 		if (eNotificationRequired()) {
@@ -1186,12 +1186,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDATE(EObject newDATE) {
+	public void setDATE(EObject newDATE) {
 		if (newDATE != date) {
 			NotificationChain msgs = null;
 			if (date != null)
@@ -1205,21 +1205,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__DATE, newDATE, newDATE));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getDT() {
+	public EObject getDT() {
 		return dt;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDT(EObject newDT, NotificationChain msgs) {
+	public NotificationChain basicSetDT(EObject newDT, NotificationChain msgs) {
 		EObject oldDT = dt;
 		dt = newDT;
 		if (eNotificationRequired()) {
@@ -1229,12 +1229,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDT(EObject newDT) {
+	public void setDT(EObject newDT) {
 		if (newDT != dt) {
 			NotificationChain msgs = null;
 			if (dt != null)
@@ -1248,21 +1248,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__DT, newDT, newDT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getTOD() {
+	public EObject getTOD() {
 		return tod;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetTOD(EObject newTOD, NotificationChain msgs) {
+	public NotificationChain basicSetTOD(EObject newTOD, NotificationChain msgs) {
 		EObject oldTOD = tod;
 		tod = newTOD;
 		if (eNotificationRequired()) {
@@ -1272,12 +1272,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setTOD(EObject newTOD) {
+	public void setTOD(EObject newTOD) {
 		if (newTOD != tod) {
 			NotificationChain msgs = null;
 			if (tod != null)
@@ -1291,21 +1291,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__TOD, newTOD, newTOD));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public StringType getString() {
+	public StringType getString() {
 		return string;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetString(StringType newString, NotificationChain msgs) {
+	public NotificationChain basicSetString(StringType newString, NotificationChain msgs) {
 		StringType oldString = string;
 		string = newString;
 		if (eNotificationRequired()) {
@@ -1315,12 +1315,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setString(StringType newString) {
+	public void setString(StringType newString) {
 		if (newString != string) {
 			NotificationChain msgs = null;
 			if (string != null)
@@ -1334,21 +1334,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__STRING, newString, newString));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public WstringType getWstring() {
+	public WstringType getWstring() {
 		return wstring;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetWstring(WstringType newWstring, NotificationChain msgs) {
+	public NotificationChain basicSetWstring(WstringType newWstring, NotificationChain msgs) {
 		WstringType oldWstring = wstring;
 		wstring = newWstring;
 		if (eNotificationRequired()) {
@@ -1358,12 +1358,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setWstring(WstringType newWstring) {
+	public void setWstring(WstringType newWstring) {
 		if (newWstring != wstring) {
 			NotificationChain msgs = null;
 			if (wstring != null)
@@ -1377,21 +1377,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__WSTRING, newWstring, newWstring));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANY() {
+	public EObject getANY() {
 		return any;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANY(EObject newANY, NotificationChain msgs) {
+	public NotificationChain basicSetANY(EObject newANY, NotificationChain msgs) {
 		EObject oldANY = any;
 		any = newANY;
 		if (eNotificationRequired()) {
@@ -1401,12 +1401,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANY(EObject newANY) {
+	public void setANY(EObject newANY) {
 		if (newANY != any) {
 			NotificationChain msgs = null;
 			if (any != null)
@@ -1420,21 +1420,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANY, newANY, newANY));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYDERIVED() {
+	public EObject getANYDERIVED() {
 		return anyderived;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYDERIVED(EObject newANYDERIVED, NotificationChain msgs) {
+	public NotificationChain basicSetANYDERIVED(EObject newANYDERIVED, NotificationChain msgs) {
 		EObject oldANYDERIVED = anyderived;
 		anyderived = newANYDERIVED;
 		if (eNotificationRequired()) {
@@ -1444,12 +1444,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYDERIVED(EObject newANYDERIVED) {
+	public void setANYDERIVED(EObject newANYDERIVED) {
 		if (newANYDERIVED != anyderived) {
 			NotificationChain msgs = null;
 			if (anyderived != null)
@@ -1463,21 +1463,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYDERIVED, newANYDERIVED, newANYDERIVED));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYELEMENTARY() {
+	public EObject getANYELEMENTARY() {
 		return anyelementary;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYELEMENTARY(EObject newANYELEMENTARY, NotificationChain msgs) {
+	public NotificationChain basicSetANYELEMENTARY(EObject newANYELEMENTARY, NotificationChain msgs) {
 		EObject oldANYELEMENTARY = anyelementary;
 		anyelementary = newANYELEMENTARY;
 		if (eNotificationRequired()) {
@@ -1487,12 +1487,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYELEMENTARY(EObject newANYELEMENTARY) {
+	public void setANYELEMENTARY(EObject newANYELEMENTARY) {
 		if (newANYELEMENTARY != anyelementary) {
 			NotificationChain msgs = null;
 			if (anyelementary != null)
@@ -1506,21 +1506,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYELEMENTARY, newANYELEMENTARY, newANYELEMENTARY));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYMAGNITUDE() {
+	public EObject getANYMAGNITUDE() {
 		return anymagnitude;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYMAGNITUDE(EObject newANYMAGNITUDE, NotificationChain msgs) {
+	public NotificationChain basicSetANYMAGNITUDE(EObject newANYMAGNITUDE, NotificationChain msgs) {
 		EObject oldANYMAGNITUDE = anymagnitude;
 		anymagnitude = newANYMAGNITUDE;
 		if (eNotificationRequired()) {
@@ -1530,12 +1530,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYMAGNITUDE(EObject newANYMAGNITUDE) {
+	public void setANYMAGNITUDE(EObject newANYMAGNITUDE) {
 		if (newANYMAGNITUDE != anymagnitude) {
 			NotificationChain msgs = null;
 			if (anymagnitude != null)
@@ -1549,21 +1549,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYMAGNITUDE, newANYMAGNITUDE, newANYMAGNITUDE));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYNUM() {
+	public EObject getANYNUM() {
 		return anynum;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYNUM(EObject newANYNUM, NotificationChain msgs) {
+	public NotificationChain basicSetANYNUM(EObject newANYNUM, NotificationChain msgs) {
 		EObject oldANYNUM = anynum;
 		anynum = newANYNUM;
 		if (eNotificationRequired()) {
@@ -1573,12 +1573,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYNUM(EObject newANYNUM) {
+	public void setANYNUM(EObject newANYNUM) {
 		if (newANYNUM != anynum) {
 			NotificationChain msgs = null;
 			if (anynum != null)
@@ -1592,21 +1592,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYNUM, newANYNUM, newANYNUM));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYREAL() {
+	public EObject getANYREAL() {
 		return anyreal;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYREAL(EObject newANYREAL, NotificationChain msgs) {
+	public NotificationChain basicSetANYREAL(EObject newANYREAL, NotificationChain msgs) {
 		EObject oldANYREAL = anyreal;
 		anyreal = newANYREAL;
 		if (eNotificationRequired()) {
@@ -1616,12 +1616,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYREAL(EObject newANYREAL) {
+	public void setANYREAL(EObject newANYREAL) {
 		if (newANYREAL != anyreal) {
 			NotificationChain msgs = null;
 			if (anyreal != null)
@@ -1635,21 +1635,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYREAL, newANYREAL, newANYREAL));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYINT() {
+	public EObject getANYINT() {
 		return anyint;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYINT(EObject newANYINT, NotificationChain msgs) {
+	public NotificationChain basicSetANYINT(EObject newANYINT, NotificationChain msgs) {
 		EObject oldANYINT = anyint;
 		anyint = newANYINT;
 		if (eNotificationRequired()) {
@@ -1659,12 +1659,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYINT(EObject newANYINT) {
+	public void setANYINT(EObject newANYINT) {
 		if (newANYINT != anyint) {
 			NotificationChain msgs = null;
 			if (anyint != null)
@@ -1678,21 +1678,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYINT, newANYINT, newANYINT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYBIT() {
+	public EObject getANYBIT() {
 		return anybit;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYBIT(EObject newANYBIT, NotificationChain msgs) {
+	public NotificationChain basicSetANYBIT(EObject newANYBIT, NotificationChain msgs) {
 		EObject oldANYBIT = anybit;
 		anybit = newANYBIT;
 		if (eNotificationRequired()) {
@@ -1702,12 +1702,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYBIT(EObject newANYBIT) {
+	public void setANYBIT(EObject newANYBIT) {
 		if (newANYBIT != anybit) {
 			NotificationChain msgs = null;
 			if (anybit != null)
@@ -1721,21 +1721,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYBIT, newANYBIT, newANYBIT));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYSTRING() {
+	public EObject getANYSTRING() {
 		return anystring;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYSTRING(EObject newANYSTRING, NotificationChain msgs) {
+	public NotificationChain basicSetANYSTRING(EObject newANYSTRING, NotificationChain msgs) {
 		EObject oldANYSTRING = anystring;
 		anystring = newANYSTRING;
 		if (eNotificationRequired()) {
@@ -1745,12 +1745,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYSTRING(EObject newANYSTRING) {
+	public void setANYSTRING(EObject newANYSTRING) {
 		if (newANYSTRING != anystring) {
 			NotificationChain msgs = null;
 			if (anystring != null)
@@ -1764,21 +1764,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYSTRING, newANYSTRING, newANYSTRING));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EObject getANYDATE() {
+	public EObject getANYDATE() {
 		return anydate;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetANYDATE(EObject newANYDATE, NotificationChain msgs) {
+	public NotificationChain basicSetANYDATE(EObject newANYDATE, NotificationChain msgs) {
 		EObject oldANYDATE = anydate;
 		anydate = newANYDATE;
 		if (eNotificationRequired()) {
@@ -1788,12 +1788,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setANYDATE(EObject newANYDATE) {
+	public void setANYDATE(EObject newANYDATE) {
 		if (newANYDATE != anydate) {
 			NotificationChain msgs = null;
 			if (anydate != null)
@@ -1807,21 +1807,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ANYDATE, newANYDATE, newANYDATE));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ArrayType getArray() {
+	public ArrayType getArray() {
 		return array;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetArray(ArrayType newArray, NotificationChain msgs) {
+	public NotificationChain basicSetArray(ArrayType newArray, NotificationChain msgs) {
 		ArrayType oldArray = array;
 		array = newArray;
 		if (eNotificationRequired()) {
@@ -1831,12 +1831,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setArray(ArrayType newArray) {
+	public void setArray(ArrayType newArray) {
 		if (newArray != array) {
 			NotificationChain msgs = null;
 			if (array != null)
@@ -1850,21 +1850,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ARRAY, newArray, newArray));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public DerivedType getDerived() {
+	public DerivedType getDerived() {
 		return derived;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDerived(DerivedType newDerived, NotificationChain msgs) {
+	public NotificationChain basicSetDerived(DerivedType newDerived, NotificationChain msgs) {
 		DerivedType oldDerived = derived;
 		derived = newDerived;
 		if (eNotificationRequired()) {
@@ -1874,12 +1874,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDerived(DerivedType newDerived) {
+	public void setDerived(DerivedType newDerived) {
 		if (newDerived != derived) {
 			NotificationChain msgs = null;
 			if (derived != null)
@@ -1893,21 +1893,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__DERIVED, newDerived, newDerived));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EnumType getEnum() {
+	public EnumType getEnum() {
 		return enum_;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetEnum(EnumType newEnum, NotificationChain msgs) {
+	public NotificationChain basicSetEnum(EnumType newEnum, NotificationChain msgs) {
 		EnumType oldEnum = enum_;
 		enum_ = newEnum;
 		if (eNotificationRequired()) {
@@ -1917,12 +1917,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setEnum(EnumType newEnum) {
+	public void setEnum(EnumType newEnum) {
 		if (newEnum != enum_) {
 			NotificationChain msgs = null;
 			if (enum_ != null)
@@ -1936,21 +1936,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__ENUM, newEnum, newEnum));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public VarListPlain getStruct() {
+	public VarListPlain getStruct() {
 		return struct;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetStruct(VarListPlain newStruct, NotificationChain msgs) {
+	public NotificationChain basicSetStruct(VarListPlain newStruct, NotificationChain msgs) {
 		VarListPlain oldStruct = struct;
 		struct = newStruct;
 		if (eNotificationRequired()) {
@@ -1960,12 +1960,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setStruct(VarListPlain newStruct) {
+	public void setStruct(VarListPlain newStruct) {
 		if (newStruct != struct) {
 			NotificationChain msgs = null;
 			if (struct != null)
@@ -1979,21 +1979,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__STRUCT, newStruct, newStruct));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public SubrangeSignedType getSubrangeSigned() {
+	public SubrangeSignedType getSubrangeSigned() {
 		return subrangeSigned;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetSubrangeSigned(SubrangeSignedType newSubrangeSigned, NotificationChain msgs) {
+	public NotificationChain basicSetSubrangeSigned(SubrangeSignedType newSubrangeSigned, NotificationChain msgs) {
 		SubrangeSignedType oldSubrangeSigned = subrangeSigned;
 		subrangeSigned = newSubrangeSigned;
 		if (eNotificationRequired()) {
@@ -2003,12 +2003,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setSubrangeSigned(SubrangeSignedType newSubrangeSigned) {
+	public void setSubrangeSigned(SubrangeSignedType newSubrangeSigned) {
 		if (newSubrangeSigned != subrangeSigned) {
 			NotificationChain msgs = null;
 			if (subrangeSigned != null)
@@ -2022,21 +2022,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__SUBRANGE_SIGNED, newSubrangeSigned, newSubrangeSigned));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public SubrangeUnsignedType getSubrangeUnsigned() {
+	public SubrangeUnsignedType getSubrangeUnsigned() {
 		return subrangeUnsigned;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetSubrangeUnsigned(SubrangeUnsignedType newSubrangeUnsigned, NotificationChain msgs) {
+	public NotificationChain basicSetSubrangeUnsigned(SubrangeUnsignedType newSubrangeUnsigned, NotificationChain msgs) {
 		SubrangeUnsignedType oldSubrangeUnsigned = subrangeUnsigned;
 		subrangeUnsigned = newSubrangeUnsigned;
 		if (eNotificationRequired()) {
@@ -2046,12 +2046,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setSubrangeUnsigned(SubrangeUnsignedType newSubrangeUnsigned) {
+	public void setSubrangeUnsigned(SubrangeUnsignedType newSubrangeUnsigned) {
 		if (newSubrangeUnsigned != subrangeUnsigned) {
 			NotificationChain msgs = null;
 			if (subrangeUnsigned != null)
@@ -2065,21 +2065,21 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__SUBRANGE_UNSIGNED, newSubrangeUnsigned, newSubrangeUnsigned));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public PointerType getPointer() {
+	public PointerType getPointer() {
 		return pointer;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetPointer(PointerType newPointer, NotificationChain msgs) {
+	public NotificationChain basicSetPointer(PointerType newPointer, NotificationChain msgs) {
 		PointerType oldPointer = pointer;
 		pointer = newPointer;
 		if (eNotificationRequired()) {
@@ -2089,12 +2089,12 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setPointer(PointerType newPointer) {
+	public void setPointer(PointerType newPointer) {
 		if (newPointer != pointer) {
 			NotificationChain msgs = null;
 			if (pointer != null)
@@ -2108,13 +2108,13 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.DATA_TYPE__POINTER, newPointer, newPointer));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE__BOOL:
 				return basicSetBOOL(null, msgs);
@@ -2196,13 +2196,13 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE__BOOL:
 				return getBOOL();
@@ -2284,13 +2284,13 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE__BOOL:
 				setBOOL((EObject)newValue);
@@ -2410,13 +2410,13 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE__BOOL:
 				setBOOL((EObject)null);
@@ -2536,13 +2536,13 @@ public class DataTypeImpl extends MinimalEObjectImpl.Container implements DataTy
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPE__BOOL:
 				return bool != null;

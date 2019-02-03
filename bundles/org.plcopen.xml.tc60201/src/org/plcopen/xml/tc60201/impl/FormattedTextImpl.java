@@ -30,54 +30,54 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class FormattedTextImpl extends MinimalEObjectImpl.Container implements FormattedText {
-    /**
+	/**
 	 * The cached value of the '{@link #getAny() <em>Any</em>}' attribute list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAny()
 	 * @generated
 	 * @ordered
 	 */
-    protected FeatureMap any;
+	protected FeatureMap any;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected FormattedTextImpl() {
+	protected FormattedTextImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getFormattedText();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FeatureMap getAny() {
+	public FeatureMap getAny() {
 		if (any == null) {
 			any = new BasicFeatureMap(this, Tc60201Package.FORMATTED_TEXT__ANY);
 		}
 		return any;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.FORMATTED_TEXT__ANY:
 				return ((InternalEList<?>)getAny()).basicRemove(otherEnd, msgs);
@@ -85,13 +85,13 @@ public class FormattedTextImpl extends MinimalEObjectImpl.Container implements F
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.FORMATTED_TEXT__ANY:
 				if (coreType) return getAny();
@@ -100,13 +100,13 @@ public class FormattedTextImpl extends MinimalEObjectImpl.Container implements F
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.FORMATTED_TEXT__ANY:
 				((FeatureMap.Internal)getAny()).set(newValue);
@@ -115,13 +115,13 @@ public class FormattedTextImpl extends MinimalEObjectImpl.Container implements F
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.FORMATTED_TEXT__ANY:
 				getAny().clear();
@@ -130,13 +130,13 @@ public class FormattedTextImpl extends MinimalEObjectImpl.Container implements F
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.FORMATTED_TEXT__ANY:
 				return any != null && !any.isEmpty();
@@ -144,13 +144,13 @@ public class FormattedTextImpl extends MinimalEObjectImpl.Container implements F
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

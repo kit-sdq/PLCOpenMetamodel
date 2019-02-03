@@ -34,99 +34,99 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements ConditionType {
-    /**
+	/**
 	 * The cached value of the '{@link #getReference() <em>Reference</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getReference()
 	 * @generated
 	 * @ordered
 	 */
-    protected ReferenceType reference;
+	protected ReferenceType reference;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getConnectionPointIn() <em>Connection Point In</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getConnectionPointIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected ConnectionPointIn connectionPointIn;
+	protected ConnectionPointIn connectionPointIn;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getInline() <em>Inline</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInline()
 	 * @generated
 	 * @ordered
 	 */
-    protected InlineType inline;
+	protected InlineType inline;
 
-    /**
+	/**
 	 * The default value of the '{@link #isNegated() <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegated()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean NEGATED_EDEFAULT = false;
+	protected static final boolean NEGATED_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isNegated() <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegated()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negated = NEGATED_EDEFAULT;
+	protected boolean negated = NEGATED_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Negated attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negatedESet;
+	protected boolean negatedESet;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ConditionTypeImpl() {
+	protected ConditionTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getConditionType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ReferenceType getReference() {
+	public ReferenceType getReference() {
 		return reference;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetReference(ReferenceType newReference, NotificationChain msgs) {
+	public NotificationChain basicSetReference(ReferenceType newReference, NotificationChain msgs) {
 		ReferenceType oldReference = reference;
 		reference = newReference;
 		if (eNotificationRequired()) {
@@ -136,12 +136,12 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setReference(ReferenceType newReference) {
+	public void setReference(ReferenceType newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;
 			if (reference != null)
@@ -155,21 +155,21 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONDITION_TYPE__REFERENCE, newReference, newReference));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ConnectionPointIn getConnectionPointIn() {
+	public ConnectionPointIn getConnectionPointIn() {
 		return connectionPointIn;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetConnectionPointIn(ConnectionPointIn newConnectionPointIn, NotificationChain msgs) {
+	public NotificationChain basicSetConnectionPointIn(ConnectionPointIn newConnectionPointIn, NotificationChain msgs) {
 		ConnectionPointIn oldConnectionPointIn = connectionPointIn;
 		connectionPointIn = newConnectionPointIn;
 		if (eNotificationRequired()) {
@@ -179,12 +179,12 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setConnectionPointIn(ConnectionPointIn newConnectionPointIn) {
+	public void setConnectionPointIn(ConnectionPointIn newConnectionPointIn) {
 		if (newConnectionPointIn != connectionPointIn) {
 			NotificationChain msgs = null;
 			if (connectionPointIn != null)
@@ -198,21 +198,21 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONDITION_TYPE__CONNECTION_POINT_IN, newConnectionPointIn, newConnectionPointIn));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public InlineType getInline() {
+	public InlineType getInline() {
 		return inline;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetInline(InlineType newInline, NotificationChain msgs) {
+	public NotificationChain basicSetInline(InlineType newInline, NotificationChain msgs) {
 		InlineType oldInline = inline;
 		inline = newInline;
 		if (eNotificationRequired()) {
@@ -222,12 +222,12 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setInline(InlineType newInline) {
+	public void setInline(InlineType newInline) {
 		if (newInline != inline) {
 			NotificationChain msgs = null;
 			if (inline != null)
@@ -241,21 +241,21 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONDITION_TYPE__INLINE, newInline, newInline));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isNegated() {
+	public boolean isNegated() {
 		return negated;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setNegated(boolean newNegated) {
+	public void setNegated(boolean newNegated) {
 		boolean oldNegated = negated;
 		negated = newNegated;
 		boolean oldNegatedESet = negatedESet;
@@ -264,12 +264,12 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.CONDITION_TYPE__NEGATED, oldNegated, negated, !oldNegatedESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetNegated() {
+	public void unsetNegated() {
 		boolean oldNegated = negated;
 		boolean oldNegatedESet = negatedESet;
 		negated = NEGATED_EDEFAULT;
@@ -278,22 +278,22 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.CONDITION_TYPE__NEGATED, oldNegated, NEGATED_EDEFAULT, oldNegatedESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetNegated() {
+	public boolean isSetNegated() {
 		return negatedESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.CONDITION_TYPE__REFERENCE:
 				return basicSetReference(null, msgs);
@@ -305,13 +305,13 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.CONDITION_TYPE__REFERENCE:
 				return getReference();
@@ -325,13 +325,13 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.CONDITION_TYPE__REFERENCE:
 				setReference((ReferenceType)newValue);
@@ -349,13 +349,13 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONDITION_TYPE__REFERENCE:
 				setReference((ReferenceType)null);
@@ -373,13 +373,13 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.CONDITION_TYPE__REFERENCE:
 				return reference != null;
@@ -393,13 +393,13 @@ public class ConditionTypeImpl extends MinimalEObjectImpl.Container implements C
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

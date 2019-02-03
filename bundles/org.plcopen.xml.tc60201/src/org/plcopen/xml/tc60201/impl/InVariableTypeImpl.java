@@ -49,287 +49,287 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements InVariableType {
-    /**
+	/**
 	 * The cached value of the '{@link #getPosition() <em>Position</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getPosition()
 	 * @generated
 	 * @ordered
 	 */
-    protected Position position;
+	protected Position position;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getConnectionPointOut() <em>Connection Point Out</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getConnectionPointOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected ConnectionPointOut connectionPointOut;
+	protected ConnectionPointOut connectionPointOut;
 
-    /**
+	/**
 	 * The default value of the '{@link #getExpression() <em>Expression</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExpression()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String EXPRESSION_EDEFAULT = null;
+	protected static final String EXPRESSION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getExpression() <em>Expression</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExpression()
 	 * @generated
 	 * @ordered
 	 */
-    protected String expression = EXPRESSION_EDEFAULT;
+	protected String expression = EXPRESSION_EDEFAULT;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getEdge() <em>Edge</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEdge()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final EdgeModifierType EDGE_EDEFAULT = EdgeModifierType.NONE;
+	protected static final EdgeModifierType EDGE_EDEFAULT = EdgeModifierType.NONE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getEdge() <em>Edge</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEdge()
 	 * @generated
 	 * @ordered
 	 */
-    protected EdgeModifierType edge = EDGE_EDEFAULT;
+	protected EdgeModifierType edge = EDGE_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Edge attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean edgeESet;
+	protected boolean edgeESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getExecutionOrderId() <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigInteger EXECUTION_ORDER_ID_EDEFAULT = null;
+	protected static final BigInteger EXECUTION_ORDER_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getExecutionOrderId() <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigInteger executionOrderId = EXECUTION_ORDER_ID_EDEFAULT;
+	protected BigInteger executionOrderId = EXECUTION_ORDER_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String GLOBAL_ID_EDEFAULT = null;
+	protected static final String GLOBAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected String globalId = GLOBAL_ID_EDEFAULT;
+	protected String globalId = GLOBAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal HEIGHT_EDEFAULT = null;
+	protected static final BigDecimal HEIGHT_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal height = HEIGHT_EDEFAULT;
+	protected BigDecimal height = HEIGHT_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getLocalId() <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLocalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigInteger LOCAL_ID_EDEFAULT = null;
+	protected static final BigInteger LOCAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLocalId() <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLocalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigInteger localId = LOCAL_ID_EDEFAULT;
+	protected BigInteger localId = LOCAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #isNegated() <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegated()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean NEGATED_EDEFAULT = false;
+	protected static final boolean NEGATED_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isNegated() <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegated()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negated = NEGATED_EDEFAULT;
+	protected boolean negated = NEGATED_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Negated attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negatedESet;
+	protected boolean negatedESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getStorage() <em>Storage</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStorage()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final StorageModifierType STORAGE_EDEFAULT = StorageModifierType.NONE;
+	protected static final StorageModifierType STORAGE_EDEFAULT = StorageModifierType.NONE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getStorage() <em>Storage</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStorage()
 	 * @generated
 	 * @ordered
 	 */
-    protected StorageModifierType storage = STORAGE_EDEFAULT;
+	protected StorageModifierType storage = STORAGE_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Storage attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean storageESet;
+	protected boolean storageESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal WIDTH_EDEFAULT = null;
+	protected static final BigDecimal WIDTH_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal width = WIDTH_EDEFAULT;
+	protected BigDecimal width = WIDTH_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InVariableTypeImpl() {
+	protected InVariableTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getInVariableType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Position getPosition() {
+	public Position getPosition() {
 		return position;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetPosition(Position newPosition, NotificationChain msgs) {
+	public NotificationChain basicSetPosition(Position newPosition, NotificationChain msgs) {
 		Position oldPosition = position;
 		position = newPosition;
 		if (eNotificationRequired()) {
@@ -339,12 +339,12 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setPosition(Position newPosition) {
+	public void setPosition(Position newPosition) {
 		if (newPosition != position) {
 			NotificationChain msgs = null;
 			if (position != null)
@@ -358,21 +358,21 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__POSITION, newPosition, newPosition));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ConnectionPointOut getConnectionPointOut() {
+	public ConnectionPointOut getConnectionPointOut() {
 		return connectionPointOut;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetConnectionPointOut(ConnectionPointOut newConnectionPointOut, NotificationChain msgs) {
+	public NotificationChain basicSetConnectionPointOut(ConnectionPointOut newConnectionPointOut, NotificationChain msgs) {
 		ConnectionPointOut oldConnectionPointOut = connectionPointOut;
 		connectionPointOut = newConnectionPointOut;
 		if (eNotificationRequired()) {
@@ -382,12 +382,12 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setConnectionPointOut(ConnectionPointOut newConnectionPointOut) {
+	public void setConnectionPointOut(ConnectionPointOut newConnectionPointOut) {
 		if (newConnectionPointOut != connectionPointOut) {
 			NotificationChain msgs = null;
 			if (connectionPointOut != null)
@@ -401,42 +401,42 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__CONNECTION_POINT_OUT, newConnectionPointOut, newConnectionPointOut));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getExpression() {
+	public String getExpression() {
 		return expression;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setExpression(String newExpression) {
+	public void setExpression(String newExpression) {
 		String oldExpression = expression;
 		expression = newExpression;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__EXPRESSION, oldExpression, expression));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -446,12 +446,12 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -465,21 +465,21 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -489,12 +489,12 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -508,21 +508,21 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EdgeModifierType getEdge() {
+	public EdgeModifierType getEdge() {
 		return edge;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setEdge(EdgeModifierType newEdge) {
+	public void setEdge(EdgeModifierType newEdge) {
 		EdgeModifierType oldEdge = edge;
 		edge = newEdge == null ? EDGE_EDEFAULT : newEdge;
 		boolean oldEdgeESet = edgeESet;
@@ -531,12 +531,12 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__EDGE, oldEdge, edge, !oldEdgeESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetEdge() {
+	public void unsetEdge() {
 		EdgeModifierType oldEdge = edge;
 		boolean oldEdgeESet = edgeESet;
 		edge = EDGE_EDEFAULT;
@@ -545,114 +545,114 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_VARIABLE_TYPE__EDGE, oldEdge, EDGE_EDEFAULT, oldEdgeESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetEdge() {
+	public boolean isSetEdge() {
 		return edgeESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigInteger getExecutionOrderId() {
+	public BigInteger getExecutionOrderId() {
 		return executionOrderId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setExecutionOrderId(BigInteger newExecutionOrderId) {
+	public void setExecutionOrderId(BigInteger newExecutionOrderId) {
 		BigInteger oldExecutionOrderId = executionOrderId;
 		executionOrderId = newExecutionOrderId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__EXECUTION_ORDER_ID, oldExecutionOrderId, executionOrderId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getGlobalId() {
+	public String getGlobalId() {
 		return globalId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setGlobalId(String newGlobalId) {
+	public void setGlobalId(String newGlobalId) {
 		String oldGlobalId = globalId;
 		globalId = newGlobalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__GLOBAL_ID, oldGlobalId, globalId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getHeight() {
+	public BigDecimal getHeight() {
 		return height;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setHeight(BigDecimal newHeight) {
+	public void setHeight(BigDecimal newHeight) {
 		BigDecimal oldHeight = height;
 		height = newHeight;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__HEIGHT, oldHeight, height));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigInteger getLocalId() {
+	public BigInteger getLocalId() {
 		return localId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLocalId(BigInteger newLocalId) {
+	public void setLocalId(BigInteger newLocalId) {
 		BigInteger oldLocalId = localId;
 		localId = newLocalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__LOCAL_ID, oldLocalId, localId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isNegated() {
+	public boolean isNegated() {
 		return negated;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setNegated(boolean newNegated) {
+	public void setNegated(boolean newNegated) {
 		boolean oldNegated = negated;
 		negated = newNegated;
 		boolean oldNegatedESet = negatedESet;
@@ -661,12 +661,12 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__NEGATED, oldNegated, negated, !oldNegatedESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetNegated() {
+	public void unsetNegated() {
 		boolean oldNegated = negated;
 		boolean oldNegatedESet = negatedESet;
 		negated = NEGATED_EDEFAULT;
@@ -675,30 +675,30 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_VARIABLE_TYPE__NEGATED, oldNegated, NEGATED_EDEFAULT, oldNegatedESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetNegated() {
+	public boolean isSetNegated() {
 		return negatedESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public StorageModifierType getStorage() {
+	public StorageModifierType getStorage() {
 		return storage;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setStorage(StorageModifierType newStorage) {
+	public void setStorage(StorageModifierType newStorage) {
 		StorageModifierType oldStorage = storage;
 		storage = newStorage == null ? STORAGE_EDEFAULT : newStorage;
 		boolean oldStorageESet = storageESet;
@@ -707,12 +707,12 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__STORAGE, oldStorage, storage, !oldStorageESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetStorage() {
+	public void unsetStorage() {
 		StorageModifierType oldStorage = storage;
 		boolean oldStorageESet = storageESet;
 		storage = STORAGE_EDEFAULT;
@@ -721,43 +721,43 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_VARIABLE_TYPE__STORAGE, oldStorage, STORAGE_EDEFAULT, oldStorageESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetStorage() {
+	public boolean isSetStorage() {
 		return storageESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getWidth() {
+	public BigDecimal getWidth() {
 		return width;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setWidth(BigDecimal newWidth) {
+	public void setWidth(BigDecimal newWidth) {
 		BigDecimal oldWidth = width;
 		width = newWidth;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_VARIABLE_TYPE__WIDTH, oldWidth, width));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.IN_VARIABLE_TYPE__POSITION:
 				return basicSetPosition(null, msgs);
@@ -771,13 +771,13 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.IN_VARIABLE_TYPE__POSITION:
 				return getPosition();
@@ -809,13 +809,13 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.IN_VARIABLE_TYPE__POSITION:
 				setPosition((Position)newValue);
@@ -860,13 +860,13 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.IN_VARIABLE_TYPE__POSITION:
 				setPosition((Position)null);
@@ -911,13 +911,13 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.IN_VARIABLE_TYPE__POSITION:
 				return position != null;
@@ -949,13 +949,13 @@ public class InVariableTypeImpl extends MinimalEObjectImpl.Container implements 
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

@@ -26,14 +26,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface RangeSigned extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Lower</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Lower</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Lower</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Lower</em>' attribute.
 	 * @see #setLower(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getRangeSigned_Lower()
@@ -41,26 +41,26 @@ public interface RangeSigned extends EObject {
 	 *        extendedMetaData="kind='attribute' name='lower'"
 	 * @generated
 	 */
-    String getLower();
+	String getLower();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.RangeSigned#getLower <em>Lower</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Lower</em>' attribute.
 	 * @see #getLower()
 	 * @generated
 	 */
-    void setLower(String value);
+	void setLower(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Upper</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Upper</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Upper</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Upper</em>' attribute.
 	 * @see #setUpper(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getRangeSigned_Upper()
@@ -68,16 +68,16 @@ public interface RangeSigned extends EObject {
 	 *        extendedMetaData="kind='attribute' name='upper'"
 	 * @generated
 	 */
-    String getUpper();
+	String getUpper();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.RangeSigned#getUpper <em>Upper</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Upper</em>' attribute.
 	 * @see #getUpper()
 	 * @generated
 	 */
-    void setUpper(String value);
+	void setUpper(String value);
 
 } // RangeSigned

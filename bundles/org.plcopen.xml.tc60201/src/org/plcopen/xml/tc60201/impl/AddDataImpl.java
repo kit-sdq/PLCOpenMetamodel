@@ -34,54 +34,54 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class AddDataImpl extends MinimalEObjectImpl.Container implements AddData {
-    /**
+	/**
 	 * The cached value of the '{@link #getData() <em>Data</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getData()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<DataType1> data;
+	protected EList<DataType1> data;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected AddDataImpl() {
+	protected AddDataImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getAddData();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<DataType1> getData() {
+	public EList<DataType1> getData() {
 		if (data == null) {
 			data = new EObjectContainmentEList<DataType1>(DataType1.class, this, Tc60201Package.ADD_DATA__DATA);
 		}
 		return data;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA__DATA:
 				return ((InternalEList<?>)getData()).basicRemove(otherEnd, msgs);
@@ -89,13 +89,13 @@ public class AddDataImpl extends MinimalEObjectImpl.Container implements AddData
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA__DATA:
 				return getData();
@@ -103,14 +103,14 @@ public class AddDataImpl extends MinimalEObjectImpl.Container implements AddData
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA__DATA:
 				getData().clear();
@@ -120,13 +120,13 @@ public class AddDataImpl extends MinimalEObjectImpl.Container implements AddData
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA__DATA:
 				getData().clear();
@@ -135,13 +135,13 @@ public class AddDataImpl extends MinimalEObjectImpl.Container implements AddData
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ADD_DATA__DATA:
 				return data != null && !data.isEmpty();

@@ -27,14 +27,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface ProjectType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>File Header</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>File Header</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>File Header</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>File Header</em>' containment reference.
 	 * @see #setFileHeader(FileHeaderType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getProjectType_FileHeader()
@@ -42,26 +42,26 @@ public interface ProjectType extends EObject {
 	 *        extendedMetaData="kind='element' name='fileHeader' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FileHeaderType getFileHeader();
+	FileHeaderType getFileHeader();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ProjectType#getFileHeader <em>File Header</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>File Header</em>' containment reference.
 	 * @see #getFileHeader()
 	 * @generated
 	 */
-    void setFileHeader(FileHeaderType value);
+	void setFileHeader(FileHeaderType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Content Header</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Content Header</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Content Header</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Content Header</em>' containment reference.
 	 * @see #setContentHeader(ContentHeaderType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getProjectType_ContentHeader()
@@ -69,26 +69,26 @@ public interface ProjectType extends EObject {
 	 *        extendedMetaData="kind='element' name='contentHeader' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    ContentHeaderType getContentHeader();
+	ContentHeaderType getContentHeader();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ProjectType#getContentHeader <em>Content Header</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Content Header</em>' containment reference.
 	 * @see #getContentHeader()
 	 * @generated
 	 */
-    void setContentHeader(ContentHeaderType value);
+	void setContentHeader(ContentHeaderType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Types</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Types</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Types</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Types</em>' containment reference.
 	 * @see #setTypes(TypesType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getProjectType_Types()
@@ -96,26 +96,26 @@ public interface ProjectType extends EObject {
 	 *        extendedMetaData="kind='element' name='types' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    TypesType getTypes();
+	TypesType getTypes();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ProjectType#getTypes <em>Types</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Types</em>' containment reference.
 	 * @see #getTypes()
 	 * @generated
 	 */
-    void setTypes(TypesType value);
+	void setTypes(TypesType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Instances</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Instances</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Instances</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Instances</em>' containment reference.
 	 * @see #setInstances(InstancesType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getProjectType_Instances()
@@ -123,26 +123,26 @@ public interface ProjectType extends EObject {
 	 *        extendedMetaData="kind='element' name='instances' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    InstancesType getInstances();
+	InstancesType getInstances();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ProjectType#getInstances <em>Instances</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Instances</em>' containment reference.
 	 * @see #getInstances()
 	 * @generated
 	 */
-    void setInstances(InstancesType value);
+	void setInstances(InstancesType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Add Data</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Add Data</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Add Data</em>' containment reference.
 	 * @see #setAddData(AddData)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getProjectType_AddData()
@@ -150,22 +150,22 @@ public interface ProjectType extends EObject {
 	 *        extendedMetaData="kind='element' name='addData' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    AddData getAddData();
+	AddData getAddData();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ProjectType#getAddData <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Add Data</em>' containment reference.
 	 * @see #getAddData()
 	 * @generated
 	 */
-    void setAddData(AddData value);
+	void setAddData(AddData value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Documentation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * <!-- begin-model-doc -->
 	 * Additional userspecific information to the element
 	 * <!-- end-model-doc -->
@@ -176,19 +176,19 @@ public interface ProjectType extends EObject {
 	 *        extendedMetaData="kind='element' name='documentation' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FormattedText getDocumentation();
+	FormattedText getDocumentation();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ProjectType#getDocumentation <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Documentation</em>' containment reference.
 	 * @see #getDocumentation()
 	 * @generated
 	 */
-    void setDocumentation(FormattedText value);
+	void setDocumentation(FormattedText value);
 
-				/**
+	/**
 	 * Returns the value of the '<em><b>Project Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <p>
@@ -204,7 +204,7 @@ public interface ProjectType extends EObject {
 	 */
 	String getProjectName();
 
-				/**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ProjectType#getProjectName <em>Project Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

@@ -51,269 +51,269 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class ActionTypeImpl extends MinimalEObjectImpl.Container implements ActionType {
-    /**
+	/**
 	 * The cached value of the '{@link #getRelPosition() <em>Rel Position</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getRelPosition()
 	 * @generated
 	 * @ordered
 	 */
-    protected Position relPosition;
+	protected Position relPosition;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getReference() <em>Reference</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getReference()
 	 * @generated
 	 * @ordered
 	 */
-    protected ReferenceType1 reference;
+	protected ReferenceType1 reference;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getInline() <em>Inline</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInline()
 	 * @generated
 	 * @ordered
 	 */
-    protected Body inline;
+	protected Body inline;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getConnectionPointOut() <em>Connection Point Out</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getConnectionPointOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected ConnectionPointOut connectionPointOut;
+	protected ConnectionPointOut connectionPointOut;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getDuration() <em>Duration</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDuration()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String DURATION_EDEFAULT = null;
+	protected static final String DURATION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDuration() <em>Duration</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDuration()
 	 * @generated
 	 * @ordered
 	 */
-    protected String duration = DURATION_EDEFAULT;
+	protected String duration = DURATION_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getExecutionOrderId() <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigInteger EXECUTION_ORDER_ID_EDEFAULT = null;
+	protected static final BigInteger EXECUTION_ORDER_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getExecutionOrderId() <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigInteger executionOrderId = EXECUTION_ORDER_ID_EDEFAULT;
+	protected BigInteger executionOrderId = EXECUTION_ORDER_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String GLOBAL_ID_EDEFAULT = null;
+	protected static final String GLOBAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected String globalId = GLOBAL_ID_EDEFAULT;
+	protected String globalId = GLOBAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal HEIGHT_EDEFAULT = null;
+	protected static final BigDecimal HEIGHT_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal height = HEIGHT_EDEFAULT;
+	protected BigDecimal height = HEIGHT_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getIndicator() <em>Indicator</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getIndicator()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String INDICATOR_EDEFAULT = null;
+	protected static final String INDICATOR_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getIndicator() <em>Indicator</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getIndicator()
 	 * @generated
 	 * @ordered
 	 */
-    protected String indicator = INDICATOR_EDEFAULT;
+	protected String indicator = INDICATOR_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getLocalId() <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLocalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigInteger LOCAL_ID_EDEFAULT = null;
+	protected static final BigInteger LOCAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLocalId() <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLocalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigInteger localId = LOCAL_ID_EDEFAULT;
+	protected BigInteger localId = LOCAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getQualifier() <em>Qualifier</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getQualifier()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final QualifierType QUALIFIER_EDEFAULT = QualifierType.N;
+	protected static final QualifierType QUALIFIER_EDEFAULT = QualifierType.N;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getQualifier() <em>Qualifier</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getQualifier()
 	 * @generated
 	 * @ordered
 	 */
-    protected QualifierType qualifier = QUALIFIER_EDEFAULT;
+	protected QualifierType qualifier = QUALIFIER_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Qualifier attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean qualifierESet;
+	protected boolean qualifierESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal WIDTH_EDEFAULT = null;
+	protected static final BigDecimal WIDTH_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal width = WIDTH_EDEFAULT;
+	protected BigDecimal width = WIDTH_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ActionTypeImpl() {
+	protected ActionTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getActionType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Position getRelPosition() {
+	public Position getRelPosition() {
 		return relPosition;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetRelPosition(Position newRelPosition, NotificationChain msgs) {
+	public NotificationChain basicSetRelPosition(Position newRelPosition, NotificationChain msgs) {
 		Position oldRelPosition = relPosition;
 		relPosition = newRelPosition;
 		if (eNotificationRequired()) {
@@ -323,12 +323,12 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setRelPosition(Position newRelPosition) {
+	public void setRelPosition(Position newRelPosition) {
 		if (newRelPosition != relPosition) {
 			NotificationChain msgs = null;
 			if (relPosition != null)
@@ -342,21 +342,21 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__REL_POSITION, newRelPosition, newRelPosition));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ReferenceType1 getReference() {
+	public ReferenceType1 getReference() {
 		return reference;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetReference(ReferenceType1 newReference, NotificationChain msgs) {
+	public NotificationChain basicSetReference(ReferenceType1 newReference, NotificationChain msgs) {
 		ReferenceType1 oldReference = reference;
 		reference = newReference;
 		if (eNotificationRequired()) {
@@ -366,12 +366,12 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setReference(ReferenceType1 newReference) {
+	public void setReference(ReferenceType1 newReference) {
 		if (newReference != reference) {
 			NotificationChain msgs = null;
 			if (reference != null)
@@ -385,21 +385,21 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__REFERENCE, newReference, newReference));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Body getInline() {
+	public Body getInline() {
 		return inline;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetInline(Body newInline, NotificationChain msgs) {
+	public NotificationChain basicSetInline(Body newInline, NotificationChain msgs) {
 		Body oldInline = inline;
 		inline = newInline;
 		if (eNotificationRequired()) {
@@ -409,12 +409,12 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setInline(Body newInline) {
+	public void setInline(Body newInline) {
 		if (newInline != inline) {
 			NotificationChain msgs = null;
 			if (inline != null)
@@ -428,21 +428,21 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__INLINE, newInline, newInline));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ConnectionPointOut getConnectionPointOut() {
+	public ConnectionPointOut getConnectionPointOut() {
 		return connectionPointOut;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetConnectionPointOut(ConnectionPointOut newConnectionPointOut, NotificationChain msgs) {
+	public NotificationChain basicSetConnectionPointOut(ConnectionPointOut newConnectionPointOut, NotificationChain msgs) {
 		ConnectionPointOut oldConnectionPointOut = connectionPointOut;
 		connectionPointOut = newConnectionPointOut;
 		if (eNotificationRequired()) {
@@ -452,12 +452,12 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setConnectionPointOut(ConnectionPointOut newConnectionPointOut) {
+	public void setConnectionPointOut(ConnectionPointOut newConnectionPointOut) {
 		if (newConnectionPointOut != connectionPointOut) {
 			NotificationChain msgs = null;
 			if (connectionPointOut != null)
@@ -471,21 +471,21 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__CONNECTION_POINT_OUT, newConnectionPointOut, newConnectionPointOut));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -495,12 +495,12 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -514,21 +514,21 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -538,12 +538,12 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -557,147 +557,147 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getDuration() {
+	public String getDuration() {
 		return duration;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDuration(String newDuration) {
+	public void setDuration(String newDuration) {
 		String oldDuration = duration;
 		duration = newDuration;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__DURATION, oldDuration, duration));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigInteger getExecutionOrderId() {
+	public BigInteger getExecutionOrderId() {
 		return executionOrderId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setExecutionOrderId(BigInteger newExecutionOrderId) {
+	public void setExecutionOrderId(BigInteger newExecutionOrderId) {
 		BigInteger oldExecutionOrderId = executionOrderId;
 		executionOrderId = newExecutionOrderId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__EXECUTION_ORDER_ID, oldExecutionOrderId, executionOrderId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getGlobalId() {
+	public String getGlobalId() {
 		return globalId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setGlobalId(String newGlobalId) {
+	public void setGlobalId(String newGlobalId) {
 		String oldGlobalId = globalId;
 		globalId = newGlobalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__GLOBAL_ID, oldGlobalId, globalId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getHeight() {
+	public BigDecimal getHeight() {
 		return height;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setHeight(BigDecimal newHeight) {
+	public void setHeight(BigDecimal newHeight) {
 		BigDecimal oldHeight = height;
 		height = newHeight;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__HEIGHT, oldHeight, height));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getIndicator() {
+	public String getIndicator() {
 		return indicator;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setIndicator(String newIndicator) {
+	public void setIndicator(String newIndicator) {
 		String oldIndicator = indicator;
 		indicator = newIndicator;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__INDICATOR, oldIndicator, indicator));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigInteger getLocalId() {
+	public BigInteger getLocalId() {
 		return localId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLocalId(BigInteger newLocalId) {
+	public void setLocalId(BigInteger newLocalId) {
 		BigInteger oldLocalId = localId;
 		localId = newLocalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__LOCAL_ID, oldLocalId, localId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public QualifierType getQualifier() {
+	public QualifierType getQualifier() {
 		return qualifier;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setQualifier(QualifierType newQualifier) {
+	public void setQualifier(QualifierType newQualifier) {
 		QualifierType oldQualifier = qualifier;
 		qualifier = newQualifier == null ? QUALIFIER_EDEFAULT : newQualifier;
 		boolean oldQualifierESet = qualifierESet;
@@ -706,12 +706,12 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__QUALIFIER, oldQualifier, qualifier, !oldQualifierESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetQualifier() {
+	public void unsetQualifier() {
 		QualifierType oldQualifier = qualifier;
 		boolean oldQualifierESet = qualifierESet;
 		qualifier = QUALIFIER_EDEFAULT;
@@ -720,43 +720,43 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.ACTION_TYPE__QUALIFIER, oldQualifier, QUALIFIER_EDEFAULT, oldQualifierESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetQualifier() {
+	public boolean isSetQualifier() {
 		return qualifierESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getWidth() {
+	public BigDecimal getWidth() {
 		return width;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setWidth(BigDecimal newWidth) {
+	public void setWidth(BigDecimal newWidth) {
 		BigDecimal oldWidth = width;
 		width = newWidth;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.ACTION_TYPE__WIDTH, oldWidth, width));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.ACTION_TYPE__REL_POSITION:
 				return basicSetRelPosition(null, msgs);
@@ -774,13 +774,13 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.ACTION_TYPE__REL_POSITION:
 				return getRelPosition();
@@ -814,13 +814,13 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.ACTION_TYPE__REL_POSITION:
 				setRelPosition((Position)newValue);
@@ -868,13 +868,13 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ACTION_TYPE__REL_POSITION:
 				setRelPosition((Position)null);
@@ -922,13 +922,13 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.ACTION_TYPE__REL_POSITION:
 				return relPosition != null;
@@ -962,13 +962,13 @@ public class ActionTypeImpl extends MinimalEObjectImpl.Container implements Acti
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

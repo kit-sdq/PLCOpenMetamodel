@@ -38,196 +38,196 @@ import org.plcopen.xml.tc60201.VariableType2;
  * @generated
  */
 public class VariableType2Impl extends MinimalEObjectImpl.Container implements VariableType2 {
-    /**
+	/**
 	 * The cached value of the '{@link #getConnectionPointIn() <em>Connection Point In</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getConnectionPointIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected ConnectionPointIn connectionPointIn;
+	protected ConnectionPointIn connectionPointIn;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getEdge() <em>Edge</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEdge()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final EdgeModifierType EDGE_EDEFAULT = EdgeModifierType.NONE;
+	protected static final EdgeModifierType EDGE_EDEFAULT = EdgeModifierType.NONE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getEdge() <em>Edge</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEdge()
 	 * @generated
 	 * @ordered
 	 */
-    protected EdgeModifierType edge = EDGE_EDEFAULT;
+	protected EdgeModifierType edge = EDGE_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Edge attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean edgeESet;
+	protected boolean edgeESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getFormalParameter() <em>Formal Parameter</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getFormalParameter()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String FORMAL_PARAMETER_EDEFAULT = null;
+	protected static final String FORMAL_PARAMETER_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getFormalParameter() <em>Formal Parameter</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getFormalParameter()
 	 * @generated
 	 * @ordered
 	 */
-    protected String formalParameter = FORMAL_PARAMETER_EDEFAULT;
+	protected String formalParameter = FORMAL_PARAMETER_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #isHidden() <em>Hidden</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isHidden()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean HIDDEN_EDEFAULT = false;
+	protected static final boolean HIDDEN_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isHidden() <em>Hidden</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isHidden()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean hidden = HIDDEN_EDEFAULT;
+	protected boolean hidden = HIDDEN_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Hidden attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean hiddenESet;
+	protected boolean hiddenESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #isNegated() <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegated()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean NEGATED_EDEFAULT = false;
+	protected static final boolean NEGATED_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isNegated() <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegated()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negated = NEGATED_EDEFAULT;
+	protected boolean negated = NEGATED_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Negated attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negatedESet;
+	protected boolean negatedESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getStorage() <em>Storage</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStorage()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final StorageModifierType STORAGE_EDEFAULT = StorageModifierType.NONE;
+	protected static final StorageModifierType STORAGE_EDEFAULT = StorageModifierType.NONE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getStorage() <em>Storage</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStorage()
 	 * @generated
 	 * @ordered
 	 */
-    protected StorageModifierType storage = STORAGE_EDEFAULT;
+	protected StorageModifierType storage = STORAGE_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Storage attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean storageESet;
+	protected boolean storageESet;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VariableType2Impl() {
+	protected VariableType2Impl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getVariableType2();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ConnectionPointIn getConnectionPointIn() {
+	public ConnectionPointIn getConnectionPointIn() {
 		return connectionPointIn;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetConnectionPointIn(ConnectionPointIn newConnectionPointIn, NotificationChain msgs) {
+	public NotificationChain basicSetConnectionPointIn(ConnectionPointIn newConnectionPointIn, NotificationChain msgs) {
 		ConnectionPointIn oldConnectionPointIn = connectionPointIn;
 		connectionPointIn = newConnectionPointIn;
 		if (eNotificationRequired()) {
@@ -237,12 +237,12 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setConnectionPointIn(ConnectionPointIn newConnectionPointIn) {
+	public void setConnectionPointIn(ConnectionPointIn newConnectionPointIn) {
 		if (newConnectionPointIn != connectionPointIn) {
 			NotificationChain msgs = null;
 			if (connectionPointIn != null)
@@ -256,21 +256,21 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VARIABLE_TYPE2__CONNECTION_POINT_IN, newConnectionPointIn, newConnectionPointIn));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -280,12 +280,12 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -299,21 +299,21 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VARIABLE_TYPE2__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EdgeModifierType getEdge() {
+	public EdgeModifierType getEdge() {
 		return edge;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setEdge(EdgeModifierType newEdge) {
+	public void setEdge(EdgeModifierType newEdge) {
 		EdgeModifierType oldEdge = edge;
 		edge = newEdge == null ? EDGE_EDEFAULT : newEdge;
 		boolean oldEdgeESet = edgeESet;
@@ -322,12 +322,12 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VARIABLE_TYPE2__EDGE, oldEdge, edge, !oldEdgeESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetEdge() {
+	public void unsetEdge() {
 		EdgeModifierType oldEdge = edge;
 		boolean oldEdgeESet = edgeESet;
 		edge = EDGE_EDEFAULT;
@@ -336,51 +336,51 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VARIABLE_TYPE2__EDGE, oldEdge, EDGE_EDEFAULT, oldEdgeESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetEdge() {
+	public boolean isSetEdge() {
 		return edgeESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getFormalParameter() {
+	public String getFormalParameter() {
 		return formalParameter;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setFormalParameter(String newFormalParameter) {
+	public void setFormalParameter(String newFormalParameter) {
 		String oldFormalParameter = formalParameter;
 		formalParameter = newFormalParameter;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VARIABLE_TYPE2__FORMAL_PARAMETER, oldFormalParameter, formalParameter));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isHidden() {
+	public boolean isHidden() {
 		return hidden;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setHidden(boolean newHidden) {
+	public void setHidden(boolean newHidden) {
 		boolean oldHidden = hidden;
 		hidden = newHidden;
 		boolean oldHiddenESet = hiddenESet;
@@ -389,12 +389,12 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VARIABLE_TYPE2__HIDDEN, oldHidden, hidden, !oldHiddenESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetHidden() {
+	public void unsetHidden() {
 		boolean oldHidden = hidden;
 		boolean oldHiddenESet = hiddenESet;
 		hidden = HIDDEN_EDEFAULT;
@@ -403,30 +403,30 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VARIABLE_TYPE2__HIDDEN, oldHidden, HIDDEN_EDEFAULT, oldHiddenESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetHidden() {
+	public boolean isSetHidden() {
 		return hiddenESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isNegated() {
+	public boolean isNegated() {
 		return negated;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setNegated(boolean newNegated) {
+	public void setNegated(boolean newNegated) {
 		boolean oldNegated = negated;
 		negated = newNegated;
 		boolean oldNegatedESet = negatedESet;
@@ -435,12 +435,12 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VARIABLE_TYPE2__NEGATED, oldNegated, negated, !oldNegatedESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetNegated() {
+	public void unsetNegated() {
 		boolean oldNegated = negated;
 		boolean oldNegatedESet = negatedESet;
 		negated = NEGATED_EDEFAULT;
@@ -449,30 +449,30 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VARIABLE_TYPE2__NEGATED, oldNegated, NEGATED_EDEFAULT, oldNegatedESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetNegated() {
+	public boolean isSetNegated() {
 		return negatedESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public StorageModifierType getStorage() {
+	public StorageModifierType getStorage() {
 		return storage;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setStorage(StorageModifierType newStorage) {
+	public void setStorage(StorageModifierType newStorage) {
 		StorageModifierType oldStorage = storage;
 		storage = newStorage == null ? STORAGE_EDEFAULT : newStorage;
 		boolean oldStorageESet = storageESet;
@@ -481,12 +481,12 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VARIABLE_TYPE2__STORAGE, oldStorage, storage, !oldStorageESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetStorage() {
+	public void unsetStorage() {
 		StorageModifierType oldStorage = storage;
 		boolean oldStorageESet = storageESet;
 		storage = STORAGE_EDEFAULT;
@@ -495,22 +495,22 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VARIABLE_TYPE2__STORAGE, oldStorage, STORAGE_EDEFAULT, oldStorageESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetStorage() {
+	public boolean isSetStorage() {
 		return storageESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.VARIABLE_TYPE2__CONNECTION_POINT_IN:
 				return basicSetConnectionPointIn(null, msgs);
@@ -520,13 +520,13 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.VARIABLE_TYPE2__CONNECTION_POINT_IN:
 				return getConnectionPointIn();
@@ -546,13 +546,13 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.VARIABLE_TYPE2__CONNECTION_POINT_IN:
 				setConnectionPointIn((ConnectionPointIn)newValue);
@@ -579,13 +579,13 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VARIABLE_TYPE2__CONNECTION_POINT_IN:
 				setConnectionPointIn((ConnectionPointIn)null);
@@ -612,13 +612,13 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VARIABLE_TYPE2__CONNECTION_POINT_IN:
 				return connectionPointIn != null;
@@ -638,13 +638,13 @@ public class VariableType2Impl extends MinimalEObjectImpl.Container implements V
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

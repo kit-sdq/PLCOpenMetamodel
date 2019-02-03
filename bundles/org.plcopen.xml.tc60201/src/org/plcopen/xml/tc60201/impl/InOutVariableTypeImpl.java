@@ -54,384 +54,384 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implements InOutVariableType {
-    /**
+	/**
 	 * The cached value of the '{@link #getPosition() <em>Position</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getPosition()
 	 * @generated
 	 * @ordered
 	 */
-    protected Position position;
+	protected Position position;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getConnectionPointIn() <em>Connection Point In</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getConnectionPointIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected ConnectionPointIn connectionPointIn;
+	protected ConnectionPointIn connectionPointIn;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getConnectionPointOut() <em>Connection Point Out</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getConnectionPointOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected ConnectionPointOut connectionPointOut;
+	protected ConnectionPointOut connectionPointOut;
 
-    /**
+	/**
 	 * The default value of the '{@link #getExpression() <em>Expression</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExpression()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String EXPRESSION_EDEFAULT = null;
+	protected static final String EXPRESSION_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getExpression() <em>Expression</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExpression()
 	 * @generated
 	 * @ordered
 	 */
-    protected String expression = EXPRESSION_EDEFAULT;
+	protected String expression = EXPRESSION_EDEFAULT;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getDocumentation() <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDocumentation()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText documentation;
+	protected FormattedText documentation;
 
-    /**
+	/**
 	 * The default value of the '{@link #getEdgeIn() <em>Edge In</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEdgeIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final EdgeModifierType EDGE_IN_EDEFAULT = EdgeModifierType.NONE;
+	protected static final EdgeModifierType EDGE_IN_EDEFAULT = EdgeModifierType.NONE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getEdgeIn() <em>Edge In</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEdgeIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected EdgeModifierType edgeIn = EDGE_IN_EDEFAULT;
+	protected EdgeModifierType edgeIn = EDGE_IN_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Edge In attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean edgeInESet;
+	protected boolean edgeInESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getEdgeOut() <em>Edge Out</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEdgeOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final EdgeModifierType EDGE_OUT_EDEFAULT = EdgeModifierType.NONE;
+	protected static final EdgeModifierType EDGE_OUT_EDEFAULT = EdgeModifierType.NONE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getEdgeOut() <em>Edge Out</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getEdgeOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected EdgeModifierType edgeOut = EDGE_OUT_EDEFAULT;
+	protected EdgeModifierType edgeOut = EDGE_OUT_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Edge Out attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean edgeOutESet;
+	protected boolean edgeOutESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getExecutionOrderId() <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigInteger EXECUTION_ORDER_ID_EDEFAULT = null;
+	protected static final BigInteger EXECUTION_ORDER_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getExecutionOrderId() <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigInteger executionOrderId = EXECUTION_ORDER_ID_EDEFAULT;
+	protected BigInteger executionOrderId = EXECUTION_ORDER_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String GLOBAL_ID_EDEFAULT = null;
+	protected static final String GLOBAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected String globalId = GLOBAL_ID_EDEFAULT;
+	protected String globalId = GLOBAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal HEIGHT_EDEFAULT = null;
+	protected static final BigDecimal HEIGHT_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal height = HEIGHT_EDEFAULT;
+	protected BigDecimal height = HEIGHT_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getLocalId() <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLocalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigInteger LOCAL_ID_EDEFAULT = null;
+	protected static final BigInteger LOCAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLocalId() <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLocalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigInteger localId = LOCAL_ID_EDEFAULT;
+	protected BigInteger localId = LOCAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #isNegatedIn() <em>Negated In</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegatedIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean NEGATED_IN_EDEFAULT = false;
+	protected static final boolean NEGATED_IN_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isNegatedIn() <em>Negated In</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegatedIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negatedIn = NEGATED_IN_EDEFAULT;
+	protected boolean negatedIn = NEGATED_IN_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Negated In attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negatedInESet;
+	protected boolean negatedInESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #isNegatedOut() <em>Negated Out</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegatedOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean NEGATED_OUT_EDEFAULT = false;
+	protected static final boolean NEGATED_OUT_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isNegatedOut() <em>Negated Out</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNegatedOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negatedOut = NEGATED_OUT_EDEFAULT;
+	protected boolean negatedOut = NEGATED_OUT_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Negated Out attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean negatedOutESet;
+	protected boolean negatedOutESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getStorageIn() <em>Storage In</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStorageIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final StorageModifierType STORAGE_IN_EDEFAULT = StorageModifierType.NONE;
+	protected static final StorageModifierType STORAGE_IN_EDEFAULT = StorageModifierType.NONE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getStorageIn() <em>Storage In</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStorageIn()
 	 * @generated
 	 * @ordered
 	 */
-    protected StorageModifierType storageIn = STORAGE_IN_EDEFAULT;
+	protected StorageModifierType storageIn = STORAGE_IN_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Storage In attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean storageInESet;
+	protected boolean storageInESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getStorageOut() <em>Storage Out</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStorageOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final StorageModifierType STORAGE_OUT_EDEFAULT = StorageModifierType.NONE;
+	protected static final StorageModifierType STORAGE_OUT_EDEFAULT = StorageModifierType.NONE;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getStorageOut() <em>Storage Out</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getStorageOut()
 	 * @generated
 	 * @ordered
 	 */
-    protected StorageModifierType storageOut = STORAGE_OUT_EDEFAULT;
+	protected StorageModifierType storageOut = STORAGE_OUT_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Storage Out attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean storageOutESet;
+	protected boolean storageOutESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal WIDTH_EDEFAULT = null;
+	protected static final BigDecimal WIDTH_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal width = WIDTH_EDEFAULT;
+	protected BigDecimal width = WIDTH_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected InOutVariableTypeImpl() {
+	protected InOutVariableTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getInOutVariableType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Position getPosition() {
+	public Position getPosition() {
 		return position;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetPosition(Position newPosition, NotificationChain msgs) {
+	public NotificationChain basicSetPosition(Position newPosition, NotificationChain msgs) {
 		Position oldPosition = position;
 		position = newPosition;
 		if (eNotificationRequired()) {
@@ -441,12 +441,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setPosition(Position newPosition) {
+	public void setPosition(Position newPosition) {
 		if (newPosition != position) {
 			NotificationChain msgs = null;
 			if (position != null)
@@ -460,21 +460,21 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__POSITION, newPosition, newPosition));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ConnectionPointIn getConnectionPointIn() {
+	public ConnectionPointIn getConnectionPointIn() {
 		return connectionPointIn;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetConnectionPointIn(ConnectionPointIn newConnectionPointIn, NotificationChain msgs) {
+	public NotificationChain basicSetConnectionPointIn(ConnectionPointIn newConnectionPointIn, NotificationChain msgs) {
 		ConnectionPointIn oldConnectionPointIn = connectionPointIn;
 		connectionPointIn = newConnectionPointIn;
 		if (eNotificationRequired()) {
@@ -484,12 +484,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setConnectionPointIn(ConnectionPointIn newConnectionPointIn) {
+	public void setConnectionPointIn(ConnectionPointIn newConnectionPointIn) {
 		if (newConnectionPointIn != connectionPointIn) {
 			NotificationChain msgs = null;
 			if (connectionPointIn != null)
@@ -503,21 +503,21 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__CONNECTION_POINT_IN, newConnectionPointIn, newConnectionPointIn));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ConnectionPointOut getConnectionPointOut() {
+	public ConnectionPointOut getConnectionPointOut() {
 		return connectionPointOut;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetConnectionPointOut(ConnectionPointOut newConnectionPointOut, NotificationChain msgs) {
+	public NotificationChain basicSetConnectionPointOut(ConnectionPointOut newConnectionPointOut, NotificationChain msgs) {
 		ConnectionPointOut oldConnectionPointOut = connectionPointOut;
 		connectionPointOut = newConnectionPointOut;
 		if (eNotificationRequired()) {
@@ -527,12 +527,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setConnectionPointOut(ConnectionPointOut newConnectionPointOut) {
+	public void setConnectionPointOut(ConnectionPointOut newConnectionPointOut) {
 		if (newConnectionPointOut != connectionPointOut) {
 			NotificationChain msgs = null;
 			if (connectionPointOut != null)
@@ -546,42 +546,42 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__CONNECTION_POINT_OUT, newConnectionPointOut, newConnectionPointOut));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getExpression() {
+	public String getExpression() {
 		return expression;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setExpression(String newExpression) {
+	public void setExpression(String newExpression) {
 		String oldExpression = expression;
 		expression = newExpression;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__EXPRESSION, oldExpression, expression));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -591,12 +591,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -610,21 +610,21 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getDocumentation() {
+	public FormattedText getDocumentation() {
 		return documentation;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
+	public NotificationChain basicSetDocumentation(FormattedText newDocumentation, NotificationChain msgs) {
 		FormattedText oldDocumentation = documentation;
 		documentation = newDocumentation;
 		if (eNotificationRequired()) {
@@ -634,12 +634,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setDocumentation(FormattedText newDocumentation) {
+	public void setDocumentation(FormattedText newDocumentation) {
 		if (newDocumentation != documentation) {
 			NotificationChain msgs = null;
 			if (documentation != null)
@@ -653,21 +653,21 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__DOCUMENTATION, newDocumentation, newDocumentation));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EdgeModifierType getEdgeIn() {
+	public EdgeModifierType getEdgeIn() {
 		return edgeIn;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setEdgeIn(EdgeModifierType newEdgeIn) {
+	public void setEdgeIn(EdgeModifierType newEdgeIn) {
 		EdgeModifierType oldEdgeIn = edgeIn;
 		edgeIn = newEdgeIn == null ? EDGE_IN_EDEFAULT : newEdgeIn;
 		boolean oldEdgeInESet = edgeInESet;
@@ -676,12 +676,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__EDGE_IN, oldEdgeIn, edgeIn, !oldEdgeInESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetEdgeIn() {
+	public void unsetEdgeIn() {
 		EdgeModifierType oldEdgeIn = edgeIn;
 		boolean oldEdgeInESet = edgeInESet;
 		edgeIn = EDGE_IN_EDEFAULT;
@@ -690,30 +690,30 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_OUT_VARIABLE_TYPE__EDGE_IN, oldEdgeIn, EDGE_IN_EDEFAULT, oldEdgeInESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetEdgeIn() {
+	public boolean isSetEdgeIn() {
 		return edgeInESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EdgeModifierType getEdgeOut() {
+	public EdgeModifierType getEdgeOut() {
 		return edgeOut;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setEdgeOut(EdgeModifierType newEdgeOut) {
+	public void setEdgeOut(EdgeModifierType newEdgeOut) {
 		EdgeModifierType oldEdgeOut = edgeOut;
 		edgeOut = newEdgeOut == null ? EDGE_OUT_EDEFAULT : newEdgeOut;
 		boolean oldEdgeOutESet = edgeOutESet;
@@ -722,12 +722,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__EDGE_OUT, oldEdgeOut, edgeOut, !oldEdgeOutESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetEdgeOut() {
+	public void unsetEdgeOut() {
 		EdgeModifierType oldEdgeOut = edgeOut;
 		boolean oldEdgeOutESet = edgeOutESet;
 		edgeOut = EDGE_OUT_EDEFAULT;
@@ -736,114 +736,114 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_OUT_VARIABLE_TYPE__EDGE_OUT, oldEdgeOut, EDGE_OUT_EDEFAULT, oldEdgeOutESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetEdgeOut() {
+	public boolean isSetEdgeOut() {
 		return edgeOutESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigInteger getExecutionOrderId() {
+	public BigInteger getExecutionOrderId() {
 		return executionOrderId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setExecutionOrderId(BigInteger newExecutionOrderId) {
+	public void setExecutionOrderId(BigInteger newExecutionOrderId) {
 		BigInteger oldExecutionOrderId = executionOrderId;
 		executionOrderId = newExecutionOrderId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__EXECUTION_ORDER_ID, oldExecutionOrderId, executionOrderId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getGlobalId() {
+	public String getGlobalId() {
 		return globalId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setGlobalId(String newGlobalId) {
+	public void setGlobalId(String newGlobalId) {
 		String oldGlobalId = globalId;
 		globalId = newGlobalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__GLOBAL_ID, oldGlobalId, globalId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getHeight() {
+	public BigDecimal getHeight() {
 		return height;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setHeight(BigDecimal newHeight) {
+	public void setHeight(BigDecimal newHeight) {
 		BigDecimal oldHeight = height;
 		height = newHeight;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__HEIGHT, oldHeight, height));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigInteger getLocalId() {
+	public BigInteger getLocalId() {
 		return localId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLocalId(BigInteger newLocalId) {
+	public void setLocalId(BigInteger newLocalId) {
 		BigInteger oldLocalId = localId;
 		localId = newLocalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__LOCAL_ID, oldLocalId, localId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isNegatedIn() {
+	public boolean isNegatedIn() {
 		return negatedIn;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setNegatedIn(boolean newNegatedIn) {
+	public void setNegatedIn(boolean newNegatedIn) {
 		boolean oldNegatedIn = negatedIn;
 		negatedIn = newNegatedIn;
 		boolean oldNegatedInESet = negatedInESet;
@@ -852,12 +852,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__NEGATED_IN, oldNegatedIn, negatedIn, !oldNegatedInESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetNegatedIn() {
+	public void unsetNegatedIn() {
 		boolean oldNegatedIn = negatedIn;
 		boolean oldNegatedInESet = negatedInESet;
 		negatedIn = NEGATED_IN_EDEFAULT;
@@ -866,30 +866,30 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_OUT_VARIABLE_TYPE__NEGATED_IN, oldNegatedIn, NEGATED_IN_EDEFAULT, oldNegatedInESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetNegatedIn() {
+	public boolean isSetNegatedIn() {
 		return negatedInESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isNegatedOut() {
+	public boolean isNegatedOut() {
 		return negatedOut;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setNegatedOut(boolean newNegatedOut) {
+	public void setNegatedOut(boolean newNegatedOut) {
 		boolean oldNegatedOut = negatedOut;
 		negatedOut = newNegatedOut;
 		boolean oldNegatedOutESet = negatedOutESet;
@@ -898,12 +898,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__NEGATED_OUT, oldNegatedOut, negatedOut, !oldNegatedOutESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetNegatedOut() {
+	public void unsetNegatedOut() {
 		boolean oldNegatedOut = negatedOut;
 		boolean oldNegatedOutESet = negatedOutESet;
 		negatedOut = NEGATED_OUT_EDEFAULT;
@@ -912,30 +912,30 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_OUT_VARIABLE_TYPE__NEGATED_OUT, oldNegatedOut, NEGATED_OUT_EDEFAULT, oldNegatedOutESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetNegatedOut() {
+	public boolean isSetNegatedOut() {
 		return negatedOutESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public StorageModifierType getStorageIn() {
+	public StorageModifierType getStorageIn() {
 		return storageIn;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setStorageIn(StorageModifierType newStorageIn) {
+	public void setStorageIn(StorageModifierType newStorageIn) {
 		StorageModifierType oldStorageIn = storageIn;
 		storageIn = newStorageIn == null ? STORAGE_IN_EDEFAULT : newStorageIn;
 		boolean oldStorageInESet = storageInESet;
@@ -944,12 +944,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__STORAGE_IN, oldStorageIn, storageIn, !oldStorageInESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetStorageIn() {
+	public void unsetStorageIn() {
 		StorageModifierType oldStorageIn = storageIn;
 		boolean oldStorageInESet = storageInESet;
 		storageIn = STORAGE_IN_EDEFAULT;
@@ -958,30 +958,30 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_OUT_VARIABLE_TYPE__STORAGE_IN, oldStorageIn, STORAGE_IN_EDEFAULT, oldStorageInESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetStorageIn() {
+	public boolean isSetStorageIn() {
 		return storageInESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public StorageModifierType getStorageOut() {
+	public StorageModifierType getStorageOut() {
 		return storageOut;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setStorageOut(StorageModifierType newStorageOut) {
+	public void setStorageOut(StorageModifierType newStorageOut) {
 		StorageModifierType oldStorageOut = storageOut;
 		storageOut = newStorageOut == null ? STORAGE_OUT_EDEFAULT : newStorageOut;
 		boolean oldStorageOutESet = storageOutESet;
@@ -990,12 +990,12 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__STORAGE_OUT, oldStorageOut, storageOut, !oldStorageOutESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetStorageOut() {
+	public void unsetStorageOut() {
 		StorageModifierType oldStorageOut = storageOut;
 		boolean oldStorageOutESet = storageOutESet;
 		storageOut = STORAGE_OUT_EDEFAULT;
@@ -1004,43 +1004,43 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.IN_OUT_VARIABLE_TYPE__STORAGE_OUT, oldStorageOut, STORAGE_OUT_EDEFAULT, oldStorageOutESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetStorageOut() {
+	public boolean isSetStorageOut() {
 		return storageOutESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getWidth() {
+	public BigDecimal getWidth() {
 		return width;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setWidth(BigDecimal newWidth) {
+	public void setWidth(BigDecimal newWidth) {
 		BigDecimal oldWidth = width;
 		width = newWidth;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.IN_OUT_VARIABLE_TYPE__WIDTH, oldWidth, width));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.IN_OUT_VARIABLE_TYPE__POSITION:
 				return basicSetPosition(null, msgs);
@@ -1056,13 +1056,13 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.IN_OUT_VARIABLE_TYPE__POSITION:
 				return getPosition();
@@ -1102,13 +1102,13 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.IN_OUT_VARIABLE_TYPE__POSITION:
 				setPosition((Position)newValue);
@@ -1165,13 +1165,13 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.IN_OUT_VARIABLE_TYPE__POSITION:
 				setPosition((Position)null);
@@ -1228,13 +1228,13 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.IN_OUT_VARIABLE_TYPE__POSITION:
 				return position != null;
@@ -1274,13 +1274,13 @@ public class InOutVariableTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

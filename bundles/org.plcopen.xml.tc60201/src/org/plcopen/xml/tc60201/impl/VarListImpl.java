@@ -30,205 +30,205 @@ import org.plcopen.xml.tc60201.VarList;
  * @generated
  */
 public class VarListImpl extends VarListPlainImpl implements VarList {
-    /**
+	/**
 	 * The default value of the '{@link #isConstant() <em>Constant</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isConstant()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean CONSTANT_EDEFAULT = false;
+	protected static final boolean CONSTANT_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isConstant() <em>Constant</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isConstant()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean constant = CONSTANT_EDEFAULT;
+	protected boolean constant = CONSTANT_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Constant attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean constantESet;
+	protected boolean constantESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String NAME_EDEFAULT = null;
+	protected static final String NAME_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getName()
 	 * @generated
 	 * @ordered
 	 */
-    protected String name = NAME_EDEFAULT;
+	protected String name = NAME_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #isNonpersistent() <em>Nonpersistent</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNonpersistent()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean NONPERSISTENT_EDEFAULT = false;
+	protected static final boolean NONPERSISTENT_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isNonpersistent() <em>Nonpersistent</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNonpersistent()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean nonpersistent = NONPERSISTENT_EDEFAULT;
+	protected boolean nonpersistent = NONPERSISTENT_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Nonpersistent attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean nonpersistentESet;
+	protected boolean nonpersistentESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #isNonretain() <em>Nonretain</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNonretain()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean NONRETAIN_EDEFAULT = false;
+	protected static final boolean NONRETAIN_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isNonretain() <em>Nonretain</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isNonretain()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean nonretain = NONRETAIN_EDEFAULT;
+	protected boolean nonretain = NONRETAIN_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Nonretain attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean nonretainESet;
+	protected boolean nonretainESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #isPersistent() <em>Persistent</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isPersistent()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean PERSISTENT_EDEFAULT = false;
+	protected static final boolean PERSISTENT_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isPersistent() <em>Persistent</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isPersistent()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean persistent = PERSISTENT_EDEFAULT;
+	protected boolean persistent = PERSISTENT_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Persistent attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean persistentESet;
+	protected boolean persistentESet;
 
-    /**
+	/**
 	 * The default value of the '{@link #isRetain() <em>Retain</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isRetain()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final boolean RETAIN_EDEFAULT = false;
+	protected static final boolean RETAIN_EDEFAULT = false;
 
-    /**
+	/**
 	 * The cached value of the '{@link #isRetain() <em>Retain</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isRetain()
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean retain = RETAIN_EDEFAULT;
+	protected boolean retain = RETAIN_EDEFAULT;
 
-    /**
+	/**
 	 * This is true if the Retain attribute has been set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    protected boolean retainESet;
+	protected boolean retainESet;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VarListImpl() {
+	protected VarListImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getVarList();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isConstant() {
+	public boolean isConstant() {
 		return constant;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setConstant(boolean newConstant) {
+	public void setConstant(boolean newConstant) {
 		boolean oldConstant = constant;
 		constant = newConstant;
 		boolean oldConstantESet = constantESet;
@@ -237,12 +237,12 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__CONSTANT, oldConstant, constant, !oldConstantESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetConstant() {
+	public void unsetConstant() {
 		boolean oldConstant = constant;
 		boolean oldConstantESet = constantESet;
 		constant = CONSTANT_EDEFAULT;
@@ -251,51 +251,51 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__CONSTANT, oldConstant, CONSTANT_EDEFAULT, oldConstantESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetConstant() {
+	public boolean isSetConstant() {
 		return constantESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getName() {
+	public String getName() {
 		return name;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setName(String newName) {
+	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NAME, oldName, name));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isNonpersistent() {
+	public boolean isNonpersistent() {
 		return nonpersistent;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setNonpersistent(boolean newNonpersistent) {
+	public void setNonpersistent(boolean newNonpersistent) {
 		boolean oldNonpersistent = nonpersistent;
 		nonpersistent = newNonpersistent;
 		boolean oldNonpersistentESet = nonpersistentESet;
@@ -304,12 +304,12 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NONPERSISTENT, oldNonpersistent, nonpersistent, !oldNonpersistentESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetNonpersistent() {
+	public void unsetNonpersistent() {
 		boolean oldNonpersistent = nonpersistent;
 		boolean oldNonpersistentESet = nonpersistentESet;
 		nonpersistent = NONPERSISTENT_EDEFAULT;
@@ -318,30 +318,30 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__NONPERSISTENT, oldNonpersistent, NONPERSISTENT_EDEFAULT, oldNonpersistentESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetNonpersistent() {
+	public boolean isSetNonpersistent() {
 		return nonpersistentESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isNonretain() {
+	public boolean isNonretain() {
 		return nonretain;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setNonretain(boolean newNonretain) {
+	public void setNonretain(boolean newNonretain) {
 		boolean oldNonretain = nonretain;
 		nonretain = newNonretain;
 		boolean oldNonretainESet = nonretainESet;
@@ -350,12 +350,12 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__NONRETAIN, oldNonretain, nonretain, !oldNonretainESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetNonretain() {
+	public void unsetNonretain() {
 		boolean oldNonretain = nonretain;
 		boolean oldNonretainESet = nonretainESet;
 		nonretain = NONRETAIN_EDEFAULT;
@@ -364,30 +364,30 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__NONRETAIN, oldNonretain, NONRETAIN_EDEFAULT, oldNonretainESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetNonretain() {
+	public boolean isSetNonretain() {
 		return nonretainESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isPersistent() {
+	public boolean isPersistent() {
 		return persistent;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setPersistent(boolean newPersistent) {
+	public void setPersistent(boolean newPersistent) {
 		boolean oldPersistent = persistent;
 		persistent = newPersistent;
 		boolean oldPersistentESet = persistentESet;
@@ -396,12 +396,12 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__PERSISTENT, oldPersistent, persistent, !oldPersistentESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetPersistent() {
+	public void unsetPersistent() {
 		boolean oldPersistent = persistent;
 		boolean oldPersistentESet = persistentESet;
 		persistent = PERSISTENT_EDEFAULT;
@@ -410,30 +410,30 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__PERSISTENT, oldPersistent, PERSISTENT_EDEFAULT, oldPersistentESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetPersistent() {
+	public boolean isSetPersistent() {
 		return persistentESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isRetain() {
+	public boolean isRetain() {
 		return retain;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setRetain(boolean newRetain) {
+	public void setRetain(boolean newRetain) {
 		boolean oldRetain = retain;
 		retain = newRetain;
 		boolean oldRetainESet = retainESet;
@@ -442,12 +442,12 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VAR_LIST__RETAIN, oldRetain, retain, !oldRetainESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void unsetRetain() {
+	public void unsetRetain() {
 		boolean oldRetain = retain;
 		boolean oldRetainESet = retainESet;
 		retain = RETAIN_EDEFAULT;
@@ -456,22 +456,22 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 			eNotify(new ENotificationImpl(this, Notification.UNSET, Tc60201Package.VAR_LIST__RETAIN, oldRetain, RETAIN_EDEFAULT, oldRetainESet));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public boolean isSetRetain() {
+	public boolean isSetRetain() {
 		return retainESet;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST__CONSTANT:
 				return isConstant();
@@ -489,13 +489,13 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST__CONSTANT:
 				setConstant((Boolean)newValue);
@@ -519,13 +519,13 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST__CONSTANT:
 				unsetConstant();
@@ -549,13 +549,13 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VAR_LIST__CONSTANT:
 				return isSetConstant();
@@ -573,13 +573,13 @@ public class VarListImpl extends VarListPlainImpl implements VarList {
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

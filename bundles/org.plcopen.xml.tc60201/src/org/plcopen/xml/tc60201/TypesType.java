@@ -23,14 +23,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface TypesType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Data Types</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Data Types</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Data Types</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Data Types</em>' containment reference.
 	 * @see #setDataTypes(DataTypesType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getTypesType_DataTypes()
@@ -38,26 +38,26 @@ public interface TypesType extends EObject {
 	 *        extendedMetaData="kind='element' name='dataTypes' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    DataTypesType getDataTypes();
+	DataTypesType getDataTypes();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.TypesType#getDataTypes <em>Data Types</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Data Types</em>' containment reference.
 	 * @see #getDataTypes()
 	 * @generated
 	 */
-    void setDataTypes(DataTypesType value);
+	void setDataTypes(DataTypesType value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Pous</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pous</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Pous</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Pous</em>' containment reference.
 	 * @see #setPous(PousType)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getTypesType_Pous()
@@ -65,19 +65,19 @@ public interface TypesType extends EObject {
 	 *        extendedMetaData="kind='element' name='pous' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    PousType getPous();
+	PousType getPous();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.TypesType#getPous <em>Pous</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Pous</em>' containment reference.
 	 * @see #getPous()
 	 * @generated
 	 */
-    void setPous(PousType value);
+	void setPous(PousType value);
 
-				/**
+	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <p>
@@ -93,7 +93,7 @@ public interface TypesType extends EObject {
 	 */
 	String getName();
 
-				/**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.TypesType#getName <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

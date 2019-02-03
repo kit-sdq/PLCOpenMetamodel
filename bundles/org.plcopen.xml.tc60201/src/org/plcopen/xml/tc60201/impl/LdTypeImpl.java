@@ -29,50 +29,50 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class LdTypeImpl extends MinimalEObjectImpl.Container implements LdType {
-    /**
+	/**
 	 * The cached value of the '{@link #getScaling() <em>Scaling</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getScaling()
 	 * @generated
 	 * @ordered
 	 */
-    protected ScalingType1 scaling;
+	protected ScalingType1 scaling;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected LdTypeImpl() {
+	protected LdTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getLdType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public ScalingType1 getScaling() {
+	public ScalingType1 getScaling() {
 		return scaling;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetScaling(ScalingType1 newScaling, NotificationChain msgs) {
+	public NotificationChain basicSetScaling(ScalingType1 newScaling, NotificationChain msgs) {
 		ScalingType1 oldScaling = scaling;
 		scaling = newScaling;
 		if (eNotificationRequired()) {
@@ -82,12 +82,12 @@ public class LdTypeImpl extends MinimalEObjectImpl.Container implements LdType {
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setScaling(ScalingType1 newScaling) {
+	public void setScaling(ScalingType1 newScaling) {
 		if (newScaling != scaling) {
 			NotificationChain msgs = null;
 			if (scaling != null)
@@ -101,13 +101,13 @@ public class LdTypeImpl extends MinimalEObjectImpl.Container implements LdType {
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.LD_TYPE__SCALING, newScaling, newScaling));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE__SCALING:
 				return basicSetScaling(null, msgs);
@@ -115,13 +115,13 @@ public class LdTypeImpl extends MinimalEObjectImpl.Container implements LdType {
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE__SCALING:
 				return getScaling();
@@ -129,13 +129,13 @@ public class LdTypeImpl extends MinimalEObjectImpl.Container implements LdType {
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE__SCALING:
 				setScaling((ScalingType1)newValue);
@@ -144,13 +144,13 @@ public class LdTypeImpl extends MinimalEObjectImpl.Container implements LdType {
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE__SCALING:
 				setScaling((ScalingType1)null);
@@ -159,13 +159,13 @@ public class LdTypeImpl extends MinimalEObjectImpl.Container implements LdType {
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.LD_TYPE__SCALING:
 				return scaling != null;

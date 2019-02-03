@@ -34,54 +34,54 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class DataTypesTypeImpl extends MinimalEObjectImpl.Container implements DataTypesType {
-    /**
+	/**
 	 * The cached value of the '{@link #getDataType() <em>Data Type</em>}' containment reference list.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getDataType()
 	 * @generated
 	 * @ordered
 	 */
-    protected EList<DataTypeType> dataType;
+	protected EList<DataTypeType> dataType;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected DataTypesTypeImpl() {
+	protected DataTypesTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getDataTypesType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public EList<DataTypeType> getDataType() {
+	public EList<DataTypeType> getDataType() {
 		if (dataType == null) {
 			dataType = new EObjectContainmentEList<DataTypeType>(DataTypeType.class, this, Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE);
 		}
 		return dataType;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
 				return ((InternalEList<?>)getDataType()).basicRemove(otherEnd, msgs);
@@ -89,13 +89,13 @@ public class DataTypesTypeImpl extends MinimalEObjectImpl.Container implements D
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
 				return getDataType();
@@ -103,14 +103,14 @@ public class DataTypesTypeImpl extends MinimalEObjectImpl.Container implements D
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @SuppressWarnings("unchecked")
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@SuppressWarnings("unchecked")
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
 				getDataType().clear();
@@ -120,13 +120,13 @@ public class DataTypesTypeImpl extends MinimalEObjectImpl.Container implements D
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
 				getDataType().clear();
@@ -135,13 +135,13 @@ public class DataTypesTypeImpl extends MinimalEObjectImpl.Container implements D
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.DATA_TYPES_TYPE__DATA_TYPE:
 				return dataType != null && !dataType.isEmpty();

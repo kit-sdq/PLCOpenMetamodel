@@ -32,31 +32,31 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class FileHeaderTypeItemProvider 
-    extends ItemProviderAdapter
-    implements
-        IEditingDomainItemProvider,
-        IStructuredItemContentProvider,
-        ITreeItemContentProvider,
-        IItemLabelProvider,
-        IItemPropertySource {
-    /**
+	extends ItemProviderAdapter
+	implements
+		IEditingDomainItemProvider,
+		IStructuredItemContentProvider,
+		ITreeItemContentProvider,
+		IItemLabelProvider,
+		IItemPropertySource {
+	/**
 	 * This constructs an instance from a factory and a notifier.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FileHeaderTypeItemProvider(AdapterFactory adapterFactory) {
+	public FileHeaderTypeItemProvider(AdapterFactory adapterFactory) {
 		super(adapterFactory);
 	}
 
-    /**
+	/**
 	 * This returns the property descriptors for the adapted class.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public List<IItemPropertyDescriptor> getPropertyDescriptors(Object object) {
+	@Override
+	public List<IItemPropertyDescriptor> getPropertyDescriptors(Object object) {
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
@@ -71,13 +71,13 @@ public class FileHeaderTypeItemProvider
 		return itemPropertyDescriptors;
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Company Name feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addCompanyNamePropertyDescriptor(Object object) {
+	protected void addCompanyNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -93,13 +93,13 @@ public class FileHeaderTypeItemProvider
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Company URL feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addCompanyURLPropertyDescriptor(Object object) {
+	protected void addCompanyURLPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -115,13 +115,13 @@ public class FileHeaderTypeItemProvider
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Content Description feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addContentDescriptionPropertyDescriptor(Object object) {
+	protected void addContentDescriptionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -137,13 +137,13 @@ public class FileHeaderTypeItemProvider
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Creation Date Time feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addCreationDateTimePropertyDescriptor(Object object) {
+	protected void addCreationDateTimePropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -159,13 +159,13 @@ public class FileHeaderTypeItemProvider
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Product Name feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addProductNamePropertyDescriptor(Object object) {
+	protected void addProductNamePropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -181,13 +181,13 @@ public class FileHeaderTypeItemProvider
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Product Release feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addProductReleasePropertyDescriptor(Object object) {
+	protected void addProductReleasePropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -203,13 +203,13 @@ public class FileHeaderTypeItemProvider
 				 null));
 	}
 
-    /**
+	/**
 	 * This adds a property descriptor for the Product Version feature.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected void addProductVersionPropertyDescriptor(Object object) {
+	protected void addProductVersionPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
@@ -225,41 +225,41 @@ public class FileHeaderTypeItemProvider
 				 null));
 	}
 
-    /**
+	/**
 	 * This returns FileHeaderType.gif.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object getImage(Object object) {
+	@Override
+	public Object getImage(Object object) {
 		return overlayImage(object, getResourceLocator().getImage("full/obj16/FileHeaderType"));
 	}
 
-    /**
+	/**
 	 * This returns the label text for the adapted class.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String getText(Object object) {
+	@Override
+	public String getText(Object object) {
 		String label = ((FileHeaderType)object).getCompanyName();
 		return label == null || label.length() == 0 ?
 			getString("_UI_FileHeaderType_type") :
 			getString("_UI_FileHeaderType_type") + " " + label;
 	}
-    
+	
 
-    /**
+	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached
 	 * children and by creating a viewer notification, which it passes to {@link #fireNotifyChanged}.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void notifyChanged(Notification notification) {
+	@Override
+	public void notifyChanged(Notification notification) {
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(FileHeaderType.class)) {
@@ -276,26 +276,26 @@ public class FileHeaderTypeItemProvider
 		super.notifyChanged(notification);
 	}
 
-    /**
+	/**
 	 * This adds {@link org.eclipse.emf.edit.command.CommandParameter}s describing the children
 	 * that can be created under this object.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
+	@Override
+	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
 	}
 
-    /**
+	/**
 	 * Return the resource locator for this item provider's resources.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public ResourceLocator getResourceLocator() {
+	@Override
+	public ResourceLocator getResourceLocator() {
 		return Tc6_xml_v201EditPlugin.INSTANCE;
 	}
 

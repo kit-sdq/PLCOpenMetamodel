@@ -15,22 +15,22 @@ import org.plcopen.xml.tc60201.Tc60201Package;
  * @generated
  */
 public class LocalVarsTypeImpl extends VarListImpl implements LocalVarsType {
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected LocalVarsTypeImpl() {
+	protected LocalVarsTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getLocalVarsType();
 	}
 

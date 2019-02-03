@@ -20,15 +20,15 @@ package org.plcopen.xml.tc60201;
  * @generated
  */
 public interface ValueType1 extends Value {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Repetition Value</b></em>' attribute.
 	 * The default value is <code>"1"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Repetition Value</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Repetition Value</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Repetition Value</em>' attribute.
 	 * @see #isSetRepetitionValue()
 	 * @see #unsetRepetitionValue()
@@ -38,41 +38,41 @@ public interface ValueType1 extends Value {
 	 *        extendedMetaData="kind='attribute' name='repetitionValue'"
 	 * @generated
 	 */
-    String getRepetitionValue();
+	String getRepetitionValue();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.ValueType1#getRepetitionValue <em>Repetition Value</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Repetition Value</em>' attribute.
 	 * @see #isSetRepetitionValue()
 	 * @see #unsetRepetitionValue()
 	 * @see #getRepetitionValue()
 	 * @generated
 	 */
-    void setRepetitionValue(String value);
+	void setRepetitionValue(String value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.ValueType1#getRepetitionValue <em>Repetition Value</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetRepetitionValue()
 	 * @see #getRepetitionValue()
 	 * @see #setRepetitionValue(String)
 	 * @generated
 	 */
-    void unsetRepetitionValue();
+	void unsetRepetitionValue();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.ValueType1#getRepetitionValue <em>Repetition Value</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Repetition Value</em>' attribute is set.
 	 * @see #unsetRepetitionValue()
 	 * @see #getRepetitionValue()
 	 * @see #setRepetitionValue(String)
 	 * @generated
 	 */
-    boolean isSetRepetitionValue();
+	boolean isSetRepetitionValue();
 
 } // ValueType1

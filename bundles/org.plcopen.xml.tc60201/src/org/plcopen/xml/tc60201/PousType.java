@@ -24,24 +24,24 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface PousType extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Pou</b></em>' containment reference list.
 	 * The list contents are of type {@link org.plcopen.xml.tc60201.PouType1}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Pou</em>' containment reference list isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Pou</em>' containment reference list isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Pou</em>' containment reference list.
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getPousType_Pou()
 	 * @model containment="true"
 	 *        extendedMetaData="kind='element' name='pou' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    EList<PouType1> getPou();
+	EList<PouType1> getPou();
 
-				/**
+	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <p>
@@ -57,7 +57,7 @@ public interface PousType extends EObject {
 	 */
 	String getName();
 
-				/**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.PousType#getName <em>Name</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

@@ -32,14 +32,14 @@ import org.eclipse.emf.ecore.EObject;
  * @generated
  */
 public interface VariableType5 extends EObject {
-    /**
+	/**
 	 * Returns the value of the '<em><b>Connection Point In</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connection Point In</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Connection Point In</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Connection Point In</em>' containment reference.
 	 * @see #setConnectionPointIn(ConnectionPointIn)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getVariableType5_ConnectionPointIn()
@@ -47,26 +47,26 @@ public interface VariableType5 extends EObject {
 	 *        extendedMetaData="kind='element' name='connectionPointIn' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    ConnectionPointIn getConnectionPointIn();
+	ConnectionPointIn getConnectionPointIn();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getConnectionPointIn <em>Connection Point In</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Connection Point In</em>' containment reference.
 	 * @see #getConnectionPointIn()
 	 * @generated
 	 */
-    void setConnectionPointIn(ConnectionPointIn value);
+	void setConnectionPointIn(ConnectionPointIn value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Connection Point Out</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Connection Point Out</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Connection Point Out</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Connection Point Out</em>' containment reference.
 	 * @see #setConnectionPointOut(ConnectionPointOut)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getVariableType5_ConnectionPointOut()
@@ -74,26 +74,26 @@ public interface VariableType5 extends EObject {
 	 *        extendedMetaData="kind='element' name='connectionPointOut' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    ConnectionPointOut getConnectionPointOut();
+	ConnectionPointOut getConnectionPointOut();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getConnectionPointOut <em>Connection Point Out</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Connection Point Out</em>' containment reference.
 	 * @see #getConnectionPointOut()
 	 * @generated
 	 */
-    void setConnectionPointOut(ConnectionPointOut value);
+	void setConnectionPointOut(ConnectionPointOut value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Documentation</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Documentation</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Documentation</em>' containment reference.
 	 * @see #setDocumentation(FormattedText)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getVariableType5_Documentation()
@@ -101,28 +101,28 @@ public interface VariableType5 extends EObject {
 	 *        extendedMetaData="kind='element' name='documentation' namespace='##targetNamespace'"
 	 * @generated
 	 */
-    FormattedText getDocumentation();
+	FormattedText getDocumentation();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getDocumentation <em>Documentation</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Documentation</em>' containment reference.
 	 * @see #getDocumentation()
 	 * @generated
 	 */
-    void setDocumentation(FormattedText value);
+	void setDocumentation(FormattedText value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Edge</b></em>' attribute.
 	 * The default value is <code>"none"</code>.
 	 * The literals are from the enumeration {@link org.plcopen.xml.tc60201.EdgeModifierType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Edge</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Edge</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Edge</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.EdgeModifierType
 	 * @see #isSetEdge()
@@ -133,12 +133,12 @@ public interface VariableType5 extends EObject {
 	 *        extendedMetaData="kind='attribute' name='edge'"
 	 * @generated
 	 */
-    EdgeModifierType getEdge();
+	EdgeModifierType getEdge();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getEdge <em>Edge</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Edge</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.EdgeModifierType
 	 * @see #isSetEdge()
@@ -146,39 +146,39 @@ public interface VariableType5 extends EObject {
 	 * @see #getEdge()
 	 * @generated
 	 */
-    void setEdge(EdgeModifierType value);
+	void setEdge(EdgeModifierType value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getEdge <em>Edge</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetEdge()
 	 * @see #getEdge()
 	 * @see #setEdge(EdgeModifierType)
 	 * @generated
 	 */
-    void unsetEdge();
+	void unsetEdge();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getEdge <em>Edge</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Edge</em>' attribute is set.
 	 * @see #unsetEdge()
 	 * @see #getEdge()
 	 * @see #setEdge(EdgeModifierType)
 	 * @generated
 	 */
-    boolean isSetEdge();
+	boolean isSetEdge();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Formal Parameter</b></em>' attribute.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Formal Parameter</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Formal Parameter</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Formal Parameter</em>' attribute.
 	 * @see #setFormalParameter(String)
 	 * @see org.plcopen.xml.tc60201.Tc60201Package#getVariableType5_FormalParameter()
@@ -186,27 +186,27 @@ public interface VariableType5 extends EObject {
 	 *        extendedMetaData="kind='attribute' name='formalParameter'"
 	 * @generated
 	 */
-    String getFormalParameter();
+	String getFormalParameter();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getFormalParameter <em>Formal Parameter</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Formal Parameter</em>' attribute.
 	 * @see #getFormalParameter()
 	 * @generated
 	 */
-    void setFormalParameter(String value);
+	void setFormalParameter(String value);
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Hidden</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Hidden</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Hidden</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Hidden</em>' attribute.
 	 * @see #isSetHidden()
 	 * @see #unsetHidden()
@@ -216,52 +216,52 @@ public interface VariableType5 extends EObject {
 	 *        extendedMetaData="kind='attribute' name='hidden'"
 	 * @generated
 	 */
-    boolean isHidden();
+	boolean isHidden();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#isHidden <em>Hidden</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Hidden</em>' attribute.
 	 * @see #isSetHidden()
 	 * @see #unsetHidden()
 	 * @see #isHidden()
 	 * @generated
 	 */
-    void setHidden(boolean value);
+	void setHidden(boolean value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#isHidden <em>Hidden</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetHidden()
 	 * @see #isHidden()
 	 * @see #setHidden(boolean)
 	 * @generated
 	 */
-    void unsetHidden();
+	void unsetHidden();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VariableType5#isHidden <em>Hidden</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Hidden</em>' attribute is set.
 	 * @see #unsetHidden()
 	 * @see #isHidden()
 	 * @see #setHidden(boolean)
 	 * @generated
 	 */
-    boolean isSetHidden();
+	boolean isSetHidden();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Negated</b></em>' attribute.
 	 * The default value is <code>"false"</code>.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Negated</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Negated</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Negated</em>' attribute.
 	 * @see #isSetNegated()
 	 * @see #unsetNegated()
@@ -271,53 +271,53 @@ public interface VariableType5 extends EObject {
 	 *        extendedMetaData="kind='attribute' name='negated'"
 	 * @generated
 	 */
-    boolean isNegated();
+	boolean isNegated();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#isNegated <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Negated</em>' attribute.
 	 * @see #isSetNegated()
 	 * @see #unsetNegated()
 	 * @see #isNegated()
 	 * @generated
 	 */
-    void setNegated(boolean value);
+	void setNegated(boolean value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#isNegated <em>Negated</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetNegated()
 	 * @see #isNegated()
 	 * @see #setNegated(boolean)
 	 * @generated
 	 */
-    void unsetNegated();
+	void unsetNegated();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VariableType5#isNegated <em>Negated</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Negated</em>' attribute is set.
 	 * @see #unsetNegated()
 	 * @see #isNegated()
 	 * @see #setNegated(boolean)
 	 * @generated
 	 */
-    boolean isSetNegated();
+	boolean isSetNegated();
 
-    /**
+	/**
 	 * Returns the value of the '<em><b>Storage</b></em>' attribute.
 	 * The default value is <code>"none"</code>.
 	 * The literals are from the enumeration {@link org.plcopen.xml.tc60201.StorageModifierType}.
 	 * <!-- begin-user-doc -->
-     * <p>
-     * If the meaning of the '<em>Storage</em>' attribute isn't clear,
-     * there really should be more of a description here...
-     * </p>
-     * <!-- end-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Storage</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Storage</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.StorageModifierType
 	 * @see #isSetStorage()
@@ -328,12 +328,12 @@ public interface VariableType5 extends EObject {
 	 *        extendedMetaData="kind='attribute' name='storage'"
 	 * @generated
 	 */
-    StorageModifierType getStorage();
+	StorageModifierType getStorage();
 
-    /**
+	/**
 	 * Sets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getStorage <em>Storage</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Storage</em>' attribute.
 	 * @see org.plcopen.xml.tc60201.StorageModifierType
 	 * @see #isSetStorage()
@@ -341,29 +341,29 @@ public interface VariableType5 extends EObject {
 	 * @see #getStorage()
 	 * @generated
 	 */
-    void setStorage(StorageModifierType value);
+	void setStorage(StorageModifierType value);
 
-    /**
+	/**
 	 * Unsets the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getStorage <em>Storage</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #isSetStorage()
 	 * @see #getStorage()
 	 * @see #setStorage(StorageModifierType)
 	 * @generated
 	 */
-    void unsetStorage();
+	void unsetStorage();
 
-    /**
+	/**
 	 * Returns whether the value of the '{@link org.plcopen.xml.tc60201.VariableType5#getStorage <em>Storage</em>}' attribute is set.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @return whether the value of the '<em>Storage</em>' attribute is set.
 	 * @see #unsetStorage()
 	 * @see #getStorage()
 	 * @see #setStorage(StorageModifierType)
 	 * @generated
 	 */
-    boolean isSetStorage();
+	boolean isSetStorage();
 
 } // VariableType5

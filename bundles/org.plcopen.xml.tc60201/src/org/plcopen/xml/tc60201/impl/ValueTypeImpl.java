@@ -25,73 +25,73 @@ import org.plcopen.xml.tc60201.ValueType;
  * @generated
  */
 public class ValueTypeImpl extends ValueImpl implements ValueType {
-    /**
+	/**
 	 * The default value of the '{@link #getMember() <em>Member</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getMember()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String MEMBER_EDEFAULT = null;
+	protected static final String MEMBER_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getMember() <em>Member</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getMember()
 	 * @generated
 	 * @ordered
 	 */
-    protected String member = MEMBER_EDEFAULT;
+	protected String member = MEMBER_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected ValueTypeImpl() {
+	protected ValueTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getValueType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getMember() {
+	public String getMember() {
 		return member;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setMember(String newMember) {
+	public void setMember(String newMember) {
 		String oldMember = member;
 		member = newMember;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VALUE_TYPE__MEMBER, oldMember, member));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.VALUE_TYPE__MEMBER:
 				return getMember();
@@ -99,13 +99,13 @@ public class ValueTypeImpl extends ValueImpl implements ValueType {
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.VALUE_TYPE__MEMBER:
 				setMember((String)newValue);
@@ -114,13 +114,13 @@ public class ValueTypeImpl extends ValueImpl implements ValueType {
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VALUE_TYPE__MEMBER:
 				setMember(MEMBER_EDEFAULT);
@@ -129,13 +129,13 @@ public class ValueTypeImpl extends ValueImpl implements ValueType {
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VALUE_TYPE__MEMBER:
 				return MEMBER_EDEFAULT == null ? member != null : !MEMBER_EDEFAULT.equals(member);
@@ -143,13 +143,13 @@ public class ValueTypeImpl extends ValueImpl implements ValueType {
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());

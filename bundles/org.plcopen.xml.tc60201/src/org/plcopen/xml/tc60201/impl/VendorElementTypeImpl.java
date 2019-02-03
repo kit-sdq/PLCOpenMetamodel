@@ -47,200 +47,200 @@ import org.plcopen.xml.tc60201.VendorElementType;
  * @generated
  */
 public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implements VendorElementType {
-    /**
+	/**
 	 * The cached value of the '{@link #getPosition() <em>Position</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getPosition()
 	 * @generated
 	 * @ordered
 	 */
-    protected Position position;
+	protected Position position;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAlternativeText() <em>Alternative Text</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAlternativeText()
 	 * @generated
 	 * @ordered
 	 */
-    protected FormattedText alternativeText;
+	protected FormattedText alternativeText;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getInputVariables() <em>Input Variables</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInputVariables()
 	 * @generated
 	 * @ordered
 	 */
-    protected InputVariablesType1 inputVariables;
+	protected InputVariablesType1 inputVariables;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getInOutVariables() <em>In Out Variables</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getInOutVariables()
 	 * @generated
 	 * @ordered
 	 */
-    protected InOutVariablesType1 inOutVariables;
+	protected InOutVariablesType1 inOutVariables;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getOutputVariables() <em>Output Variables</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getOutputVariables()
 	 * @generated
 	 * @ordered
 	 */
-    protected OutputVariablesType1 outputVariables;
+	protected OutputVariablesType1 outputVariables;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getAddData() <em>Add Data</em>}' containment reference.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getAddData()
 	 * @generated
 	 * @ordered
 	 */
-    protected AddData addData;
+	protected AddData addData;
 
-    /**
+	/**
 	 * The default value of the '{@link #getExecutionOrderId() <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigInteger EXECUTION_ORDER_ID_EDEFAULT = null;
+	protected static final BigInteger EXECUTION_ORDER_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getExecutionOrderId() <em>Execution Order Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getExecutionOrderId()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigInteger executionOrderId = EXECUTION_ORDER_ID_EDEFAULT;
+	protected BigInteger executionOrderId = EXECUTION_ORDER_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final String GLOBAL_ID_EDEFAULT = null;
+	protected static final String GLOBAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getGlobalId() <em>Global Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getGlobalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected String globalId = GLOBAL_ID_EDEFAULT;
+	protected String globalId = GLOBAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal HEIGHT_EDEFAULT = null;
+	protected static final BigDecimal HEIGHT_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal height = HEIGHT_EDEFAULT;
+	protected BigDecimal height = HEIGHT_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getLocalId() <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLocalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigInteger LOCAL_ID_EDEFAULT = null;
+	protected static final BigInteger LOCAL_ID_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getLocalId() <em>Local Id</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getLocalId()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigInteger localId = LOCAL_ID_EDEFAULT;
+	protected BigInteger localId = LOCAL_ID_EDEFAULT;
 
-    /**
+	/**
 	 * The default value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-    protected static final BigDecimal WIDTH_EDEFAULT = null;
+	protected static final BigDecimal WIDTH_EDEFAULT = null;
 
-    /**
+	/**
 	 * The cached value of the '{@link #getWidth() <em>Width</em>}' attribute.
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @see #getWidth()
 	 * @generated
 	 * @ordered
 	 */
-    protected BigDecimal width = WIDTH_EDEFAULT;
+	protected BigDecimal width = WIDTH_EDEFAULT;
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    protected VendorElementTypeImpl() {
+	protected VendorElementTypeImpl() {
 		super();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    protected EClass eStaticClass() {
+	@Override
+	protected EClass eStaticClass() {
 		return Tc60201Package.eINSTANCE.getVendorElementType();
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public Position getPosition() {
+	public Position getPosition() {
 		return position;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetPosition(Position newPosition, NotificationChain msgs) {
+	public NotificationChain basicSetPosition(Position newPosition, NotificationChain msgs) {
 		Position oldPosition = position;
 		position = newPosition;
 		if (eNotificationRequired()) {
@@ -250,12 +250,12 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setPosition(Position newPosition) {
+	public void setPosition(Position newPosition) {
 		if (newPosition != position) {
 			NotificationChain msgs = null;
 			if (position != null)
@@ -269,21 +269,21 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__POSITION, newPosition, newPosition));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public FormattedText getAlternativeText() {
+	public FormattedText getAlternativeText() {
 		return alternativeText;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAlternativeText(FormattedText newAlternativeText, NotificationChain msgs) {
+	public NotificationChain basicSetAlternativeText(FormattedText newAlternativeText, NotificationChain msgs) {
 		FormattedText oldAlternativeText = alternativeText;
 		alternativeText = newAlternativeText;
 		if (eNotificationRequired()) {
@@ -293,12 +293,12 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAlternativeText(FormattedText newAlternativeText) {
+	public void setAlternativeText(FormattedText newAlternativeText) {
 		if (newAlternativeText != alternativeText) {
 			NotificationChain msgs = null;
 			if (alternativeText != null)
@@ -312,21 +312,21 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__ALTERNATIVE_TEXT, newAlternativeText, newAlternativeText));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public InputVariablesType1 getInputVariables() {
+	public InputVariablesType1 getInputVariables() {
 		return inputVariables;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetInputVariables(InputVariablesType1 newInputVariables, NotificationChain msgs) {
+	public NotificationChain basicSetInputVariables(InputVariablesType1 newInputVariables, NotificationChain msgs) {
 		InputVariablesType1 oldInputVariables = inputVariables;
 		inputVariables = newInputVariables;
 		if (eNotificationRequired()) {
@@ -336,12 +336,12 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setInputVariables(InputVariablesType1 newInputVariables) {
+	public void setInputVariables(InputVariablesType1 newInputVariables) {
 		if (newInputVariables != inputVariables) {
 			NotificationChain msgs = null;
 			if (inputVariables != null)
@@ -355,21 +355,21 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__INPUT_VARIABLES, newInputVariables, newInputVariables));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public InOutVariablesType1 getInOutVariables() {
+	public InOutVariablesType1 getInOutVariables() {
 		return inOutVariables;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetInOutVariables(InOutVariablesType1 newInOutVariables, NotificationChain msgs) {
+	public NotificationChain basicSetInOutVariables(InOutVariablesType1 newInOutVariables, NotificationChain msgs) {
 		InOutVariablesType1 oldInOutVariables = inOutVariables;
 		inOutVariables = newInOutVariables;
 		if (eNotificationRequired()) {
@@ -379,12 +379,12 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setInOutVariables(InOutVariablesType1 newInOutVariables) {
+	public void setInOutVariables(InOutVariablesType1 newInOutVariables) {
 		if (newInOutVariables != inOutVariables) {
 			NotificationChain msgs = null;
 			if (inOutVariables != null)
@@ -398,21 +398,21 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__IN_OUT_VARIABLES, newInOutVariables, newInOutVariables));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public OutputVariablesType1 getOutputVariables() {
+	public OutputVariablesType1 getOutputVariables() {
 		return outputVariables;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetOutputVariables(OutputVariablesType1 newOutputVariables, NotificationChain msgs) {
+	public NotificationChain basicSetOutputVariables(OutputVariablesType1 newOutputVariables, NotificationChain msgs) {
 		OutputVariablesType1 oldOutputVariables = outputVariables;
 		outputVariables = newOutputVariables;
 		if (eNotificationRequired()) {
@@ -422,12 +422,12 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setOutputVariables(OutputVariablesType1 newOutputVariables) {
+	public void setOutputVariables(OutputVariablesType1 newOutputVariables) {
 		if (newOutputVariables != outputVariables) {
 			NotificationChain msgs = null;
 			if (outputVariables != null)
@@ -441,21 +441,21 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__OUTPUT_VARIABLES, newOutputVariables, newOutputVariables));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public AddData getAddData() {
+	public AddData getAddData() {
 		return addData;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
+	public NotificationChain basicSetAddData(AddData newAddData, NotificationChain msgs) {
 		AddData oldAddData = addData;
 		addData = newAddData;
 		if (eNotificationRequired()) {
@@ -465,12 +465,12 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return msgs;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setAddData(AddData newAddData) {
+	public void setAddData(AddData newAddData) {
 		if (newAddData != addData) {
 			NotificationChain msgs = null;
 			if (addData != null)
@@ -484,118 +484,118 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__ADD_DATA, newAddData, newAddData));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigInteger getExecutionOrderId() {
+	public BigInteger getExecutionOrderId() {
 		return executionOrderId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setExecutionOrderId(BigInteger newExecutionOrderId) {
+	public void setExecutionOrderId(BigInteger newExecutionOrderId) {
 		BigInteger oldExecutionOrderId = executionOrderId;
 		executionOrderId = newExecutionOrderId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__EXECUTION_ORDER_ID, oldExecutionOrderId, executionOrderId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public String getGlobalId() {
+	public String getGlobalId() {
 		return globalId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setGlobalId(String newGlobalId) {
+	public void setGlobalId(String newGlobalId) {
 		String oldGlobalId = globalId;
 		globalId = newGlobalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__GLOBAL_ID, oldGlobalId, globalId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getHeight() {
+	public BigDecimal getHeight() {
 		return height;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setHeight(BigDecimal newHeight) {
+	public void setHeight(BigDecimal newHeight) {
 		BigDecimal oldHeight = height;
 		height = newHeight;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__HEIGHT, oldHeight, height));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigInteger getLocalId() {
+	public BigInteger getLocalId() {
 		return localId;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setLocalId(BigInteger newLocalId) {
+	public void setLocalId(BigInteger newLocalId) {
 		BigInteger oldLocalId = localId;
 		localId = newLocalId;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__LOCAL_ID, oldLocalId, localId));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public BigDecimal getWidth() {
+	public BigDecimal getWidth() {
 		return width;
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    public void setWidth(BigDecimal newWidth) {
+	public void setWidth(BigDecimal newWidth) {
 		BigDecimal oldWidth = width;
 		width = newWidth;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, Tc60201Package.VENDOR_ELEMENT_TYPE__WIDTH, oldWidth, width));
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+	@Override
+	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case Tc60201Package.VENDOR_ELEMENT_TYPE__POSITION:
 				return basicSetPosition(null, msgs);
@@ -613,13 +613,13 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public Object eGet(int featureID, boolean resolve, boolean coreType) {
+	@Override
+	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case Tc60201Package.VENDOR_ELEMENT_TYPE__POSITION:
 				return getPosition();
@@ -647,13 +647,13 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eGet(featureID, resolve, coreType);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eSet(int featureID, Object newValue) {
+	@Override
+	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
 			case Tc60201Package.VENDOR_ELEMENT_TYPE__POSITION:
 				setPosition((Position)newValue);
@@ -692,13 +692,13 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		super.eSet(featureID, newValue);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public void eUnset(int featureID) {
+	@Override
+	public void eUnset(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VENDOR_ELEMENT_TYPE__POSITION:
 				setPosition((Position)null);
@@ -737,13 +737,13 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		super.eUnset(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public boolean eIsSet(int featureID) {
+	@Override
+	public boolean eIsSet(int featureID) {
 		switch (featureID) {
 			case Tc60201Package.VENDOR_ELEMENT_TYPE__POSITION:
 				return position != null;
@@ -771,13 +771,13 @@ public class VendorElementTypeImpl extends MinimalEObjectImpl.Container implemen
 		return super.eIsSet(featureID);
 	}
 
-    /**
+	/**
 	 * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
+	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-    @Override
-    public String toString() {
+	@Override
+	public String toString() {
 		if (eIsProxy()) return super.toString();
 
 		StringBuffer result = new StringBuffer(super.toString());
